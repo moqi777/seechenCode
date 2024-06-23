@@ -17,6 +17,17 @@ IncrementThread和DecrementThread,
 在IncrementThread和DecrementThread的run方法中分别对count进行增加和减少操作。
  */
 public class Counter {
-    int count;
+    //int count;
+
+    public static void main(String[] args) {
+        Counter counter = new Counter();
+        String asdf = counter.rever("asdf");
+        System.out.println(asdf);
+    }
+
+    public String rever(String str){
+        if(str==null||str.isEmpty()) return str;
+        return rever(str.substring(1)+str.charAt(0));
+    }
 }
 
