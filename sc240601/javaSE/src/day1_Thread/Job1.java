@@ -16,13 +16,13 @@ import java.util.concurrent.FutureTask;
 // 通过线程模拟这个过程
 public class Job1 {
     static double height = 100;//初始高度
-    static double sum = 0;
+    static double sum = height;
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         Callable<Double> c1 = ()->{
             for (int i = 1; i <= 10; i++) {
                 height /= 2;
                 System.out.println("第"+i+"次反弹"+height+"米");
-                sum += height;
+                sum += height*2;
             }
             return sum;
         };

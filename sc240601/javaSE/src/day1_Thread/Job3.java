@@ -13,25 +13,19 @@ public class Job3 {
     static int maney = 1000;
     public static void main(String[] args) {
         new Thread(()->{
-            while (maney>=0){
+            while (maney>=200){
                 maney -=200;
-                System.out.println(Thread.currentThread().getName()+"取走了200");
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                synchronized (Job3.class){
+                    System.out.println(Thread.currentThread().getName()+"取走了200，还剩"+maney+"元");
                 }
             }
             System.out.println(Thread.currentThread().getName()+"取款失败，金额不足，结束");
         },"A").start();
         new Thread(()->{
-            while (maney>=0){
+            while (maney>=100){
                 maney -=100;
-                System.out.println(Thread.currentThread().getName()+"取走了100");
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                synchronized (Job3.class){
+                    System.out.println(Thread.currentThread().getName()+"取走了100，还剩"+maney+"元");
                 }
             }
             System.out.println(Thread.currentThread().getName()+"取款失败，金额不足，结束");
