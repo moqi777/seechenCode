@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/DataTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/DataTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Demo1_synchronizes.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Demo1_synchronizes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Demo2_synchronizesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Demo2_synchronizesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Demo3_synchronizedTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Demo3_synchronizedTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Demo4_lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Demo4_lock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Demo5_lockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Demo5_lockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Demo6_ReenTrantReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Demo6_ReenTrantReadWriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Job1.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Job1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Job2.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Job2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Job3.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Job3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day2/Job4.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day2_synchronized/Job4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/BankAccont.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Cache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/DataTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Demo1_synchronizes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Demo2_synchronizesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Demo3_synchronizedTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Demo4_lock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Demo5_lockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Demo6_ReenTrantReadWriteLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Job1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Job2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Job3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2/Job4.class" beforeDir="false" />
-    </list>
+    <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo1_hashcode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo2_clone.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,11 +80,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo6_volatile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="33" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo7_volatile2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo8_volatile3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -179,6 +162,8 @@
         <option value="$PROJECT_DIR$/javaSE/src/day3/Demo4.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day3/Demo5.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day3/Demo6_volatile.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day3/Demo7_volatile2.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day3/Demo8_volatile3.java" />
       </list>
     </option>
   </component>
@@ -206,26 +191,6 @@
               <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaSE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day2_synchronized" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day2_synchronized" type="462c0819:PsiDirectoryNode" />
-              <item name="Job1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day2_synchronized" type="462c0819:PsiDirectoryNode" />
-              <item name="Job2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
@@ -269,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo6_volatile">
+  <component name="RunManager" selected="Application.Demo8_volatile3">
     <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day3.Demo4" />
       <module name="javaSE" />
@@ -309,12 +274,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Job2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2_synchronized.Job2" />
+    <configuration name="Demo7_volatile2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.Demo7_volatile2" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day2_synchronized.*" />
+          <option name="PATTERN" value="day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,12 +287,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Job3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2_synchronized.Job3" />
+    <configuration name="Demo8_volatile3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.Demo8_volatile3" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day2_synchronized.*" />
+          <option name="PATTERN" value="day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo8_volatile3" />
+        <item itemvalue="Application.Demo7_volatile2" />
         <item itemvalue="Application.Demo6_volatile" />
         <item itemvalue="Application.Demo5" />
         <item itemvalue="Application.Demo4" />
-        <item itemvalue="Application.Job2" />
-        <item itemvalue="Application.Job3" />
       </list>
     </recent_temporary>
   </component>
@@ -359,15 +324,24 @@
       <workItem from="1719234268593" duration="4803000" />
       <workItem from="1719239180569" duration="36000" />
       <workItem from="1719281367922" duration="15386000" />
-      <workItem from="1719319701443" duration="20635000" />
+      <workItem from="1719319701443" duration="24339000" />
     </task>
+    <task id="LOCAL-00001" summary="线程各种锁">
+      <created>1719392398680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719392398680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49753000" />
+    <option name="totallyTimeSpent" value="53457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="967" y="5" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2611111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -378,7 +352,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12913907" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16556291" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3394794" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,6 +376,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="线程各种锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程各种锁" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/javaSE/src/day1_Thread/Demo1_Thread.java">
@@ -628,8 +606,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo6_volatile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo7_volatile2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo8_volatile3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="50" />
         </state>
       </provider>
     </entry>
