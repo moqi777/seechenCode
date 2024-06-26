@@ -1,6 +1,4 @@
-package day2;
-
-import javax.sound.midi.Track;
+package day2_synchronized;
 
 /**
  * @author:zhengyilong

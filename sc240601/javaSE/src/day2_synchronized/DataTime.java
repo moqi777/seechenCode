@@ -1,4 +1,4 @@
-package day2;
+package day2_synchronized;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

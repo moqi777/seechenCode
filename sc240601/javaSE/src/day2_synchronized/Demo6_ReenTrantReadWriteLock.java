@@ -1,4 +1,4 @@
-package day2;
+package day2_synchronized;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 

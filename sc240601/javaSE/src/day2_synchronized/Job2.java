@@ -1,7 +1,6 @@
-package day2;
+package day2_synchronized;
 
 import java.time.LocalTime;
-import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
@@ -23,13 +22,17 @@ public class Job2 {
     public static void main(String[] args) {
         Cache cache = new Cache();
         for (int i = 0; i < 4; i++) {
+            String k = "key:"+i;
+            String v = "value:"+i;
             new Thread(()->{
-                LocalTime now = LocalTime.now();
-                cache.write("当前时间",now.toString());
-            },"用户"+i).start();
+                cache.write(k,v);
+            },"写入"+i).start();
+        }
+        for (int i = 0; i < 4; i++) {
+            String k = "key:"+i;
             new Thread(()->{
-                cache.read();
-            },"用户"+i).start();
+                cache.read(k);
+            },"读取"+i).start();
         }
     }
 }
@@ -50,11 +53,11 @@ class Cache{
             rwLock.writeLock().unlock();
         }
     }
-    public void read(){
+    public void read(String k){
         try {
             rwLock.readLock().lock();
             System.out.println(Thread.currentThread().getName()+"开始读取：");
-            System.out.println(map);
+            System.out.println(map.get(k));
             Thread.sleep(1000);
             System.out.println(Thread.currentThread().getName()+"读取结束");
         }catch (Exception e){
