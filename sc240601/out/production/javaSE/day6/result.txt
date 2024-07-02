@@ -1,0 +1,3 @@
+属性有：属性名：sum,类型为：int;属性名：name,类型为：class java.lang.String;
+方法有：方法名：main，参数列表：[class [Ljava.lang.String;]，返回值类型：void；方法名：byby，参数列表：[]，返回值类型：void；方法名：hello，参数列表：[]，返回值类型：void；
+构造方法有：day6.Job2，参数有：[]；day6.Job2，参数有：[int, class java.lang.String]；
