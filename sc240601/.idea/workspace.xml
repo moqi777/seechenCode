@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="反射">
+    <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day6/Demo5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day6/Object.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,19 +17,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaSE/src/day6/Demo4.java">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/day7/Server2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="232">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/day7/Server3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#3193#3194#0" expanded="true" />
+                <element signature="e#3227#3228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaSE/src/day6/Job1.java">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/day7/TestServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="30" column="34" lean-forward="true" selection-end-line="36" />
+            <state relative-caret-position="340">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,25 +59,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaSE/src/day6/Job2.java">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/day7/TestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+            <state relative-caret-position="216">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaSE/src/day6/Job3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#430#439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,11 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javaSE/src/day1_Thread/Job3.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/day2/Demo1_synchronizes.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/day2/Demo2_synchronizesTest.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/day2/Demo3_synchronizedTest2.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/day2/Demo4_lock.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day2/Demo5_lockTest.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day2/Demo6_ReenTrantReadWriteLock.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day2/Job1.java" />
@@ -134,15 +135,19 @@
         <option value="$PROJECT_DIR$/javaSE/src/day6/Demo4.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day6/Object.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day6/Demo5.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day6/Job3.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day6/Job1.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day6/Job2.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/day6/Job3.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day7/Work3.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day7/TestClient.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day7/TestServer.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day7/Server2.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day7/Server3.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="y" value="11" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -169,7 +174,7 @@
               <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaSE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day6" type="462c0819:PsiDirectoryNode" />
+              <item name="day7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,13 +212,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Job3">
-    <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.Demo4" />
+  <component name="RunManager" selected="Application.Client3">
+    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.Client2" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.Demo5" />
+    <configuration name="Client3" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.Client3" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Job1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.Job1" />
+    <configuration name="Server2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.Server2" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Job2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.Job2" />
+    <configuration name="Server3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.Server3" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Job3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.Job3" />
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.TestClient" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,13 +278,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Client2" />
+      <item itemvalue="Application.Client3" />
+      <item itemvalue="Application.Server2" />
+      <item itemvalue="Application.Server3" />
+      <item itemvalue="Application.TestClient" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Job3" />
-        <item itemvalue="Application.Job1" />
-        <item itemvalue="Application.Job2" />
-        <item itemvalue="Application.Demo5" />
-        <item itemvalue="Application.Demo4" />
+        <item itemvalue="Application.Client3" />
+        <item itemvalue="Application.Server3" />
+        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.Server2" />
+        <item itemvalue="Application.TestClient" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +311,7 @@
       <workItem from="1719281367922" duration="15386000" />
       <workItem from="1719319701443" duration="32973000" />
       <workItem from="1719512054901" duration="3147000" />
-      <workItem from="1719541700920" duration="32819000" />
+      <workItem from="1719541700920" duration="50772000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
@@ -315,17 +327,24 @@
       <option name="project" value="LOCAL" />
       <updated>1719827080062</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="作业">
+      <created>1719844299902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719844299902</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98057000" />
+    <option name="totallyTimeSpent" value="116010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23773988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289183" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2494577" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4834437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3329718" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,7 +363,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289183" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32781458" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -362,54 +381,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="线程各种锁" />
     <MESSAGE value="反射" />
-    <option name="LAST_COMMIT_MESSAGE" value="反射" />
+    <MESSAGE value="作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="作业" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day1_Thread/Job1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="554" column="11" selection-start-line="554" selection-start-column="11" selection-end-line="554" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day1_Thread/Job2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day1_Thread/Job3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day1_Thread/Job4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day2_synchronized/Demo1_synchronizes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/day2_synchronized/Demo2_synchronizesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -761,25 +736,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/day6/result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
+        <state relative-caret-position="54">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day6/Job2.java">
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day6/Job1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+        <state relative-caret-position="503">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day6/Job2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day7/Work3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#449#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="495" column="9" selection-start-line="495" selection-start-column="9" selection-end-line="495" selection-end-column="9" />
+          <folding>
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/day6/Job3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="213">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#430#439#0" expanded="true" />
@@ -787,10 +796,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day6/Job1.java">
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day7/Server2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="30" column="34" lean-forward="true" selection-end-line="36" />
+        <state relative-caret-position="232">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day7/Server3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#3193#3194#0" expanded="true" />
+            <element signature="e#3227#3228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day7/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day7/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
