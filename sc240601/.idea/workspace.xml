@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/javaSE/src/day8/Demo1_danli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSE/src/day8/Demo2_enum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSE/src/day8/UserSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day7/Job1.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day7/Job1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day7/Job2.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day7/Job2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Job1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE/day7/Job1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Job2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE/day7/Job2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,12 +23,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javaSE/src/day8/UserSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="261" column="74" selection-start-line="261" selection-start-column="74" selection-end-line="261" selection-end-column="74" />
+            <state relative-caret-position="169">
+              <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
                 <element signature="e#6788#6789#0" expanded="true" />
                 <element signature="e#6807#6808#0" expanded="true" />
                 <element signature="e#9001#9002#0" expanded="true" />
@@ -55,13 +54,18 @@
       <find>card</find>
       <find>ses</find>
       <find>two</find>
-      <find>chat</find>
       <find>UserClientThread</find>
       <find>目前</find>
       <find>UserServer.map</find>
       <find>输入你</find>
       <find>目前在线的</find>
       <find>目前不在线</find>
+      <find>=&gt;</find>
+      <find>登录成功</find>
+      <find>chat</find>
+      <find>logOut</find>
+      <find>checkCookie</find>
+      <find>delCookie</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -292,7 +296,7 @@
       <workItem from="1719512054901" duration="3147000" />
       <workItem from="1719541700920" duration="56987000" />
       <workItem from="1719929733502" duration="4212000" />
-      <workItem from="1719967118875" duration="23649000" />
+      <workItem from="1719967118875" duration="30647000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
@@ -329,16 +333,24 @@
       <option name="project" value="LOCAL" />
       <updated>1719923291101</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="基于java基础的一个聊天室案例，1v1聊天，有登录和注册功能">
+      <created>1720003226160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720003226160</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150086000" />
+    <option name="totallyTimeSpent" value="157084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5377778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,7 +359,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289183" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37635574" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6355748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.318872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,16 +389,10 @@
     <MESSAGE value="反射" />
     <MESSAGE value="Socket" />
     <MESSAGE value="作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="作业" />
+    <MESSAGE value="基于java基础的一个聊天室案例，1v1聊天，有登录和注册功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于java基础的一个聊天室案例，1v1聊天，有登录和注册功能" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="11" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/day3/Demo5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -831,14 +837,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day8/cookie.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/day8/UserSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="261" column="74" selection-start-line="261" selection-start-column="74" selection-end-line="261" selection-end-column="74" />
+        <state relative-caret-position="169">
+          <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
             <element signature="e#6788#6789#0" expanded="true" />
             <element signature="e#6807#6808#0" expanded="true" />
             <element signature="e#9001#9002#0" expanded="true" />

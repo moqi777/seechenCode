@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad9c53c-7868-4edc-bf46-197c1d29ffd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../sc240601/javaSE/src/day8/Demo1_danli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc240601/javaSE/src/day8/Demo2_enum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sc240601/javaSE/src/day8/UserSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sc240601/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc240601/javaSE/src/day7/Job1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/javaSE/src/day7/Job1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc240601/javaSE/src/day7/Job2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/javaSE/src/day7/Job2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/Job1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/Job1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/Job2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/Job2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -120,7 +119,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="965" />
     <option name="y" value="3" />
     <option name="width" value="960" />
@@ -312,7 +311,7 @@
       <workItem from="1719198824288" duration="111000" />
       <workItem from="1719916994865" duration="1929000" />
       <workItem from="1719929735655" duration="2018000" />
-      <workItem from="1719967117779" duration="593000" />
+      <workItem from="1719967117779" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="Thread、Runnable">
       <created>1716215196041</created>
@@ -332,10 +331,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55521000" />
+    <option name="totallyTimeSpent" value="56131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="965" y="3" width="960" height="1040" extended-state="1" />
+    <frame x="965" y="3" width="960" height="1040" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24444444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
