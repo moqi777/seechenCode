@@ -13,11 +13,11 @@ public class Job1 {
 
     public static void main(String[] args) {
         Runnable r = ()->{
-            while (gift>10){
+            while (gift>11){
                 synchronized (Job1.class){
-                    System.out.println(Thread.currentThread().getName()+"发送了一份礼物,还剩"+gift--+"份礼物");
+                    System.out.println(Thread.currentThread().getName()+"发送了一份礼物,还剩"+--gift+"份礼物");
                     try {
-                        Thread.sleep(50);
+                        Thread.sleep(10);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

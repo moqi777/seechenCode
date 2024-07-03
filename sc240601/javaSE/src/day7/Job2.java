@@ -18,11 +18,17 @@ import java.util.Scanner;
 //从键盘输入接收一个文件夹路径,打印出该文件夹下所有的.java后缀的文件名
 //   拓展: 如果同时还包括所有子文件该如何实现
 public class Job2 {
+    static int count = 0;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入一个文件夹路径");
         String next = scanner.next();
+
         getClassFile(next);
+        System.out.println("共有java文件"+count+"个");
+
+//        File file = new File(next);
+//        getClassFilePlus(file);
     }
 
     public static void getClassFile(String next){
@@ -39,6 +45,7 @@ public class Job2 {
             });
             //循环输出这层的class文件
             for (String s : list) {
+                count++;
                 System.out.println(s.substring(0,s.lastIndexOf(".")));
             }
             //如果还存在文件夹，递归调用
@@ -49,6 +56,23 @@ public class Job2 {
             }
         }else {
             System.out.println("不是文件夹或该路径不存在");
+        }
+    }
+
+    public static void getClassFilePlus(File file){
+        if(file.exists()){
+            File[] fs = file.listFiles();
+            for (File f : fs) {
+                //1.判断是否是文件 如果是再判断后缀是.java
+                if (file.isFile() && file.getName().endsWith(".java")){
+                    System.out.println(file);
+                }else if (file.isDirectory()){//2.如果不是文件 只是目录(开始递归)
+                    getClassFilePlus(f);
+                }
+            }
+        }else {
+            System.out.println("不是文件夹或该路径不存在");
+            return;
         }
     }
 }
