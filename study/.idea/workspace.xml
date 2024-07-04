@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad9c53c-7868-4edc-bf46-197c1d29ffd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../sc240601/javaSE/src/day8/Demo1_danli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sc240601/javaSE/src/day8/Demo2_enum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sc240601/javaSE/src/day8/UserSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sc240601/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+            <state relative-caret-position="219">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,7 +115,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="965" />
     <option name="y" value="3" />
     <option name="width" value="960" />
@@ -311,7 +307,7 @@
       <workItem from="1719198824288" duration="111000" />
       <workItem from="1719916994865" duration="1929000" />
       <workItem from="1719929735655" duration="2018000" />
-      <workItem from="1719967117779" duration="1203000" />
+      <workItem from="1719967117779" duration="2396000" />
     </task>
     <task id="LOCAL-00001" summary="Thread、Runnable">
       <created>1716215196041</created>
@@ -331,10 +327,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56131000" />
+    <option name="totallyTimeSpent" value="57324000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="965" y="3" width="960" height="1040" extended-state="0" />
+    <frame x="965" y="3" width="960" height="1040" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24444444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -704,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state relative-caret-position="219">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
