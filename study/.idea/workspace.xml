@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ad9c53c-7868-4edc-bf46-197c1d29ffd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../sc240601/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,9 +116,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="965" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="967" />
+    <option name="y" value="7" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -330,7 +331,7 @@
     <option name="totallyTimeSpent" value="57324000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="965" y="3" width="960" height="1040" extended-state="1" />
+    <frame x="967" y="7" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24444444" />
