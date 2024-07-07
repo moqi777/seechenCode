@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/day7/Server3.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day7/Server3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Client3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE/day7/Client3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/ClientThread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE/day7/ClientThread3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/ServerThread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE/day7/ServerThread3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/src/main/java/com/seechen/Socket/Server2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study/src/main/java/com/seechen/Socket/Server2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/target/classes/com/seechen/Socket/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../study/target/classes/com/seechen/Socket/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/target/classes/com/seechen/Socket/Server2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../study/target/classes/com/seechen/Socket/Server2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study/target/classes/com/seechen/Socket/ServerThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../study/target/classes/com/seechen/Socket/ServerThread2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Services.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="398">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1591#1592#0" expanded="true" />
@@ -39,14 +30,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/ChatOrService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="626">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -141,16 +141,16 @@
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/entity/NetPackage.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/UseDouDou5GView.java" />
         <option value="$PROJECT_DIR$/javaSE/src/day7/Server3.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/Test.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/SecondView.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/Services.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/ChatOrService.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/Test.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="967" />
-    <option name="y" value="7" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -176,35 +176,7 @@
               <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaSE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day7" type="462c0819:PsiDirectoryNode" />
-              <item name="Server2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="doudou5G" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doudou5G" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doudou5G" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="ChatOrService.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -248,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Client3" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day7.Client3" />
       <module name="javaSE" />
@@ -323,9 +295,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Services" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Client3" />
         <item itemvalue="Application.Server3" />
       </list>
@@ -349,7 +321,7 @@
       <workItem from="1719512054901" duration="3147000" />
       <workItem from="1719541700920" duration="56987000" />
       <workItem from="1719929733502" duration="4212000" />
-      <workItem from="1719967118875" duration="138474000" />
+      <workItem from="1719967118875" duration="142827000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
@@ -428,17 +400,24 @@
       <option name="project" value="LOCAL" />
       <updated>1720253388346</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="依托答辩">
+      <created>1720354924033</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720354924033</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264911000" />
+    <option name="totallyTimeSpent" value="269264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28777778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,8 +426,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289183" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49888888" weight="0.09002169" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5965293" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49888888" visible="true" weight="0.37093276" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44793928" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -481,7 +460,8 @@
     <MESSAGE value="javaSE阶段大作业，兜兜5G营业厅，已完成登录注册功能，搭建好整体框架" />
     <MESSAGE value="新建查询账单和套餐余量功能" />
     <MESSAGE value="一阶段结束综合项目兜兜5G十个基本功能已全部实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="一阶段结束综合项目兜兜5G十个基本功能已全部实现" />
+    <MESSAGE value="依托答辩" />
+    <option name="LAST_COMMIT_MESSAGE" value="依托答辩" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/资费说明.txt">
@@ -972,13 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/SecondView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -1006,7 +979,7 @@
     <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Services.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1591#1592#0" expanded="true" />
@@ -1017,11 +990,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/ChatOrService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="626">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
