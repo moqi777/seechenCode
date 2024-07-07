@@ -48,18 +48,20 @@ class ServerThread3 extends Thread{
             while (true){
                 String msg = br.readLine();
                 if(msg!=null){
+                    //在服务端传输一次数据
                     System.out.println(msg);
                     if(msg.contains("退出")){//退出聊天室
                         Server3.list.remove(client);
                         System.out.println("聊天室的人数："+Server3.list.size());
                         break;
                     }
-                    //向其他客户端写入数据
+                    //接收到传递过来的信息向其他客户端转发数据
                     for (Socket s : Server3.list) {
                         if(s!=client){//对象只需要比较地址
                             try {
                                 s.getOutputStream().write((msg+"\n").getBytes());
                             }catch (SocketException e){
+                                //对list中其他的用户可能断开连接导致传输信息失败进行捕获
                                 System.out.println(s+"退出了");
                             }
                         }

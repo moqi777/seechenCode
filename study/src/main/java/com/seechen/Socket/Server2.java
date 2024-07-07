@@ -19,6 +19,7 @@ public class Server2 {
         ServerSocket server = new ServerSocket(9999);
         while (true){
             Socket client = server.accept();
+            System.out.println(client+"连接成功");
             new ServerThread2(client).start();
         }
     }
@@ -45,8 +46,10 @@ class ServerThread2 extends Thread{
     public void run() {
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(client.getInputStream()));
-            String s = reader.readLine();
-            System.out.println(client.getInetAddress()+"："+s);
+            while (true){
+                String s = reader.readLine();
+                System.out.println(client.getInetAddress()+"："+s);
+            }
         } catch (Exception e) {
 
         }

@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="8ad9c53c-7868-4edc-bf46-197c1d29ffd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../sc240601/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sc240601/javaSE/src/day7/Server3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/javaSE/src/day7/Server3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/Client3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/Client3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/ClientThread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/ClientThread3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/ServerThread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sc240601/out/production/javaSE/day7/ServerThread3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seechen/Socket/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seechen/Socket/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seechen/Socket/Server2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seechen/Socket/Server2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/seechen/Socket/ServerThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/seechen/Socket/ServerThread2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/TestServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="594">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,22 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/TestClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="178">
+              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/seechen/Socket/TestServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seechen/Socket/TestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server3.java" />
       </list>
     </option>
   </component>
@@ -213,13 +210,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Server2">
-    <configuration name="BufferedCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.seechen.IO.BufferedCopy" />
+  <component name="RunManager" selected="Application.Client3">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seechen.Socket.Client" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.seechen.IO.*" />
+          <option name="PATTERN" value="com.seechen.Socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,8 +224,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.seechen.Socket.Client" />
+    <configuration name="Client3" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seechen.Socket.Client3" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
@@ -253,6 +250,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seechen.Socket.Server3" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seechen.Socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.seechen.Socket.TestClient" />
       <module name="study" />
@@ -266,26 +276,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.seechen.Socket.TestServer" />
-      <module name="study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seechen.Socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server2" />
+      <item itemvalue="Application.TestClient" />
+      <item itemvalue="Application.Server3" />
+      <item itemvalue="Application.Client3" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client3" />
+        <item itemvalue="Application.Server3" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server2" />
         <item itemvalue="Application.TestClient" />
-        <item itemvalue="Application.TestServer" />
-        <item itemvalue="Application.BufferedCopy" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +312,8 @@
       <workItem from="1719198824288" duration="111000" />
       <workItem from="1719916994865" duration="1929000" />
       <workItem from="1719929735655" duration="2018000" />
-      <workItem from="1719967117779" duration="2396000" />
+      <workItem from="1719967117779" duration="6237000" />
+      <workItem from="1720341811294" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="Thread、Runnable">
       <created>1716215196041</created>
@@ -328,13 +333,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57324000" />
+    <option name="totallyTimeSpent" value="61245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="967" y="7" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24444444" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29444444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -343,7 +347,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18763797" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.65342164" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955848" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -682,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/TestServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="530">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -692,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/TestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="432">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -702,8 +706,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="594">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seechen/Socket/Server3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
