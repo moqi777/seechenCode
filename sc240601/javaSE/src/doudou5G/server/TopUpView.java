@@ -35,7 +35,8 @@ public class TopUpView {
         //将钱存入
         select.setMoney(select.getMoney()+money);
         RegSerializable.start(select);
-        System.out.println("充值成功，当前话费余额为"+select.getMoney()+"元。");
+        double d = select.getMoney() - select.getConsumAmount();
+        System.out.println("充值成功，当前话费余额为"+d+"元。");
     }
 }
 

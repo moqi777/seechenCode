@@ -12,7 +12,7 @@ import doudou5G.server.Index;
 public class Main {
     public static void main(String[] args) {
         Index.start();
-        System.exit(1);
+        //System.exit(1);
     }
 }
 

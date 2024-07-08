@@ -13,10 +13,10 @@ import java.util.*;
  * @DateTime:2024/7/6 16:27
  **/
 public class Services {
+    static Scanner scanner = new Scanner(System.in);
     //确保只会有一个连接，只有一个客服
     static Socket NowClient = null;
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(System.in);
         ServerSocket service = new ServerSocket(9999);
         System.out.println("启动服务器成功");
         while (true){
@@ -74,13 +74,13 @@ class ServicePrint extends Thread{
         this.client = client;
     }
     public void run() {
-        Scanner scanner = new Scanner(System.in);
         //只有NowClient不为空的时候这个子线程才会循环执行
         while (Services.NowClient!=null){
             try {
-                String next = scanner.next();//此时线程阻塞，断开连接前就会进入到这里，所以要在下面再次进行一次判断是否断开了。断开连接被唤醒
+                String next = Services.scanner.next();//此时线程阻塞，断开连接前就会进入到这里，所以要在下面再次进行一次判断是否断开了。断开连接被唤醒
                 //如果断开了，发最后一次确认断开的信息，然后循环结束，这一步很重要
                 if (Services.NowClient==null) {
+                    System.out.println("111111111111");
                     client.getOutputStream().write(("再见\n").getBytes());
                     return;
                 }
