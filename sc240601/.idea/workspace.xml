@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/javaSE/src/doudou5G/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/doudou5G/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/doudou5G/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/doudou5G/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/doudou5G/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/doudou5G/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaSE/src/doudou5G/consumInfos.xx" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/doudou5G/consumInfos.xx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaSE/src/doudou5G/mobileCards.xx" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/doudou5G/mobileCards.xx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSE/src/doudou5G/server/TopUpView.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/doudou5G/server/TopUpView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSE/src/doudou5G/util/ScannerYN.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/doudou5G/util/ScannerYN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/consumInfos.xx" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE/doudou5G/consumInfos.xx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/mobileCards.xx" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE/doudou5G/mobileCards.xx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ScannerYN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ScannerYN.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,32 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/Index.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/TopUpView.java">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/day9/SimpleFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="1350">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,48 +35,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/MobileCard.java">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/day9/MethodFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="37" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaSE/src/day9/AbstractFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1725#1726#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
-                <element signature="e#1810#1811#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-                <element signature="e#1889#1890#0" expanded="true" />
-                <element signature="e#1920#1921#0" expanded="true" />
-                <element signature="e#1968#1969#0" expanded="true" />
-                <element signature="e#2008#2009#0" expanded="true" />
-                <element signature="e#2043#2044#0" expanded="true" />
-                <element signature="e#2074#2075#0" expanded="true" />
-                <element signature="e#2122#2123#0" expanded="true" />
-                <element signature="e#2162#2163#0" expanded="true" />
-                <element signature="e#2207#2208#0" expanded="true" />
-                <element signature="e#2240#2241#0" expanded="true" />
-                <element signature="e#2300#2301#0" expanded="true" />
-                <element signature="e#2344#2345#0" expanded="true" />
-                <element signature="e#2383#2384#0" expanded="true" />
-                <element signature="e#2418#2419#0" expanded="true" />
-                <element signature="e#2474#2475#0" expanded="true" />
-                <element signature="e#2522#2523#0" expanded="true" />
-                <element signature="e#2554#2555#0" expanded="true" />
-                <element signature="e#2582#2583#0" expanded="true" />
-                <element signature="e#2624#2625#0" expanded="true" />
-                <element signature="e#2658#2659#0" expanded="true" />
-                <element signature="e#2694#2695#0" expanded="true" />
-                <element signature="e#2729#2730#0" expanded="true" />
-                <element signature="e#2782#2783#0" expanded="true" />
-                <element signature="e#2830#2831#0" expanded="true" />
-                <element signature="e#2866#2867#0" expanded="true" />
-                <element signature="e#2901#2902#0" expanded="true" />
-                <element signature="e#2954#2955#0" expanded="true" />
-                <element signature="e#3002#3003#0" expanded="true" />
-                <element signature="e#3034#3035#0" expanded="true" />
-                <element signature="e#3065#3066#0" expanded="true" />
-                <element signature="e#3110#3111#0" expanded="true" />
-                <element signature="e#3150#3151#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,6 +94,9 @@
       <find>Scanner</find>
       <find>scanner</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -147,10 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/RemainSerPackage.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/SelectMobileCardToCardNumber.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/LoginCheck.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/ConsumInfoAdd.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/RegisterView.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/LoginView.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/PrintBuyBill.java" />
@@ -198,14 +151,17 @@
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/Main.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/Services.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/TopUpView.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/ScannerYN.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day9/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day9/MethodFactory.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/day9/AbstractFactory.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="y" value="1" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="74" />
     <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,58 +169,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doudou5G" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doudou5G" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doudou5G" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doudou5G" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doudou5G" type="462c0819:PsiDirectoryNode" />
-              <item name="Services.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,13 +208,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Client3" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.Client3" />
+  <component name="RunManager" selected="Application.Main1">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.Main" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7.*" />
+          <option name="PATTERN" value="day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.Server3" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.Main1" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7.*" />
+          <option name="PATTERN" value="day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doudou5G.Test" />
+    <configuration name="SimpleFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.SimpleFactory" />
       <module name="javaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doudou5G.*" />
+          <option name="PATTERN" value="day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,17 +277,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Services" />
-      <item itemvalue="Application.Server3" />
-      <item itemvalue="Application.Client3" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.SimpleFactory" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.SimpleFactory" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Services" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Client3" />
-        <item itemvalue="Application.Server3" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +310,7 @@
       <workItem from="1719541700920" duration="56987000" />
       <workItem from="1719929733502" duration="4212000" />
       <workItem from="1719967118875" duration="144645000" />
-      <workItem from="1720403505338" duration="6199000" />
+      <workItem from="1720403505338" duration="17184000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
@@ -500,13 +407,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277281000" />
+    <option name="totallyTimeSpent" value="288266000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="74" y="0" width="960" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2822222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -515,7 +421,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289183" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49888888" visible="true" weight="0.23535791" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49888888" visible="true" weight="0.067328915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44793928" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,65 +459,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="依托答辩" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Service/Interface/SendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/ConsumInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/ServicePackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/DeleteUserView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -791,16 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/ScannerYN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1010,6 +847,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/TopUpView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/MobileCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1056,12 +903,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/TopUpView.java">
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/ScannerYN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="572">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/ConsumInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day9/SimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day9/MethodFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/day9/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
           </folding>
         </state>
       </provider>
