@@ -10,7 +10,7 @@ import doudou5G.util.RegSerializable;
  * @DateTime:2024/7/13 17:01
  **/
 public class StaticProxy implements Subject{
-    private RealSubject sub = new RealSubject();
+    private Subject sub = new RealSubject();
     //代理对象 调用原来方法的逻辑 + 增强处理
     public void request() {
         //加一段代码
