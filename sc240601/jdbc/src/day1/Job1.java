@@ -37,6 +37,7 @@ public class Job1 {
                 names.add(name);
             }
         }
+        long time = new Date().getTime();
         for (int i = 0; i < 100; i++) {
             int integral = (int)(Math.random()*201);//0-200随机数
             Date date = new Date();
@@ -46,10 +47,13 @@ public class Job1 {
             User u = new User(names.get(i), date, integral, "男");
             add(u,stmt);
         }
+        long time1 = new Date().getTime();
+        System.out.println(time1-time);
         stmt.close();
         conn.close();
         //select();
     }
+
     public static void select(Statement stmt) throws ClassNotFoundException, SQLException {
         String sql = "select * from user";
         ResultSet resultSet = stmt.executeQuery(sql);
