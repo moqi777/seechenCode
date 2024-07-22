@@ -2,11 +2,185 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/903b0a69-451f-4eaf-b5b1-e98278cea115.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e5250ba8-6203-4939-805b-7006bc400ef3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc2d21da-7e4e-4dcb-88ec-82a869cdc835.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc/src/day1/Job1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/src/day1/Job1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo1_Thread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo2_Runnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo3_CallableAndCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/GuardDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Job1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Job2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Job3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Job4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/BankAccont.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Cache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/DataTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo1_synchronizes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo2_synchronizesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo3_synchronizedTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo4_lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo5_lockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo6_ReenTrantReadWriteLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Job1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Job2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Job3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Job4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo1_hashcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo2_clone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo3_justice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo6_volatile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo7_volatile2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo8_volatile3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Money.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/My1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/My2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo1_SingleThreadExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo2_FixedThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo3_CachedThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo4_ScheduledThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo5_ScheduledThreadPool_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Job1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Job2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Work1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Work1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Work2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Job1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Job2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Job3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Playing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/TestDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/TestDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Client2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Client3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/ClientThread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Job1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Job2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Job3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Server2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Server3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/ServerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/ServerThread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/TestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/TestServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Work3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Demo1_danli.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Demo2_enum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Demo2_enum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance4$My.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/MyEnum1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/MyEnum2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/UserClientThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/UserServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/UserServerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/UserSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/CompanySubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Factory1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Factory2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/FactoryA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/FactoryB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/FactoryC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/FeiBoNaQie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Main1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/MethodFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Penguni.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductAimp2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductAimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductBimp2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductBimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/SimpleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/TestObServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/CGlibProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/DanLiMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Exam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/JDKProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Play.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/RealSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/StaticProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Student2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Study.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/XuanZhe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Service/Interface/CallService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Service/Interface/NetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Service/Interface/SendService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/ServicePrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Services.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/ServicesThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/ConsumInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/MobileCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/NetPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/Scene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/ServicePackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/SuperPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/TalkPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/ChatOrService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/ChatOrServiceThreat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/DeleteUserView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/MonthBillView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/PrintBuyBillView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/RegisterView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/RemainSerPackageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/SecondView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/SelectNowPackageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/SelectPackageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/TopUpView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/UpdatePackageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/UseDouDou5GView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/CardNumberGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ConsumInfosReSerializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ConsumInfosSerializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/DeleteMobileCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/LoginCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/PrintFileToFilePath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/RegFirstScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/RegMoneyYH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/RegPasswordYN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/RegSerializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ScannerYN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/SelectMobileCardToCardNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/SelectMobileCards.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ServicePackageFuntion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/UpdatePackage.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,35 +224,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a1f5db86-917d-4333-b887-1f1208adf34a/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdbc/src/day2/TestSqlInjection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jdbc/src/day1/Job2.java">
+        <entry file="file://$PROJECT_DIR$/jdbc/src/CreateTxt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -114,12 +264,12 @@
       <find>nowMobileCard</find>
       <find>oos</find>
       <find>new ConsumInfo</find>
-      <find>instanceof</find>
       <find>b</find>
       <find>cl</find>
       <find>UserClientThread</find>
       <find>Scanner</find>
       <find>scanner</find>
+      <find>instanceof</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -131,14 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/Service/Interface/CallService.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/Service/Interface/NetService.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/Service/Interface/SendService.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/SceneRealize.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/RegFirstScene.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/entity/Scene.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/UseDouDou5G.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/DeleteMobileCardToCardNumber.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/DeleteMobileCard.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/DeleteUserView.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/SelectPackageView.java" />
@@ -178,10 +320,18 @@
         <option value="$PROJECT_DIR$/jdbc/src/day1/FirstJDBC.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e5250ba8-6203-4939-805b-7006bc400ef3/console.sql" />
         <option value="$PROJECT_DIR$/jdbc/src/day1/TestEmp.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a1f5db86-917d-4333-b887-1f1208adf34a/console.sql" />
         <option value="$PROJECT_DIR$/jdbc/src/day1/Job1.java" />
         <option value="$PROJECT_DIR$/jdbc/src/day1/Job2.java" />
         <option value="$PROJECT_DIR$/jdbc/src/day2/TestSqlInjection.java" />
+        <option value="$PROJECT_DIR$/jdbc/src/DouDou5G/server/RegisterView.java" />
+        <option value="$PROJECT_DIR$/jdbc/src/doudou5G/server/SecondView.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a1f5db86-917d-4333-b887-1f1208adf34a/console.sql" />
+        <option value="$PROJECT_DIR$/jdbc/src/doudou5G/entity/MobileCard.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/CardNumberGen.java" />
+        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/ConsumInfosSerializable.java" />
+        <option value="$PROJECT_DIR$/jdbc/src/config/jdbc.properties" />
+        <option value="$PROJECT_DIR$/jdbc/src/util/DBUtil.java" />
+        <option value="$PROJECT_DIR$/jdbc/src/CreateTxt.java" />
       </list>
     </option>
   </component>
@@ -203,6 +353,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,23 +366,10 @@
               <item name="jdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +379,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/NewStudy/seechen/javaEE/包/mysql-connector-java-8.0.17.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdbc/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -253,15 +391,18 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44252872" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\jdbc\lib" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\javaSE\lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\javaSE\src\doudou5G" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\jdbc\lib" />
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\jdbc\src" />
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\jdbc\src\DouDou5G" />
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601" />
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\javaSE\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,13 +417,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestSqlInjection">
-    <configuration name="FirstJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1.FirstJDBC" />
+  <component name="RunManager" selected="Application.CreateTxt">
+    <configuration name="CreateTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreateTxt" />
+      <module name="jdbc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.DBUtil" />
       <module name="jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1.*" />
+          <option name="PATTERN" value="util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,19 +464,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1.TestEmp" />
-      <module name="jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSqlInjection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.TestSqlInjection" />
       <module name="jdbc" />
@@ -343,19 +478,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FirstJDBC" />
-      <item itemvalue="Application.TestEmp" />
       <item itemvalue="Application.Job1" />
       <item itemvalue="Application.Job2" />
       <item itemvalue="Application.TestSqlInjection" />
+      <item itemvalue="Application.DBUtil" />
+      <item itemvalue="Application.CreateTxt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateTxt" />
+        <item itemvalue="Application.DBUtil" />
         <item itemvalue="Application.TestSqlInjection" />
         <item itemvalue="Application.Job2" />
         <item itemvalue="Application.Job1" />
-        <item itemvalue="Application.TestEmp" />
-        <item itemvalue="Application.FirstJDBC" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +517,8 @@
       <workItem from="1720578715316" duration="1742000" />
       <workItem from="1720580502567" duration="1390000" />
       <workItem from="1720853529978" duration="36357000" />
-      <workItem from="1721353563422" duration="7523000" />
+      <workItem from="1721353563422" duration="20016000" />
+      <workItem from="1721632971812" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
@@ -479,7 +615,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335278000" />
+    <option name="totallyTimeSpent" value="349756000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,8 +628,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="968" y="0" width="960" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24555555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -502,7 +639,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32858709" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49888888" visible="true" weight="0.032858707" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49888888" weight="0.38069415" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44793928" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -518,7 +655,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.15555556" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -576,482 +713,331 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/ClientEntity.java" />
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day7/TestServer.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/util/SelectMobileCards.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/server/RegisterView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="324">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/TalkPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/SuperPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/NetPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/UseDouDou5GView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/ConsumInfosSerializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/RegSerializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day8/UserSystem.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/Services.java" />
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/Test.java" />
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/资费说明.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="259" column="5" lean-forward="true" selection-start-line="259" selection-start-column="5" selection-end-line="259" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9030#9031#0" expanded="true" />
-            <element signature="e#9064#9065#0" expanded="true" />
-            <element signature="e#10847#10848#0" expanded="true" />
-            <element signature="e#10881#10882#0" expanded="true" />
-          </folding>
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day7/Server3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/SecondView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day7/Server2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="510" column="57" lean-forward="true" selection-start-line="510" selection-start-column="12" selection-end-line="510" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/ChatOrService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Services.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/Main.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/Index.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/server/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="500">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/TopUpView.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/server/ChatOrService.java" />
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/server/LoginView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="611">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/MobileCard.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/entity/Scene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1889#1890#0" expanded="true" />
-            <element signature="e#1920#1921#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2122#2123#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2207#2208#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-            <element signature="e#2383#2384#0" expanded="true" />
-            <element signature="e#2418#2419#0" expanded="true" />
-            <element signature="e#2474#2475#0" expanded="true" />
-            <element signature="e#2522#2523#0" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2624#2625#0" expanded="true" />
-            <element signature="e#2658#2659#0" expanded="true" />
-            <element signature="e#2694#2695#0" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
-            <element signature="e#2782#2783#0" expanded="true" />
-            <element signature="e#2830#2831#0" expanded="true" />
-            <element signature="e#2866#2867#0" expanded="true" />
-            <element signature="e#2901#2902#0" expanded="true" />
-            <element signature="e#2954#2955#0" expanded="true" />
-            <element signature="e#3002#3003#0" expanded="true" />
-            <element signature="e#3034#3035#0" expanded="true" />
-            <element signature="e#3065#3066#0" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3150#3151#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="287">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/ScannerYN.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/entity/TalkPackage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="287">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/entity/ConsumInfo.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/entity/NetPackage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="287">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../src.zip!/java/util/Observable.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/entity/ConsumInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        <state relative-caret-position="287">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day9/SimpleFactory.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/server/SecondView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day9/MethodFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" selection-start-line="9" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day9/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day9/TestObServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/day9/FeiBoNaQie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/designMode/DanLiMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/designMode/StaticProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/javaSE/lib/cglib-2.2.2.jar!/net/sf/cglib/proxy/MethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/designMode/JDKProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/designMode/CGlibProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaSE/src/designMode/XuanZhe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/jdbc/lib/mysql-connector-java-8.0.17.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/jdbc/lib/mysql-connector-java-8.0.17.jar!/com/mysql/cj/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc2d21da-7e4e-4dcb-88ec-82a869cdc835/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://fc2d21da-7e4e-4dcb-88ec-82a869cdc835/schema/sc240601/table/emp" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/903b0a69-451f-4eaf-b5b1-e98278cea115/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://e5250ba8-6203-4939-805b-7006bc400ef3/schema/sc240601/table/emp" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5250ba8-6203-4939-805b-7006bc400ef3/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5250ba8-6203-4939-805b-7006bc400ef3/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/day1/TestEmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#2921#2922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/day1/Job1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/day1/FirstJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="179">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a1f5db86-917d-4333-b887-1f1208adf34a/console.sql">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/entity/MobileCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/CardNumberGen.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/ConsumInfosReSerializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/ConsumInfosSerializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/DeleteMobileCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/LoginCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/PrintFileToFilePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/RegFirstScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="36" column="68" lean-forward="true" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/RegMoneyYH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/RegPasswordYN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/RegSerializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/ScannerYN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/SelectMobileCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/SelectMobileCardToCardNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/ServicePackageFuntion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/util/UpdatePackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/ChatOrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/MonthBillView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/DeleteUserView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/PrintBuyBillView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/RegisterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/RemainSerPackageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/SecondView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/SelectPackageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaSE/src/doudou5G/server/SelectNowPackageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc/src/config/db.properties" />
+    <entry file="jar://$PROJECT_DIR$/jdbc/lib/lombok.jar!/lombok/SneakyThrows.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jdbc/src/day2/TestSqlInjection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        <state relative-caret-position="-68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc/src/day1/Job2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create.txt" />
+    <entry file="file://$PROJECT_DIR$/jdbc/src/util/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2781">
+          <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/day1/Job2.java">
+    <entry file="das://a1f5db86-917d-4333-b887-1f1208adf34a/schema/sc240601/table/dept">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc/src/config/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc/src/CreateTxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1111,7 +1097,6 @@
             <option name="proportions">
               <list>
                 <option value="0.44252872" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
