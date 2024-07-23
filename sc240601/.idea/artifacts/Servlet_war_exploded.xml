@@ -1,0 +1,44 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Servlet:war exploded">
+    <output-path>$PROJECT_DIR$/Servlet/target/Servlet</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Servlet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Servlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.11.0-M2" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.3.0" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.11.0-M2" />
+          <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.1.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.2" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.2.1" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Servlet/target/Servlet/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Servlet/web/Web" />
+    </root>
+  </artifact>
+</component>

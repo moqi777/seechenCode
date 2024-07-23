@@ -2,187 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_11_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_11_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/servlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo1_Thread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo2_Runnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo3_CallableAndCall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Demo5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/GuardDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Job1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Job2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Job3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Job4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day1_Thread/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/BankAccont.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Cache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/DataTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo1_synchronizes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo2_synchronizesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo3_synchronizedTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo4_lock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo5_lockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Demo6_ReenTrantReadWriteLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Job1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Job2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Job3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day2_synchronized/Job4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo1_hashcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo2_clone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo3_justice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo6_volatile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo7_volatile2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo8_volatile3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Money.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/My1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/My2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo1_SingleThreadExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo2_FixedThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo3_CachedThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo4_ScheduledThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Demo5_ScheduledThreadPool_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Job1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Job2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day4/Work1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Work1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day5/Work2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Demo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Demo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Job1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Job2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Job3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/Playing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/TestDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day6/TestDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Client2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Client3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/ClientThread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Job1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Job2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Job3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Server2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Server3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/ServerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/ServerThread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/TestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/TestServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day7/Work3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Demo1_danli.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Demo2_enum$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Demo2_enum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance4$My.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/Instance5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/MyEnum1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/MyEnum2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/UserClientThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/UserServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/UserServerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day8/UserSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/AbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Company.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/CompanySubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Factory1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Factory2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/FactoryA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/FactoryB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/FactoryC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/FeiBoNaQie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Main1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/MethodFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Penguni.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductAimp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductAimpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductBimp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/ProductBimpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/SimpleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/TestObServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day9/Tiger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/CGlibProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/DanLiMode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Exam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/JDKProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Play.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/RealSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/StaticProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Student2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Study.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/designMode/XuanZhe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Service/Interface/CallService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Service/Interface/NetService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Service/Interface/SendService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/ServicePrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Services.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/ServicesThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/ConsumInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/MobileCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/NetPackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/Scene.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/ServicePackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/SuperPackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/entity/TalkPackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/ChatOrService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/ChatOrServiceThreat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/DeleteUserView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/Index.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/LoginView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/MonthBillView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/PrintBuyBillView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/RegisterView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/RemainSerPackageView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/SecondView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/SelectNowPackageView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/SelectPackageView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/TopUpView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/UpdatePackageView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/server/UseDouDou5GView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/CardNumberGen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ConsumInfosReSerializable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ConsumInfosSerializable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/DeleteMobileCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/LoginCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/PrintFileToFilePath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/RegFirstScene.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/RegMoneyYH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/RegPasswordYN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/RegSerializable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ScannerYN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/SelectMobileCardToCardNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/SelectMobileCards.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/ServicePackageFuntion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE/doudou5G/util/UpdatePackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/src/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/src/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdbc/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc/util/DBUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/servlet/target/" />
+    <ignored path="$PROJECT_DIR$/servlet/src/target/" />
+    <ignored path="$PROJECT_DIR$/aaaa/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,11 +68,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jdbc/src/CreateTxt.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servlet/src/test/java/Testtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="378">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Servlet/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -281,12 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/DeleteMobileCard.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/DeleteUserView.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/SelectPackageView.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/资费说明.txt" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/PrintFileToFilePath.java" />
-        <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/SelectNowPackageView.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/MonthBillView.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/server/UpdatePackageView.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/UpdatePackage.java" />
@@ -330,21 +181,50 @@
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/CardNumberGen.java" />
         <option value="$PROJECT_DIR$/javaSE/src/doudou5G/util/ConsumInfosSerializable.java" />
         <option value="$PROJECT_DIR$/jdbc/src/config/jdbc.properties" />
-        <option value="$PROJECT_DIR$/jdbc/src/util/DBUtil.java" />
         <option value="$PROJECT_DIR$/jdbc/src/CreateTxt.java" />
+        <option value="$PROJECT_DIR$/jdbc/src/util/DBUtil2.java" />
+        <option value="$PROJECT_DIR$/jdbc/src/test/TestTransaction.java" />
+        <option value="$PROJECT_DIR$/jdbc/src/util/DBUtil.java" />
+        <option value="$PROJECT_DIR$/servlet/src/pom.xml" />
+        <option value="$PROJECT_DIR$/Servlet/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/Servlet/src/test/java/Testtest.java" />
+        <option value="$PROJECT_DIR$/Servlet/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\MyMaven\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Servlet Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Servlet Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="968" />
-    <option name="width" value="960" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -359,12 +239,39 @@
           <expand>
             <path>
               <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc240601" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,21 +295,24 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44252872" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\javaSE\src\doudou5G" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\jdbc\lib" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\jdbc\src" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\jdbc\src\DouDou5G" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\javaSE\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\javaSE\src\doudou5G" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -417,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateTxt">
+  <component name="RunManager" selected="Application.TestTransaction">
     <configuration name="CreateTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateTxt" />
       <module name="jdbc" />
@@ -431,19 +341,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Job1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1.Job1" />
-      <module name="jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -477,20 +374,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTransaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestTransaction" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Job1" />
       <item itemvalue="Application.Job2" />
       <item itemvalue="Application.TestSqlInjection" />
       <item itemvalue="Application.DBUtil" />
       <item itemvalue="Application.CreateTxt" />
+      <item itemvalue="Application.TestTransaction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTransaction" />
         <item itemvalue="Application.CreateTxt" />
         <item itemvalue="Application.DBUtil" />
         <item itemvalue="Application.TestSqlInjection" />
         <item itemvalue="Application.Job2" />
-        <item itemvalue="Application.Job1" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +428,8 @@
       <workItem from="1720580502567" duration="1390000" />
       <workItem from="1720853529978" duration="36357000" />
       <workItem from="1721353563422" duration="20016000" />
-      <workItem from="1721632971812" duration="1985000" />
+      <workItem from="1721632971812" duration="26457000" />
+      <workItem from="1721739137598" duration="449000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
@@ -615,7 +526,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349756000" />
+    <option name="totallyTimeSpent" value="374677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,19 +538,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="968" y="0" width="960" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32858709" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49888888" weight="0.38069415" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49888888" visible="true" weight="0.23752712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44793928" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -651,13 +563,14 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011111" side_tool="true" weight="0.32119206" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.26286966" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.5290252" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.15555556" />
+      <window_info anchor="right" id="Database" order="4" weight="0.15511727" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.17590618" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -713,40 +626,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/util/SelectMobileCards.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/server/RegisterView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/Services.java" />
-    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/Test.java" />
-    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/资费说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/server/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/server/ChatOrService.java" />
     <entry file="file://$PROJECT_DIR$/jdbc/src/doudou5G/server/LoginView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="611">
@@ -1008,13 +887,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/create.txt" />
-    <entry file="file://$PROJECT_DIR$/jdbc/src/util/DBUtil.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/CreateTxt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2781">
-          <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc/src/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="21" lean-forward="true" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1027,17 +910,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/config/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/test/TestTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="117">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/CreateTxt.java">
+    <entry file="file://$PROJECT_DIR$/jdbc/src/util/DBUtil2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="405">
+          <caret line="102" column="5" selection-start-line="52" selection-start-column="4" selection-end-line="102" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc/src/util/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet/src/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/aaaa/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Servlet/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet/src/test/java/Testtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1092,7 +1018,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>jdbc</last-edited>
+          <last-edited>Servlet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

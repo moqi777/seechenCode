@@ -1,8 +1,5 @@
 package util;
 
-import lombok.SneakyThrows;
-
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
@@ -27,7 +24,7 @@ import java.util.Properties;
 //4.关闭资源 因为都需要关闭
 //5.增  删  改  可以编写一种通用写法
 //6.查询 也可以写一个半通用写法 rs返回
-public class DBUtil {
+public class DBUtil2 {  //扩展
     //不推荐直接复制 在properties配置文件编写 读取赋值即可
     private static String driver;
     private static String url;
@@ -37,7 +34,7 @@ public class DBUtil {
         //配置文件不是java文件 不会随着项目启动 main运行自动加载
         //一般都必须 先读取配置文件 才能获取里面的内容
         // 路径：直接根目录(蓝色的包)开始找
-        InputStream is = DBUtil.class.getClassLoader().getResourceAsStream("config/jdbc.properties");
+        InputStream is = DBUtil2.class.getClassLoader().getResourceAsStream("config/jdbc.properties");
         //创建properties对象
         Properties p = new Properties();
         try {
@@ -53,17 +50,28 @@ public class DBUtil {
             e.printStackTrace();
         }
     }
+    //定义一个本地线程 只存储连接对象 它和其他线程独享
+    static ThreadLocal<Connection> tl=new ThreadLocal<>();
     //创建连接通用方法
+    // 一个用户一个线程 只有一个连接 除非连接被回收了
     public static Connection getConn(){
+        Connection conn = tl.get();
         try {
-            return DriverManager.getConnection(url,username,password);
+            //第一次使用 获取新连接 存储到本地线程
+            if (conn==null){
+                conn = DriverManager.getConnection(url,username,password);
+                tl.set(conn);
+            }
+
         } catch (SQLException e) {
             e.printStackTrace();
-            return null;
         }
+        return conn;
     }
     //关闭连接通用方法，通过传参的顺序 来控制关闭的顺序
+    //关闭的时候 本地线程也要清空
     public static void close(AutoCloseable... able){
+        tl.remove();    //清空
         for (AutoCloseable a : able) {
             if (a!=null) {
                 try {
@@ -77,9 +85,9 @@ public class DBUtil {
     //增删改通用方法
     //bug：sql语句占位符个数 一定要和后面参数o数组长度一致 顺序也得一致
     public static int update(String sql, Object ... o){
-        Connection conn = getConn();
+        conn = getConn();
         try {
-            PreparedStatement pstmt = conn.prepareStatement(sql);
+            pstmt = conn.prepareStatement(sql);
             if (o!=null){//是否有参数
                 for (int i = 0; i < o.length; i++) {
                     pstmt.setObject(i+1,o[i]);
@@ -87,7 +95,6 @@ public class DBUtil {
             }
             int i = pstmt.executeUpdate();
             System.out.println("受影响的行数："+i);
-            close(pstmt,conn);
             return i;
         } catch (SQLException e) {
             e.printStackTrace();
