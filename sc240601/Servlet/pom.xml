@@ -1,121 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  xml版本信息 一般放在第一行 -->
 
-<!--根节点：xml根节点只有一个
-    xml早期：可扩展标记语言 标签是可以自定义的 默认每个标签没有任何意义
-    前期xml应用场景主要用于做数据传递，还可以实现数据库存储 后期出现了json取代了xml数据传递
-    后期数据库取代了xml存储数据 所以到目前为止xml一般被当成配置文件存在
-    但是xml本身的标签是可以自定义的没有任何含义
-    所以每个框架或者技术都为xml设置了一套规则（可以放哪些根节点、子标签，哪些值） 又叫约束
-    约束主要分为两种：DTD约束（初级）  schema约束（高级）
-    html：超文本标记语言 h1 div p table
--->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-<!--  组id：公司域名倒序-->
+
   <groupId>com.sc.240601</groupId>
-<!--  项目名-->
-  <artifactId>Servlet</artifactId>
-<!--  版本号：随着项目更新迭代 1.0 1.1 1.12 2.0-->
+  <artifactId>servlet</artifactId>
   <version>1.0-SNAPSHOT</version>
-<!--  打包方式：
-  jar：将项目所有内容 打包成 XX.jar 一般javaSE项目 或者 springboot项目会使用
-  war：将项目所有内容 打包成 XX.war 一般来说普通的web项目（servlet，SSM）
-  pom：不是打包 叫做聚合项目 一般来说父项目才需要配置成pom 不会编译的
-  只用于子项目继承 子项目就无需再次导入重复的依赖
--->
   <packaging>war</packaging>
-<!--右边 maven界面显示的名称-->
-  <name>Servlet Maven Webapp</name>
+
+  <name>servlet Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-<!--  设置通用属性：一般自带编码方式 和 maven编译的版本 推荐1.8
-      同时还可以设置项目依赖的通用版本号
-      设置方式：写任意标签（成对的）
-      使用方式：下面 ${任意的标签} 获取版本号
-      好处：可以通用 可以统一修改版本
--->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-<!--  设置依赖：最核心的，有几对dependency便签就添加了几个依赖(jar)
-      一般可以通过 https://mvnrepository.com/ 手动查找 哪个dependency标签
--->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
-<!--    score标签：用于制定jar包作用范围
-        test：制定jar包测试范围有效 编译和打包不会使用该依赖
-        provided：已提供 比如：jsp和servlet 服务器自带的包 不需要重复导入
-        comlile：默认方式 编译范围有效 打包的时候会使用该依赖
-        runtime：项目运行时才会需要的依赖 编译时候不需要
-  -->
       <scope>test</scope>
     </dependency>
-      <dependency>
-          <groupId>org.junit.jupiter</groupId>
-          <artifactId>junit-jupiter-api</artifactId>
-          <version>RELEASE</version>
-          <scope>compile</scope>
-      </dependency>
-<!--    jsp依赖-->
+    <!--jsp依赖-->
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>javax.servlet.jsp-api</artifactId>
-      <version>2.2.1</version>
+      <version>2.3.3</version>
       <scope>provided</scope>
     </dependency>
-    <!--      servlet依赖-->
+
+    <!--servlet依赖-->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
-    <!--      mysql依赖-->
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.28</version>
-    </dependency>
-<!--    jstl依赖-->
+
+    <!--jstl依赖-->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
-    <!-- spring mvc依赖 -->
+
+    <!--mysql依赖-->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.44</version>
+    </dependency>
+
+    <!-- springMVC依赖 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
       <version>5.0.3.RELEASE</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+
+    <!-- 德鲁依赖 -->
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>druid</artifactId>
       <version>1.1.2</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+
+    <!-- mybatis依赖 -->
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
       <version>3.4.5</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper -->
+
+    <!-- 分页插件依赖 -->
     <dependency>
       <groupId>com.github.pagehelper</groupId>
       <artifactId>pagehelper</artifactId>
       <version>4.2.1</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+
+    <!-- 日志依赖 -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
@@ -125,11 +94,8 @@
 
   </dependencies>
 
-<!--  构建标签：-->
   <build>
-<!--  项目编译后的名字-->
-    <finalName>Servlet</finalName>
-<!--  配置maven插件-->
+    <finalName>servlet</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
