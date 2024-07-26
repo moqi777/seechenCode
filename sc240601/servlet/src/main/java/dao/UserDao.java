@@ -2,7 +2,16 @@ package dao;
 
 import pojo.User;
 
+import java.util.List;
+
 public interface UserDao {
-    public int reg(User user);
-    public User login(String phone,String password);
+    int reg(User user);
+
+    User login(String phone,String password);
+
+    List<User> show();
+
+    int deleteUser(Integer id);
+
+    int updateUser(User user);
 }

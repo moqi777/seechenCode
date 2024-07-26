@@ -30,7 +30,6 @@
     <tr align="center">
         <td>serviceId</td>
         <td>${user.serviceId}</td>
-    </tr>
-</table>
+    </tr></table>
 </body>
 </html>

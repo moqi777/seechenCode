@@ -4,4 +4,20 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+<!--  配置Servlet-->
+  <servlet>
+<!--    servlet名称任意写 但是不要和别的Servlet重名-->
+    <servlet-name>user</servlet-name>
+<!--    告诉配置文件 哪个类实现了Servlet 类的唯一地址给我-->
+<!--    底层：通过全类名获取Class对象 通过Class对象创建Servlet实例 原理：反射-->
+    <servlet-class>controller.UserController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+<!--    必须跟Servlet的名称对应-->
+    <servlet-name>user</servlet-name>
+<!--    配置请求地址：发送什么请求可以进入该Servlet处理
+        写法：/地址  必须加斜杠-->
+    <url-pattern>/user</url-pattern>
+  </servlet-mapping>
 </web-app>

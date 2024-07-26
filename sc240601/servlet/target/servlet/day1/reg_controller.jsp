@@ -1,5 +1,4 @@
 <%@ page import="pojo.User" %>
-<%@ page import="util.DBUtil" %>
 <%@ page import="dao.UserDao" %>
 <%@ page import="dao.Impl.UserDaoImpl" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>

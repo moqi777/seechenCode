@@ -6,7 +6,7 @@
 <body>
 <h3>用户注册</h3>
 <%--提交数据的任何都可以做 from a js--%>
-<form action="/day1/reg_controller.jsp" method="get">
+<form action="/day1/reg_controller.jsp" method="post">
     <p>账号：<input type="text" name="phone"></p>
     <p>密码：<input type="password" name="password"></p>
     <p>充值：<input type="text" name="maney"></p>
