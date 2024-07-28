@@ -14,7 +14,17 @@
 <body>
 <h3>用户管理</h3>
 
-<a href="/day2/addUser.jsp">新增</a>
+
+<a href="/day2/addUser.jsp">新增</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input class="phone" type="text" placeholder="请输入账户名"/>
+<select class="serviceId">
+    <option value="-1">全部</option>
+    <option value="0">超人套餐</option>
+    <option value="1">网虫套餐</option>
+    <option value="2">话痨套餐</option>
+</select>
+<button onclick="search()">搜索</button>
+
 <table width="100%" cellspacing="0" cellpadding="10" border="1">
     <tr>
         <th>编号</th>
@@ -24,10 +34,11 @@
         <th>外键</th>
         <th>操作</th>
     </tr>
+    <tbody class="tbd">
     <c:forEach var="u" items="${userList}">
         <tr>
-<%--            href="javascript:void(0);"：阻止点击跳转，但是又保留了a标签的可点击性--%>
-            <th><a href="javascript:void(0);" onclick="updateUser(event,this)">${u.id}</a></th>
+                <%--            href="javascript:void(0);"：阻止点击跳转，但是又保留了a标签的可点击性--%>
+            <th><a href="javascript:void(0);" onclick="updateUser(this)">${u.id}</a></th>
             <th>${u.phone}</th>
             <th>${u.password}</th>
             <th>${u.money}</th>
@@ -35,6 +46,7 @@
             <th><button class="del" onclick="deleteUser(this)">删除</button></th>
         </tr>
     </c:forEach>
+    </tbody>
 </table>
 </body>
 <script>
@@ -44,7 +56,7 @@
         var id = firstTh.innerText;
         window.location.href = "/user?type=deleteUser&id="+id;
     }
-    function updateUser(event,button){
+    function updateUser(button){
         //允许a标签跳转了
         //event.preventDefault();
 
@@ -62,6 +74,29 @@
             "&password=" + encodeURIComponent(password) +
             "&money=" + encodeURIComponent(money) +
             "&serviceId=" + encodeURIComponent(serviceId);
+    }
+    function search() {
+        let phone = document.querySelector(".phone").value;
+        let serviceId = document.querySelector(".serviceId").value;
+        var users = '${userListJson}';
+        let parse = JSON.parse(users);
+        //先清空表格
+        document.querySelector(".tbd").innerHTML = "";
+        parse.forEach(value =>{
+            //通过找下标的方式实现模糊查询，toLowerCase()都转成小写
+            if ((value.phone.toLowerCase().indexOf(phone.toLowerCase())>=0 || value.phone==null) && (value.serviceId==serviceId || serviceId==-1)){
+                //开始拼接html
+                document.querySelector(".tbd").innerHTML +=
+                    `<tr>
+                        <th><a href="javascript:void(0);" onclick="updateUser(this)">\${value.id}</a></th>
+                        <th>\${value.phone}</th>
+                        <th>\${value.password}</th>
+                        <th>\${value.money}</th>
+                        <th>\${value.serviceId}</th>
+                        <th><button class="del" onclick="deleteUser(this)">删除</button></th>
+                    </tr>`;
+            }
+        })
     }
 </script>
 </html>

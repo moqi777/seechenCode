@@ -1,5 +1,6 @@
 package controller;
 
+import com.google.gson.Gson;
 import dao.Impl.UserDaoImpl;
 import dao.UserDao;
 import pojo.User;
@@ -46,9 +47,14 @@ public class UserController extends HttpServlet {
             case "addUser":addUser(req,resp);break;
             case "deleteUser":deleteUser(req,resp);break;
             case "updateUser":updateUser(req,resp);break;
+            case "exit":exit(req,resp);break;
         }
     }
 
+    private void exit(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        req.getSession().removeAttribute("loginUser");
+        resp.sendRedirect("/day2/login.jsp");
+    }
     //修改用户信息
     private void updateUser(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Integer id = new Integer(req.getParameter("id"));
@@ -87,6 +93,7 @@ public class UserController extends HttpServlet {
         } catch (NumberFormatException e) {
             req.setAttribute("addStatus",0);
             req.getRequestDispatcher("day2/addUser.jsp").forward(req,resp);
+            return;
         }
         User doudouUser = new User(null,phone, password, maney, serviceId);
         int i = userDao.reg(doudouUser);
@@ -98,6 +105,10 @@ public class UserController extends HttpServlet {
         List<User> list = userDao.show();
         //作用域一共有四种：page request session application
         req.setAttribute("userList",list);
+        //将数据转换成json格式，也一起传入request
+        Gson gson = new Gson();
+        String s = gson.toJson(list);
+        req.setAttribute("userListJson",s);
         //跳转到userShow 不能使用重定向 跨越请求了 上面通过request作用域存储的数据就丢失了
         //只能使用转发 因为转发只属于一次请求 属于内部跳转 一定不能写绝对路径 必须写相对路径
         req.getRequestDispatcher("day2/userShow.jsp").forward(req,resp);
