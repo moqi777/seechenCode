@@ -8,9 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="servlet" />
+        <module name="mailSystem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mailSystem" target="1.7" />
       <module name="servlet" target="1.7" />
       <module name="Servlet" target="8" />
     </bytecodeTargetLevel>

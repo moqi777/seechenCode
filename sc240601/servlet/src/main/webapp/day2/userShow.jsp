@@ -13,8 +13,6 @@
 </head>
 <body>
 <h3>用户管理</h3>
-
-
 <a href="/day2/addUser.jsp">新增</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <input class="phone" type="text" placeholder="请输入账户名"/>
 <select class="serviceId">
@@ -51,10 +49,13 @@
 </body>
 <script>
     function deleteUser(button) {
-        var row = button.parentNode.parentNode;
-        var firstTh = row.querySelector('th');
-        var id = firstTh.innerText;
-        window.location.href = "/user?type=deleteUser&id="+id;
+        let b = confirm("确认删除吗？");
+        if(b){
+            var row = button.parentNode.parentNode;
+            var firstTh = row.querySelector('th');
+            var id = firstTh.innerText;
+            window.location.href = "/user?type=deleteUser&id="+id;
+        }
     }
     function updateUser(button){
         //允许a标签跳转了

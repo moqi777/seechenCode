@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mailSystem:war">
+    <output-path>$PROJECT_DIR$/mailSystem/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>mailSystem</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="mailSystem.war">
+      <element id="artifact" artifact-name="mailSystem:war exploded" />
+    </root>
+  </artifact>
+</component>

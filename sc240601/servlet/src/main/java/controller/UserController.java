@@ -8,9 +8,7 @@ import pojo.User;
 import javax.jws.WebService;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.util.List;
 
@@ -72,6 +70,12 @@ public class UserController extends HttpServlet {
         User doudouUser = new User(id,phone, password, maney, serviceId);
         int i = userDao.updateUser(doudouUser);
         req.setAttribute("updateStatus",i);
+        //如果修改的是当前用户，更新session
+        HttpSession session = req.getSession();
+        User loginUser = (User) session.getAttribute("loginUser");
+        if (loginUser != null && loginUser.getId()==doudouUser.getId()){
+            session.setAttribute("loginUser",doudouUser);
+        }
         req.getRequestDispatcher("day2/updateUser.jsp").forward(req,resp);
     }
 
@@ -122,9 +126,21 @@ public class UserController extends HttpServlet {
         User user = userDao.login(phone, password);
         //4.通过dao层返回的结果控制成功和失败
         if (user!=null){
+            //判断用户是否记住了密码
+            String remember = req.getParameter("remember");
+            if ("1".equals(remember)){
+                Cookie userName = new Cookie("userName", phone);
+                Cookie passWord = new Cookie("password", password);
+                passWord.setMaxAge(60);//设置60秒有效期
+                resp.addCookie(userName);
+                resp.addCookie(passWord);
+            }
             req.getSession().setAttribute("loginUser",user);
             resp.sendRedirect("/day2/home.jsp");
         }else {
+            //如果登录失败删除cookie
+            Cookie passWord = new Cookie("password", "");
+            resp.addCookie(passWord);
             resp.sendRedirect("/day2/login.jsp");
         }
     }

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javaSE/javaSE.iml" filepath="$PROJECT_DIR$/javaSE/javaSE.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mailSystem/mailSystem.iml" filepath="$PROJECT_DIR$/mailSystem/mailSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
     </modules>
   </component>

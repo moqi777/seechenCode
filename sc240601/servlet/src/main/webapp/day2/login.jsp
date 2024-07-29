@@ -1,4 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" isELIgnored="false" language="java" %>
 <html>
 <head>
     <title>Title</title>
@@ -67,14 +68,36 @@
     </style>
 </head>
 <body>
-<form action="/user?type=login" method="post">
+<form action="/user?type=login" method="post" onsubmit="return check()">
     <fieldset>
         <legend>登录</legend>
-        <p>账号：<input name="phone" autocomplete="off" placeholder="请输入手机号/账号" type="text"></p>
-        <p>密码：<input name="password" placeholder="请输入密码" type="password"></p>
-        <p><input type="checkbox"/>记住密码</p>
+        <p>账号：<input value="${cookie.userName.value}" name="phone" autocomplete="off" placeholder="请输入手机号/账号" type="text"></p>
+        <p>密码：<input value="${cookie.password.value}" name="password" placeholder="请输入密码" type="password"></p>
+        <div id="error" style="color: red"></div>
+        <p><input name="remember" <c:if test="${cookie.password.value!=''}">checked="checked"</c:if> type="checkbox" value="1"/>记住密码</p>
         <button type="submit">登录</button>
     </fieldset>
 </form>
 </body>
+<script>
+    var check = () => {
+        let phone = document.getElementsByName("phone")[0].value;
+        let password = document.getElementsByName("password")[0].value;
+        let error = document.getElementById("error");
+        if(phone == ""){
+            error.innerText="账号为空";
+            return false;
+        }
+        let phoneReg = /^[A-Za-z0-9]+$/;
+        if(!phoneReg.test(phone)){
+            error.innerText = "账号格式错误";
+            return false;
+        }
+        if(password == ""){
+            error.innerText="密码为空";
+            return false;
+        }
+        return true;
+    }
+</script>
 </html>
