@@ -26,13 +26,6 @@ public class EmailUserController extends HttpServlet {
     private EmailUserDao emailUserDao = new EmailUserDaoImpl();
     Gson gson = new Gson();
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //设置编码格式
-        ServletContext servletContext = req.getServletContext();
-        String reqCharSet = servletContext.getInitParameter("reqCharSet");
-        String respCharSet = servletContext.getInitParameter("respCharSet");
-        req.setCharacterEncoding(reqCharSet);
-        resp.setContentType(respCharSet);
-
         String type = req.getParameter("type");
         switch (type){
             case "register":register(req, resp);break;

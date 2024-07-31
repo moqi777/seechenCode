@@ -34,17 +34,6 @@ public class UserController extends HttpServlet {
     //表示请求处理后 响应结果 通常是给前端响应的
     //类型是HttpServletResponse 父类是ServletResponse
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //获取全局参数
-        ServletContext app = req.getServletContext();
-        String respValue = app.getInitParameter("respCharset");
-        System.out.println("UserController："+respValue);
-        //获取初始化参数：
-        String reqValue = getInitParameter("reqCharSet");
-        System.out.println("UserController："+reqValue);
-        //1.设置中文编码：bug:这行代码必须在获取数据前面写 否则会失效
-        req.setCharacterEncoding(reqValue);
-        resp.setContentType(respValue);
-
         //如何知道请求来源 后面就可以控制不同的请求做不同的处理
         String type = req.getParameter("type");
         switch (type){

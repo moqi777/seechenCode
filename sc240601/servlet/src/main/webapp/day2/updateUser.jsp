@@ -65,10 +65,14 @@
             return false;//不能提交
         }
         //1.定义正则表达式（百度搜，前后记得加斜杠）
-        let phoneReg = /^[A-Za-z0-9]+$/;
+        let phoneReg = /^[\u4e00-\u9fa5_A-Za-z0-9]+$/;
         //2.验证正则表达式
         if (!phoneReg.test(phone)){
-            error.innerText = "账号只能由字母和数字构成";
+            error.innerText = "账号格式错误";
+            return false;
+        }
+        if(phone.length>11){
+            error.innerText = "账号长度超过11位";
             return false;
         }
         if(password==""){

@@ -27,13 +27,6 @@ public class EmailController extends HttpServlet {
     private EmailDao emailDao = new EmailDaoImpl();
     Gson gson = new Gson();
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //设置编码格式
-        ServletContext servletContext = req.getServletContext();
-        String reqCharSet = servletContext.getInitParameter("reqCharSet");
-        String respCharSet = servletContext.getInitParameter("respCharSet");
-        req.setCharacterEncoding(reqCharSet);
-        resp.setContentType(respCharSet);
-
         String type = req.getParameter("type");
         switch (type){
             case "selectEmail":selectEmail(req, resp);break;
@@ -66,7 +59,7 @@ public class EmailController extends HttpServlet {
         req.setAttribute("emailList",emails);
 
         //转发回页面
-        req.getRequestDispatcher("main.jsp").forward(req,resp);
+        req.getRequestDispatcher("emailView/main.jsp").forward(req,resp);
     }
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

@@ -88,9 +88,13 @@
             error.innerText="账号为空";
             return false;
         }
-        let phoneReg = /^[A-Za-z0-9]+$/;
+        let phoneReg = /^[\u4e00-\u9fa5_A-Za-z0-9]+$/;
         if(!phoneReg.test(phone)){
             error.innerText = "账号格式错误";
+            return false;
+        }
+        if(phone.length>11){
+            error.innerText = "账号长度超过11位";
             return false;
         }
         if(password == ""){

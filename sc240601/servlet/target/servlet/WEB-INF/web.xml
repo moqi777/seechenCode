@@ -7,8 +7,53 @@
     <!--全局参数：作为配置spring配置文件地址的作用-->
     <context-param>
         <param-name>respCharset</param-name>
-        <param-value>"text/html;charset=UTF-8"</param-value>
+        <param-value>text/html;charset=UTF-8</param-value>
     </context-param>
+
+<!--    编码过滤器-->
+    <filter>
+        <filter-name>encoding</filter-name>
+        <filter-class>filter.EncodingFilter</filter-class>
+        <init-param>
+            <param-name>reqCharSet</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+    </filter>
+    <filter>
+        <filter-name>login</filter-name>
+        <filter-class>filter.LoginFilter</filter-class>
+    </filter>
+<!--    敏感词过滤-->
+    <filter>
+        <filter-name>sensitive</filter-name>
+        <filter-class>filter.SensitiveFilter</filter-class>
+    </filter>
+
+<!--    过滤器执行顺序 根据mapping标签先后决定的-->
+    <filter-mapping>
+        <filter-name>encoding</filter-name>
+<!--        因为所有资源都要设置中文-->
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>login</filter-name>
+<!--        登录拦截：不能全部拦截-->
+<!--        解决方案：可以把需要不拦截的页面单独提出来-->
+        <url-pattern>/day2/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>sensitive</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+<!--    application域对象监听器-->
+    <listener>
+        <listener-class>listener.MyApplicationListener</listener-class>
+    </listener>
+<!--    session域对象属性监听器-->
+    <listener>
+        <listener-class>listener.MySessionAttributeListener</listener-class>
+    </listener>
 
 <!--  配置Servlet-->
   <servlet>

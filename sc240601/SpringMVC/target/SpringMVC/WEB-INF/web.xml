@@ -1,0 +1,35 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!-- springMVC核心 DispatcherServlet -->
+  <servlet>
+    <!-- 随意一个servlet名称 -->
+    <servlet-name>SpringMVC</servlet-name>
+    <!--
+      作用：1.作为springMVC入口，所有请求都需要经过这个Servlet才能到达SpringMVC
+      作用：2.负责读取springMVC配置文件，默认读取WEB-INF下的文件
+      文件名固定好了：servlet名称-servlet.xml
+      通常配置文件 需要单独配置 不使用它默认的方式
+    -->
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!-- 初始化参数：配置自定义配置文件 则就不读取默认位置了 -->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath*:SpringMVC.xml</param-value>
+    </init-param>
+    <!-- 让其服务器启动 实例化 初始化(读取配置文件) -->
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SpringMVC</servlet-name>
+    <!--
+       把进入控制层的请求配置好即可 不能写/*
+       因为/*包含 *.jsp *.css *.jsp
+       /的意思是只接收不带后缀的请求
+    -->
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>
