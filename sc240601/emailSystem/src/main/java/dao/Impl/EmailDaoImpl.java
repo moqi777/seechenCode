@@ -10,6 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -20,20 +21,20 @@ import java.util.List;
  * @DateTime:2024/7/30 22:33
  **/
 public class EmailDaoImpl implements EmailDao {
-    //0是to，1是from
-    public List<Email> emaiLimit(int formOrTo, String username, Page page) {
+    //0是to，1是from 要按时间的倒序
+    public List<Email> emaiLimit(int fromOrTo, String username, Page page) {
         String sql = "select * from email where 1=1";
-        if (formOrTo == 0) sql += " and toname=?";
+        if (fromOrTo == 0) sql += " and toname=?";
         else sql += " and fromname=?";
         //再拼接上分页
-        sql += " limit ?,?";
+        sql += " order by createdate desc limit ?,?";
         ResultSet resultSet = DBUtil.select(sql, username, (page.getCurrentIndex() - 1) * page.getPageSize(), page.getPageSize());
         return showResultSet(resultSet);
     }
 
-    public int emailCount(int formOrTo, String username) {
+    public int emailCount(int fromOrTo, String username) {
         String sql = "select count(1) from email where 1=1";
-        if (formOrTo == 0) sql += " and toname=?";
+        if (fromOrTo == 0) sql += " and toname=?";
         else sql += " and fromname=?";
         ResultSet resultSet = DBUtil.select(sql,username);
         try {
@@ -46,6 +47,15 @@ public class EmailDaoImpl implements EmailDao {
             DBUtil.close(resultSet,DBUtil.pstmt,DBUtil.conn);
         }
         return 0;
+    }
+
+    public int addEmail(Email email) {
+        String sql = "insert into email values(?,?,?,?,?,?,?)";
+        Timestamp timestamp = new Timestamp(new Date().getTime());
+        int i = DBUtil.update(sql, null, email.getFromname(), email.getTitle(),
+                email.getContent(), 1, email.getToname(), timestamp);
+        DBUtil.close(DBUtil.pstmt,DBUtil.conn);
+        return i;
     }
 
     //本类专门的工具类，用于将resultSet中的数据读取出来封装成List

@@ -56,7 +56,7 @@ public class EmailUserController extends HttpServlet {
                 HttpSession session = req.getSession();
                 session.setAttribute("loginUser",emailUser);
                 //重定向到分页的servlet中去
-                resp.sendRedirect("/email?type=selectEmail&index=1");
+                resp.sendRedirect("/email?type=selectEmail&fromOrTo=0&index=1");
             }
         }
     }

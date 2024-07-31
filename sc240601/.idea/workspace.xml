@@ -10,61 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="ok">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/emailSystem_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/emailSystem_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/emailSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/emailSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/src/main/java/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/java/controller/EmailController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/src/main/java/controller/EmailUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/java/controller/EmailUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/newMsg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/newMsg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/readMsg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/readMsg.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/yifaMsg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/yifaMsg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/java/dao/EmailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/java/dao/EmailDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/java/dao/Impl/EmailDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/java/dao/Impl/EmailDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/java/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/java/filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/newMsg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/newMsg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/yifaMsg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/yifaMsg.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/classes/controller/EmailController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/controller/EmailUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/classes/controller/EmailUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/EmailDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/classes/dao/EmailDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/Impl/EmailDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/classes/dao/Impl/EmailDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/controller/EmailController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/controller/EmailUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/controller/EmailUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/main.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/newMsg.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/readMsg.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/yifaMsg.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/servlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/day2/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/webapp/day2/addUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/day2/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/webapp/day2/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/day2/updateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/webapp/day2/updateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/classes/controller/CycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/classes/controller/CycleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/classes/controller/ServicePackageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/classes/controller/ServicePackageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/classes/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/classes/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/classes/dao/Impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/classes/dao/Impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/classes/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/classes/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/classes/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/classes/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/classes/util/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/controller/CycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/controller/CycleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/controller/ServicePackageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/controller/ServicePackageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/dao/Impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/dao/Impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/classes/util/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/day2/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/day2/addUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/day2/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/day2/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/servlet/day2/updateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/servlet/day2/updateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/test-classes/Fanzhuan.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/test-classes/Fanzhuan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/target/test-classes/JsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/target/test-classes/JsonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/EmailDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/EmailDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/Impl/EmailDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/Impl/EmailDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/newMsg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/newMsg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/yifaMsg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/yifaMsg.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -770,7 +737,7 @@
       <workItem from="1722241617560" duration="15705000" />
       <workItem from="1722305286642" duration="7257000" />
       <workItem from="1722325395796" duration="30045000" />
-      <workItem from="1722387744118" duration="31649000" />
+      <workItem from="1722387744118" duration="43761000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
