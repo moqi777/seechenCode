@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>邮件收发平台</title>
 <link type="text/css" rel="stylesheet" href="../css/sms.css" />
+<script src="/js/mainAndyifaMsg.js"></script>
 </head>
 <body>
 	<div id="main">
@@ -17,7 +18,10 @@
 			<div><span style="font-size:24px; font-weight: bold;">查看邮件</span> <input class="searchinp"  placeholder="可通过发送人、标题、内容搜索"/> <button>搜索</button></div>
 			
 			<div class="content messageList" style="clear: both;">
-				<div class="emaildo">全选 <input type="checkbox"> <button>标记为已读</button>  <button>删除勾选</button></div>
+				<%--通过全选按钮的域改变事件控制其他所有按钮的全选--%>
+				<div class="emaildo">全选 <input type="checkbox" onchange="allCheckbox(this)">
+					<button>标记为已读</button>
+					<button onclick="deleteCheckbox()">删除勾选</button></div>
 				<ul>
 					<c:if test="${empty emailList}">
 						<li class="unReaded">没有邮箱</li>
@@ -41,10 +45,12 @@
 
 							<!--通过三目运算判断是否已读选择是否添加unReaded属性-->
 							<li class="${email.state==1?'unReaded':''}">
-								<input type="checkbox"/>
-								<b>${email.title}</b>&nbsp;&nbsp;&nbsp;
+								<input type="checkbox" class="checkbox"/>
+								<%--设置一个隐藏的属性用于标记该行邮件的id--%>
+								<input value="${email.id}" type="hidden">
+								<b onclick="readEmail(this)" class="email_tille">${email.title}</b>&nbsp;&nbsp;&nbsp;
 								<p>${emailSub}</p>
-								<em><a href="">回信</a></em>
+								<em><a href="/emailView/newMsg.jsp?fromname=${email.fromname}">回信</a></em>
 								<em><a href="">删除</a></em>
 								<em><fmt:formatDate value="${email.createdate}" pattern="yyyy-MM-dd HH:mm"/></em>
 							</li>

@@ -1,4 +1,4 @@
-﻿<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+﻿<%@ page language="java" import="java.util.*" isELIgnored="false" pageEncoding="utf-8"%>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -15,13 +15,17 @@
 					<div class="message">
 							<div class="tmenu">
 								<ul class="clearfix">
-									<li>题目：标题 </li>
-									<li>来自：李四</li>
-									<li>时间：2016-09-09 12:24:32</li>									
+									<li>题目：${email.title} </li>
+									<br>
+									<li>发送方：${email.fromname}</li>
+									<br>
+									<li>接收方：${email.toname}</li>
+									<br>
+									<li>时间：${email.createdate}</li>
 								</ul>
 							</div>
 					  	 	<div class="view">
-								<p>邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容邮件内容</p>
+								<p>${email.content}</p>
 							</div>
 					</div>
 				</div>

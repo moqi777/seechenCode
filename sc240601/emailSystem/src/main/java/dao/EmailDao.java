@@ -15,4 +15,10 @@ public interface EmailDao {
 
     //发送邮箱，即在email表中新增一条数据
     int addEmail(Email email);
+
+    //根据邮件id查邮件
+    Email selectEmailById(int id);
+
+    //设置邮件状态为已读
+    int updateState(int id);
 }

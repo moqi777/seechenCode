@@ -58,6 +58,20 @@ public class EmailDaoImpl implements EmailDao {
         return i;
     }
 
+    public Email selectEmailById(int id) {
+        String sql = "select * from email where id=?";
+        ResultSet resultSet = DBUtil.select(sql,id);
+        List<Email> emails = showResultSet(resultSet);
+        return emails.get(0);
+    }
+
+    public int updateState(int id) {
+        String sql = "update email set state=0 where id=?";
+        int i = DBUtil.update(sql,id);
+        DBUtil.close(DBUtil.pstmt,DBUtil.conn);
+        return i;
+    }
+
     //本类专门的工具类，用于将resultSet中的数据读取出来封装成List
     private List<Email> showResultSet(ResultSet resultSet){
         List<Email> emailUsers = new ArrayList<>();

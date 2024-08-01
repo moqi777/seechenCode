@@ -3,13 +3,9 @@ package com.sc.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/**
- * @author:zhengYiLong
- * @email:1797344574@qq.com
- * @phone:13479394730
- * @desc:测试的控制层
- * @DateTime:2024/7/31 17:43
- **/
+import javax.xml.ws.RequestWrapper;
+
+//测试的控制层
 @Controller
 public class FirstController {
     @RequestMapping("/test")

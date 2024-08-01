@@ -67,3 +67,6 @@ a:hover, a:active { color:#000; text-decoration:underline; }
 .emaildo{ text-indent: 13px;}
 .searchinp{ background:url(../images/sms_input_bg.gif) no-repeat; width:150px; height:22px; border:none; font-size:12px; margin:5px 0px; padding:5px; }
 
+.email_tille:hover{
+    cursor: pointer;
+}

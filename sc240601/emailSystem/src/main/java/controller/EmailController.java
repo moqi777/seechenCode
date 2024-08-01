@@ -34,7 +34,24 @@ public class EmailController extends HttpServlet {
         switch (type){
             case "selectEmail":selectEmail(req, resp);break;
             case "sendEmail":sendEmail(req, resp);break;
+            case "readEmail":readEmail(req, resp);break;
         }
+    }
+
+    private void readEmail(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException{
+        Integer email_id = new Integer(req.getParameter("email_id"));
+        //根据邮件id获取到该邮件
+        Email email = emailDao.selectEmailById(email_id);
+        //判断是不是当前登录用户在看，如果是就不设置已读，因为已读状态只针对接收者
+        String loginUserName = ((EmailUser) req.getSession().getAttribute("loginUser")).getUsername();
+        if (!email.getFromname().equals(loginUserName)){//如果不是自己在看
+            //判断邮件状态 如果为1 即未读 需要设置成0 已读
+            if (email.getState() == 1) emailDao.updateState(email_id);
+        }
+        //将结果封装在request对象中
+        req.setAttribute("email",email);
+        //转发到查看的页面
+        req.getRequestDispatcher("/emailView/readMsg.jsp").forward(req,resp);
     }
 
     private void sendEmail(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException{
