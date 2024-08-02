@@ -1,5 +1,9 @@
 import org.junit.jupiter.api.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
 /**
  * @author:zhengYiLong
  * @email:1797344574@qq.com
@@ -9,19 +13,12 @@ import org.junit.jupiter.api.Test;
  **/
 public class Main {
     @Test
-    public void main(){
-        a();
-        b();
-    }
-
-    public void a(){
-        Integer num1 = 100;
-        Integer num2 = 100;
-        System.out.println(num1==num2);
-    }
-    public void b(){
-        Integer num1 = 200;
-        Integer num2 = 200;
-        System.out.println(num1==num2);
+    public void Te() {
+        HashMap<Object, Object> map = new HashMap<>();
+        map.put(1,1);
+        map.put(2,2);
+        map.put(3,3);
+        Set<Map.Entry<Object, Object>> entrySet = map.entrySet();
+        System.out.println(entrySet);
     }
 }

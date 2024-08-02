@@ -18,4 +18,8 @@ public class Usermvc {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date time;
     private  String head;
+
+    // private Userinfo userinfo;
 }
+
+// class Userinfo{}

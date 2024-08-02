@@ -9,4 +9,22 @@
     <context:component-scan base-package="com.sc.controller"/>
     <!-- 2.开启注解驱动：让@RequestMapping生效 -->
     <mvc:annotation-driven/>
+    <!--3.配置上传组件：id特殊 必须叫 multipartResolver ，因为这个bean被别的bean的ref引用了，id名字已经固定好了(在引用它的bean里的id就是这个值)，所以你这个bean的id也要一样-->
+    <!--一个bean表示java一个可重复组件(对象)-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!--设置上传文件的编码-->
+        <property name="defaultEncoding" value="utf-8"/>
+        <!--设置上传文件的大小 单位：字节 10M=1024*1024*10-->
+        <property name="maxUploadSize" value="10485760"/>
+    </bean>
+    <!--4.springMVC会默认拦截静态资源(img css js) 需要让springMVC放行-->
+    <mvc:default-servlet-handler/>
+
+    <!--测试：为什么有的bean对象 id必须固定-->
+    <!--<bean id="user" class="com.sc.pojo.Usermvc">-->
+    <!--    <property name="id" value="100"/>-->
+    <!--    <property name="name" value="张三"/>-->
+    <!--    <property name="userinfo" ref="info"/>-->
+    <!--</bean>-->
+    <!--<bean id="info" class="com.sc.pojo.Userinfo"></bean>-->
 </beans>

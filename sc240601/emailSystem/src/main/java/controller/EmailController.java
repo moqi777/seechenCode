@@ -85,6 +85,7 @@ public class EmailController extends HttpServlet {
     }
 
     //因为查看已收到的邮件和已发送的邮件代码几乎一样，在此通过参数的不同来划分
+    //添加一个搜索功能
     private void selectEmail(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         //获取配置文件中设置好的页面容量
         Integer pageSize = new Integer(getInitParameter("pageSize"));
@@ -93,14 +94,18 @@ public class EmailController extends HttpServlet {
         Page page = new Page();
         page.setCurrentIndex(index);
         page.setPageSize(pageSize);
+        //获取查询条件value值
+        String value = req.getParameter("value");
+        //如果有传条件把条件设入request作用域回传给页面让搜索框该值还在
+        if (value != null) req.setAttribute("value",value);
         //获取到是接收邮件还是发送邮件 0是接收邮件数，1是发送邮件数
         int fromOrTo = Integer.parseInt(req.getParameter("fromOrTo"));
 
         //查询登录用户收到的邮件和总数
         HttpSession session = req.getSession();
         String username = ((EmailUser) session.getAttribute("loginUser")).getUsername();
-        int count = emailDao.emailCount(fromOrTo, username);
-        List<Email> emails = emailDao.emaiLimit(fromOrTo, username, page);
+        int count = emailDao.emailCount(fromOrTo, username,value);
+        List<Email> emails = emailDao.emaiLimit(fromOrTo, username, page,value);
 
         //将总邮件数设置进page中
         page.setTotalCount(count);

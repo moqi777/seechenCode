@@ -21,22 +21,50 @@ import java.util.List;
  * @DateTime:2024/7/30 22:33
  **/
 public class EmailDaoImpl implements EmailDao {
-    //0是to，1是from 要按时间的倒序
-    public List<Email> emaiLimit(int fromOrTo, String username, Page page) {
+    //0，1是from 要按时间的倒序
+    public List<Email> emaiLimit(int fromOrTo, String username, Page page,String value) {
         String sql = "select * from email where 1=1";
-        if (fromOrTo == 0) sql += " and toname=?";
-        else sql += " and fromname=?";
+        ArrayList<Object> parameter = new ArrayList<>();
+        //对要找的是发送方还是接收方的邮件进行判断
+        if (fromOrTo == 0) {
+            sql += " and toname=?";
+        } else{
+            sql += " and fromname=?";
+        }
+        parameter.add(username);
+        //判断是否有查询条件
+        if (value != null){
+            sql += " and (fromname like ? or title like ? or content like ?)";
+            parameter.add("%"+value+"%");
+            parameter.add("%"+value+"%");
+            parameter.add("%"+value+"%");
+        }
         //再拼接上分页
         sql += " order by createdate desc limit ?,?";
-        ResultSet resultSet = DBUtil.select(sql, username, (page.getCurrentIndex() - 1) * page.getPageSize(), page.getPageSize());
+        //拼接上分页相关参数
+        parameter.add((page.getCurrentIndex() - 1) * page.getPageSize());
+        parameter.add(page.getPageSize());
+        ResultSet resultSet = DBUtil.select(sql,parameter.toArray());
         return showResultSet(resultSet);
     }
 
-    public int emailCount(int fromOrTo, String username) {
+    public int emailCount(int fromOrTo, String username,String value) {
         String sql = "select count(1) from email where 1=1";
-        if (fromOrTo == 0) sql += " and toname=?";
-        else sql += " and fromname=?";
-        ResultSet resultSet = DBUtil.select(sql,username);
+        ArrayList<Object> parameter = new ArrayList<>();
+        if (fromOrTo == 0){
+            sql += " and toname=?";
+        } else{
+            sql += " and fromname=?";
+        }
+        parameter.add(username);
+        //判断是否有查询条件
+        if (value != null){
+            sql += " and (fromname like ? or title like ? or content like ?)";
+            parameter.add("%"+value+"%");
+            parameter.add("%"+value+"%");
+            parameter.add("%"+value+"%");
+        }
+        ResultSet resultSet = DBUtil.select(sql,parameter.toArray());
         try {
             if (resultSet.next()){
                 return resultSet.getInt(1);

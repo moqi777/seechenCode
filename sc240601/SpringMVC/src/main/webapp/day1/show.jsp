@@ -30,7 +30,12 @@ application：${application}<br>
                 <td><a href="#">${u.name}</a></td>
                 <td>${u.money}</td>
                 <td>${u.time}</td>
-                <td>xxx.jpg</td>
+                <c:if test="${empty u.head}">
+                    <td><img src="https://s2.loli.net/2024/08/02/MgH2iNkdstCPQKB.webp" alt="" style="width: 25px;height: 25px;"></td>
+                </c:if>
+                <c:if test="${not empty u.head}">
+                    <td><img src="/upload/${u.head}" alt="" style="width: 25px;height: 25px;"></td>
+                </c:if>
                 <td><a href="#">删除</a> </td>
             </tr>
         </c:forEach>

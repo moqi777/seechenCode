@@ -3,11 +3,17 @@ package com.sc.controller;
 import com.sc.pojo.Usermvc;
 import com.sc.service.UsermvcService;
 import com.sc.service.impl.UsermvcServiceImpl;
+import com.sc.util.UpDownUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 /**
  * @author:zhengYiLong
@@ -21,7 +27,11 @@ import java.util.Map;
 public class UsermvcController {
     UsermvcService us = new UsermvcServiceImpl();
     @RequestMapping("/add")
-    public String add(Usermvc u){
+    public String add(HttpServletRequest req,Usermvc u, MultipartFile myhead) throws IOException {
+        String newName = UpDownUtil.upload(req, myhead);
+        //用户对象头像存储地址(前后端不分离 推荐存储文件名字即可)
+        //前后端分离了 推荐存储完整地址 ip地址/XXX.jpg
+        u.setHead(newName);
         //调用service
         int i = us.add(u);
         if (i>0){
