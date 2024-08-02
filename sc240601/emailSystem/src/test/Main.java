@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+import util.DBUtil;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,11 +15,6 @@ import java.util.Set;
 public class Main {
     @Test
     public void Te() {
-        HashMap<Object, Object> map = new HashMap<>();
-        map.put(1,1);
-        map.put(2,2);
-        map.put(3,3);
-        Set<Map.Entry<Object, Object>> entrySet = map.entrySet();
-        System.out.println(entrySet);
+        String sql = "delete from email_user where id=";
     }
 }

@@ -100,6 +100,26 @@ public class EmailDaoImpl implements EmailDao {
         return i;
     }
 
+    public int deleteEmailByIds(int[] ids) {
+        String sql = "delete from email where id=?";
+        int i=0;
+        for (int id : ids) {
+            i += DBUtil.update(sql,id);
+        }
+        DBUtil.close(DBUtil.pstmt,DBUtil.conn);
+        return i;
+    }
+
+    public int updateEmailStateByIds(int[] ids) {
+        String sql = "update email set state=0 where id=?";
+        int i=0;
+        for (int id : ids) {
+            i += DBUtil.update(sql,id);
+        }
+        DBUtil.close(DBUtil.pstmt,DBUtil.conn);
+        return i;
+    }
+
     //本类专门的工具类，用于将resultSet中的数据读取出来封装成List
     private List<Email> showResultSet(ResultSet resultSet){
         List<Email> emailUsers = new ArrayList<>();

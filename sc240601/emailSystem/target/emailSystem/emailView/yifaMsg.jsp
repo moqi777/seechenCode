@@ -18,13 +18,14 @@
 			<h1>已发邮件</h1>
 			<div class="content messageList">
 				<div class="emaildo">全选 <input type="checkbox"  onchange="allCheckbox(this)">
-					<button  onclick="deleteCheckbox()">删除勾选</button></div>
+					<button  onclick="deleteCheckbox(${page.currentIndex},1)">删除勾选</button></div>
 				<ul>
 					<c:if test="${empty emailList}">
 						<li class="unReaded">没有邮箱</li>
 					</c:if>
 
 					<c:if test="${not empty emailList}">
+						<form method="post" id="myform">
 						<c:forEach var="email" items="${emailList}">
 
 							<%--如果超出指定长度拼接...--%>
@@ -44,14 +45,15 @@
 							<!--通过三目运算判断是否已读选择是否添加unReaded属性-->
 							<%--这里的已读是接收方的已读--%>
 							<li class="${email.state==1?'unReaded':''}">
-								<input type="checkbox" class="checkbox"/>
-								<%--设置一个隐藏的属性用于标记该行邮件的id--%>
+								<input type="checkbox" class="checkbox"  value="${email.id}" name="checkbox"/>
+									<%--设置一个隐藏的属性用于标记该行邮件的id--%>
 								<input value="${email.id}" type="hidden">
 								<b onclick="readEmail(this)" class="email_tille">${email.title}</b>&nbsp;&nbsp;&nbsp;
 								<p>${emailSub}</p>
 								<em><fmt:formatDate value="${email.createdate}" pattern="yyyy-MM-dd HH:mm"/></em>
 							</li>
 						</c:forEach>
+						</form>
 					</c:if>
 				</ul>
 				<br>

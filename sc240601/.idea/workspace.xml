@@ -11,21 +11,24 @@
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/controller/UsermvcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/controller/UsermvcController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/pojo/Usermvc.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/pojo/Usermvc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/resources/SpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/resources/SpringMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/webapp/day1/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/webapp/day1/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/webapp/day1/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/webapp/day1/show.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/src/main/java/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/java/controller/EmailController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/src/main/java/dao/EmailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/java/dao/EmailDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/src/main/java/dao/Impl/EmailDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/java/dao/Impl/EmailDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/yifaMsg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/emailView/yifaMsg.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/js/mainAndyifaMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/js/mainAndyifaMsg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailSystem/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springMVC_war_exploded/WEB-INF/classes/com/sc/controller/UsermvcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springMVC_war_exploded/WEB-INF/classes/com/sc/controller/UsermvcController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springMVC_war_exploded/WEB-INF/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springMVC_war_exploded/WEB-INF/classes/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springMVC_war_exploded/day1/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springMVC_war_exploded/day1/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springMVC_war_exploded/day1/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springMVC_war_exploded/day1/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/classes/controller/EmailController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/EmailDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/classes/dao/EmailDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/Impl/EmailDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/classes/dao/Impl/EmailDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/controller/EmailController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/EmailDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/EmailDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/Impl/EmailDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/Impl/EmailDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/yifaMsg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/yifaMsg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/js/mainAndyifaMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/target/emailSystem/js/mainAndyifaMsg.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -724,7 +727,7 @@
       <workItem from="1722387744118" duration="51671000" />
       <workItem from="1722487176286" duration="6676000" />
       <workItem from="1722498935763" duration="13432000" />
-      <workItem from="1722515764071" duration="27880000" />
+      <workItem from="1722515764071" duration="35066000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>

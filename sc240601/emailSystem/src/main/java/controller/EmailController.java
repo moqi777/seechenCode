@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -35,7 +36,39 @@ public class EmailController extends HttpServlet {
             case "selectEmail":selectEmail(req, resp);break;
             case "sendEmail":sendEmail(req, resp);break;
             case "readEmail":readEmail(req, resp);break;
+            case "deleteCheckbox":deleteCheckbox(req, resp);break;
+            case "yesRead":yesRead(req, resp);break;
         }
+    }
+
+    private void deleteCheckbox(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException{
+        //前端进行了非空判断，所以无需担心值会是空的，可以直接转类型
+        String[] checkboxes = req.getParameterValues("checkbox");
+        int[] checkboxesInt = new int[checkboxes.length];
+        for (int i = 0; i < checkboxes.length; i++) {
+            checkboxesInt[i] = new Integer(checkboxes[i]);
+        }
+        int i = emailDao.deleteEmailByIds(checkboxesInt);
+        System.out.println("删除了"+i+"条数据");
+        //获取到当前所在页码
+        Integer currentIndex = new Integer(req.getParameter("currentIndex"));
+        //获取到该跳转到哪个页面去
+        Integer mainOrYifaMsg = new Integer(req.getParameter("mainOrYifaMsg"));
+        resp.sendRedirect("/email?type=selectEmail&fromOrTo="+mainOrYifaMsg+"&index="+currentIndex);
+    }
+
+    private void yesRead(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException{
+        //前端进行了非空判断，所以无需担心值会是空的，可以直接转类型
+        String[] checkboxes = req.getParameterValues("checkbox");
+        int[] checkboxesInt = new int[checkboxes.length];
+        for (int i = 0; i < checkboxes.length; i++) {
+            checkboxesInt[i] = new Integer(checkboxes[i]);
+        }
+        int i = emailDao.updateEmailStateByIds(checkboxesInt);
+        System.out.println("已读了"+i+"条数据");
+        //获取到当前所在页码
+        Integer currentIndex = new Integer(req.getParameter("currentIndex"));
+        resp.sendRedirect("/email?type=selectEmail&fromOrTo=0&index="+currentIndex);
     }
 
     private void readEmail(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException{

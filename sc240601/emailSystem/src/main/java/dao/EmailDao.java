@@ -22,4 +22,10 @@ public interface EmailDao {
 
     //设置邮件状态为已读
     int updateState(int id);
+
+    //根据id删除邮件
+    int deleteEmailByIds(int[] ids);
+
+    //根据id标记已读
+    int updateEmailStateByIds(int[] ids);
 }
