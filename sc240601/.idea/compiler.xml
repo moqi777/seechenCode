@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="emailSystem" />
+        <module name="emailSystemSpringMVC" />
         <module name="servlet" />
         <module name="springMVC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="emailSystem" target="8" />
+      <module name="emailSystemSpringMVC" target="1.8" />
       <module name="mailSystem" target="1.7" />
       <module name="servlet" target="8" />
       <module name="Servlet" target="8" />

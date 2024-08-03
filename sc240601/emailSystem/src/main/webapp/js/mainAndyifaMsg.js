@@ -44,7 +44,7 @@ let deleteCheckbox = (currentIndex,mainOrYifaMsg)=>{
         //只有总条数大于0才发起请求，防止发送无效请求
         if (i>0){
             //判断一下如果删了这么多条是否需要往前条一页
-            if (checkbox.length==i){//表示这一页都删完，所以要往前跳一页
+            if (checkbox.length==i && currentIndex!=1){//表示这一页都删完，所以要往前跳一页
                 currentIndex = currentIndex - 1;
             }
             let myForm = document.getElementById("myform");

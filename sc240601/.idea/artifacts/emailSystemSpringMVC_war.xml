@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="emailSystemSpringMVC:war">
+    <output-path>$PROJECT_DIR$/emailSystemSpringMVC/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>emailSystemSpringMVC</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="emailSystemSpringMVC.war">
+      <element id="artifact" artifact-name="emailSystemSpringMVC:war exploded" />
+    </root>
+  </artifact>
+</component>

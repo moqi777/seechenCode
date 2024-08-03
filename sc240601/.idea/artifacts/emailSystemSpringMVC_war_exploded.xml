@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="springMVC:war exploded">
-    <output-path>$PROJECT_DIR$/SpringMVC/target/springMVC</output-path>
+  <artifact type="exploded-war" name="emailSystemSpringMVC:war exploded">
+    <output-path>$PROJECT_DIR$/emailSystemSpringMVC/target/emailSystemSpringMVC</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>springMVC</module>
+        <module>emailSystemSpringMVC</module>
         <packaging>war</packaging>
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
@@ -12,7 +12,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springMVC" />
+          <element id="module-output" name="emailSystemSpringMVC" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.3.RELEASE" />
@@ -34,9 +34,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/SpringMVC/target/springMVC/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/emailSystemSpringMVC/target/emailSystemSpringMVC/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="springMVC/web/Web" />
+      <element id="javaee-facet-resources" facet="emailSystemSpringMVC/web/Web" />
     </root>
   </artifact>
 </component>

@@ -10,106 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="ok">
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/controller/EmailController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/controller/EmailUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/EmailDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/EmailUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/Impl/EmailDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/Impl/EmailUserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/Impl/WordsDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/dao/WordsDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/filter/EncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/filter/LoginFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/filter/MyRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/filter/SensitiveFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/listener/MyHttpSessionAttributeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/listener/MyHttpSessionListenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/listener/MyServletContextAttributeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/listener/MyServletContextListenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/listener/MyServletRequestAttributeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/listener/MyServletRequestListenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/pojo/Email.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/pojo/EmailUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/pojo/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/pojo/Words.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/classes/util/DBUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/controller/EmailController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/controller/EmailUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/EmailDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/EmailUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/Impl/EmailDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/Impl/EmailUserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/Impl/WordsDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/dao/WordsDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/filter/EncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/filter/LoginFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/filter/MyRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/filter/SensitiveFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/listener/MyHttpSessionAttributeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/listener/MyHttpSessionListenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/listener/MyServletContextAttributeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/listener/MyServletContextListenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/listener/MyServletRequestAttributeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/listener/MyServletRequestListenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/pojo/Email.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/pojo/EmailUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/pojo/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/pojo/Words.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/classes/util/DBUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/apiguardian-api-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/junit-jupiter-5.11.0-M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/junit-jupiter-api-5.11.0-M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/junit-jupiter-engine-5.11.0-M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/junit-jupiter-params-5.11.0-M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/junit-platform-commons-1.11.0-M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/junit-platform-engine-1.11.0-M2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/mysql-connector-j-8.0.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/opentest4j-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/pagehelper-4.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/lib/protobuf-java-3.21.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/css/sms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/main.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/menu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/newMsg.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/readMsg.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/emailView/yifaMsg.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_btn_goback.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_btn_login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_btn_reg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_btn_reset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_home_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_input_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_keyword_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_login_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_login_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_my_message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_page_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_read_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_read_message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_readed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_reg_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_reg_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_send.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_send_message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/images/sms_unReaded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/js/isExit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/js/mainAndyifaMsg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/js/newMsg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/js/register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/target/emailSystem/邮件管理系统.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springMVC_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/springMVC_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/js/mainAndyifaMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/js/mainAndyifaMsg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/邮件管理系统.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,9 +61,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
-        <option value="spring-beans.schema" />
         <option value="Jsp File" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -374,7 +283,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44252872" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
@@ -561,6 +470,96 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="emailSystem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat_emailSystemSpringMVC" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 " />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="emailSystemSpringMVC:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="75b41cdb-4043-4368-81c2-a95a53b4c3bd" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53623" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="emailSystemSpringMVC:war exploded" />
         </option>
       </method>
     </configuration>
@@ -755,6 +754,7 @@
       <item itemvalue="JUnit.Main.Te" />
       <item itemvalue="Tomcat Server.Tomcat_servlet" />
       <item itemvalue="Tomcat Server.Tomcat_emailSystem" />
+      <item itemvalue="Tomcat Server.Tomcat_emailSystemSpringMVC" />
       <item itemvalue="Tomcat Server.Tomcat_springMVC" />
     </list>
     <recent_temporary>
@@ -809,6 +809,7 @@
       <workItem from="1722487176286" duration="6676000" />
       <workItem from="1722498935763" duration="13432000" />
       <workItem from="1722515764071" duration="35582000" />
+      <workItem from="1722671655665" duration="4851000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
