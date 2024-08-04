@@ -18,8 +18,8 @@ import java.util.List;
  **/
 public class EmailUserDaoImpl implements EmailUserDao {
     public int register(EmailUser mailUser) {
-        String sql = "insert into email_user values(?,?,?,?)";
-        int i = DBUtil.update(sql, null, mailUser.getUsername(), mailUser.getPassword(), mailUser.getEmail());
+        String sql = "insert into email_user values(?,?,?,?,?)";
+        int i = DBUtil.update(sql, null, mailUser.getUsername(), mailUser.getPassword(), mailUser.getEmail(),mailUser.getImg());
         DBUtil.close(DBUtil.pstmt,DBUtil.conn);
         return i;
     }
@@ -53,7 +53,8 @@ public class EmailUserDaoImpl implements EmailUserDao {
                 String username = resultSet.getString("username");
                 String password = resultSet.getString("password");
                 String email = resultSet.getString("email");
-                emailUsers.add(new EmailUser(id,username,password,email));
+                String img = resultSet.getString("img");
+                emailUsers.add(new EmailUser(id,username,password,email,img));
             }
         } catch (SQLException e) {
             e.printStackTrace();

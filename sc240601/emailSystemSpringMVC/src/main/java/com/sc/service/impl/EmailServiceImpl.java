@@ -61,8 +61,8 @@ public class EmailServiceImpl implements EmailService {
     //返回：0成功；1发送失败；2不可以给自己发邮件；3用户不存在
     public int sendEmail(String toUser,String title,String content,String loginUser){
         //根据用户名或邮箱查询接收方是否存在
-        List<EmailUser> userFromName = emailUserDao.selectEmailUser(new EmailUser(null, toUser, null, null));
-        List<EmailUser> userFromEmail = emailUserDao.selectEmailUser(new EmailUser(null, null, null, toUser));
+        List<EmailUser> userFromName = emailUserDao.selectEmailUser(new EmailUser(null, toUser, null, null,null));
+        List<EmailUser> userFromEmail = emailUserDao.selectEmailUser(new EmailUser(null, null, null, toUser,null));
         if (userFromName.size() == 0 && userFromEmail.size() == 0) {//如果为0条说明没有查到该用户
             // resp.getWriter().print("<script>alert('" + "发送失败：用户不存在" + "');location.href = '/emailView/newMsg.jsp';</script>");
             return 3;

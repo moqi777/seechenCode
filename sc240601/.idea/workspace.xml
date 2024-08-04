@@ -10,15 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="ok">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/controller/EmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/target/classes/com/sc/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/target/classes/com/sc/controller/EmailController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/target/emailSystemSpringMVC/WEB-INF/classes/com/sc/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/target/emailSystemSpringMVC/WEB-INF/classes/com/sc/controller/EmailController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/target/emailSystemSpringMVC/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/target/emailSystemSpringMVC/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/target/emailSystemSpringMVC/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/target/emailSystemSpringMVC/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/controller/EmailUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/controller/EmailUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/Impl/EmailUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/Impl/EmailUserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/pojo/EmailUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/pojo/EmailUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/EmailUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/EmailUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/resources/SpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/emailView/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/emailView/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -810,7 +813,7 @@
       <workItem from="1722487176286" duration="6676000" />
       <workItem from="1722498935763" duration="13432000" />
       <workItem from="1722515764071" duration="35582000" />
-      <workItem from="1722671655665" duration="22039000" />
+      <workItem from="1722671655665" duration="28603000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>

@@ -5,6 +5,7 @@ import com.sc.service.EmailUserService;
 import com.sc.service.impl.EmailUserServiceImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -24,11 +25,11 @@ import java.util.List;
 public class EmailUserController {
     EmailUserService emailUserService = new EmailUserServiceImpl();
     @RequestMapping("/register")
-    public void register(String username, String password, String email, HttpServletResponse resp) throws IOException {
+    public void register(EmailUser emailUser,HttpServletRequest req, HttpServletResponse resp, MultipartFile upImg) throws IOException {
         // 设置内容类型为 HTML，并指定字符编码
         resp.setContentType("text/html;charset=UTF-8");
         //返回0成功；1失败；2用户名已存在；3邮箱已存在
-        int i = emailUserService.register(username, password, email);
+        int i = emailUserService.register(emailUser,upImg,req);
         switch (i){
             case 0:resp.getWriter().print("<script>alert('" + "注册成功" + "');location.href = '/index.jsp';</script>");break;
             case 1:resp.getWriter().print("<script>alert('" + "注册失败" + "');location.href = '/register.jsp';</script>");break;
@@ -48,7 +49,7 @@ public class EmailUserController {
             session.setAttribute("loginUser",msg);
             resp.sendRedirect("/email/selectEmail?fromOrTo=0&index=1");
         }else {//不是的话，那就是String类型，说明登录失败
-            resp.getWriter().print("<script>alert('" + msg + "');location.href = 'index.jsp';</script>");
+            resp.getWriter().print("<script>alert('" + msg + "');location.href = '/index.jsp';</script>");
         }
     }
 
