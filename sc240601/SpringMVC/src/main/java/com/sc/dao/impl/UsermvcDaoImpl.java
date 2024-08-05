@@ -25,19 +25,49 @@ public class UsermvcDaoImpl implements UsermvcDao {
         return i;
     }
 
-    public List<Usermvc> show() {
-        String sql = "select * from usermvc";
+    // public List<Usermvc> show() {
+    //     String sql = "select * from usermvc";
+    //     ResultSet resultSet = DBUtil.select(sql);
+    //     List<Usermvc> list = new ArrayList<>();
+    //     try {
+    //         while (resultSet.next()){
+    //             list.add(getOject(resultSet));
+    //         }
+    //     } catch (SQLException e) {
+    //         e.printStackTrace();
+    //     } finally {
+    //         DBUtil.close(resultSet,DBUtil.pstmt,DBUtil.conn);
+    //     }
+    //     return list;
+    // }
+
+    public int Count() {
+        String sql = "select count(1) from usermvc";
         ResultSet resultSet = DBUtil.select(sql);
-        List<Usermvc> list = new ArrayList<>();
+        int count = 0;
         try {
-            while (resultSet.next()){
+            if (resultSet.next()) {
+                count = resultSet.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        DBUtil.close(resultSet,DBUtil.pstmt,DBUtil.conn);
+        return count;
+    }
+
+    public List<Usermvc> show(int currentIndex, int pageSize) {
+        String sql = "select * from usermvc limit ?,?";
+        ResultSet resultSet = DBUtil.select(sql,(currentIndex-1)*pageSize,pageSize);
+        ArrayList<Usermvc> list = new ArrayList<>();
+        try {
+            while (resultSet.next()) {
                 list.add(getOject(resultSet));
             }
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            DBUtil.close(resultSet,DBUtil.pstmt,DBUtil.conn);
         }
+        DBUtil.close(resultSet,DBUtil.pstmt,DBUtil.conn);
         return list;
     }
 

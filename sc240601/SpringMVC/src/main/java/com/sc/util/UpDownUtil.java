@@ -1,10 +1,16 @@
 package com.sc.util;
 
+import org.apache.commons.io.FileUtils;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
+import java.net.URLEncoder;
 import java.util.UUID;
 
 /**
@@ -43,5 +49,29 @@ public class UpDownUtil {
             e.printStackTrace();
         }
         return newName;
+    }
+
+    //下载通用方法
+    public static ResponseEntity download(String fileName,HttpServletRequest req){
+        //1.获取请求头信息
+        HttpHeaders headers = new HttpHeaders();
+        //2.设置文档类型 原来默认是text/html 设置成流
+        headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+        byte[] bytes = new byte[0];
+        try {
+            //2.1设置文件名编码方式 如果文件名是中文也可以识别（可选）
+            fileName = URLEncoder.encode(fileName, "utf-8");
+            //3.指定附件形式下载，参数1：属性名附件；参数2：下载后的文件名
+            headers.setContentDispositionFormData("attachment",fileName);
+            //4.指定返回值 ResponseEntity<byte[]>
+            //参数1：下载的文件的字节数组
+            //参数2：请求头部信息
+            //参数3：响应实体的状态(新建状态)
+            File file = new File(req.getServletContext().getRealPath("/upload/") + fileName);
+            bytes = FileUtils.readFileToByteArray(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return new ResponseEntity<>(bytes,headers, HttpStatus.CREATED);
     }
 }

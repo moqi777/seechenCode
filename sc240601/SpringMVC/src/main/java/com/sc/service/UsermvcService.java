@@ -1,6 +1,7 @@
 package com.sc.service;
 
 import com.sc.pojo.Usermvc;
+import com.sc.util.PageInfo;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ import java.util.List;
 public interface UsermvcService {
     //1.新增用户
     public int add(Usermvc u);
-    //2.查询最新数据
-    public List<Usermvc> show();
+    //2.查询最新数据（参数：前端能给什么就写什么）
+    //返回值：前端需要什么返回就给什么
+    public PageInfo<Usermvc> show(int currentIndex, int pageSize);
 }
