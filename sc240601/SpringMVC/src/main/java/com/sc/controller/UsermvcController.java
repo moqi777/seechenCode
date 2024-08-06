@@ -67,7 +67,7 @@ public class UsermvcController {
         //调用业务层service() 实现分页业务
         PageInfo<Usermvc> p = us.show(currentIndex, pageSize);
         map.put("p",p);
-        return "/day1/show.jsp";
+        return "forward:/day1/show.jsp";
     }
 
     @RequestMapping("/download")

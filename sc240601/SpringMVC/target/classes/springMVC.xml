@@ -27,4 +27,24 @@
     <!--    <property name="userinfo" ref="info"/>-->
     <!--</bean>-->
     <!--<bean id="info" class="com.sc.pojo.Userinfo"></bean>-->
+
+    <!--5.静态资源的路径映射(通常静态资源放入WEB-INF才需要)-->
+    <!--如果静态资源地址很长也可以这样添加路径映射-->
+    <!--mapping:前端访问的网址   location:服务器转发的地址-->
+    <mvc:resources mapping="/img/**" location="/WEB-INF/img/"/>
+    <mvc:resources mapping="/js/**" location="/WEB-INF/js/"/>
+    <mvc:resources mapping="/css/**" location="/WEB-INF/css/"/>
+
+    <!--6.sqpingMVC视图解析器：添加统一的前缀和后缀-->
+    <!--bug：这样设置所有跳转地址 都会添加前缀和后缀
+        解决方案：如果一些请求不想加前缀和后缀
+        return "forword:/地址"
+        return "redirect:/地址"-->
+    <!--class：只能识别jsp视图 如果换其他视图 要换全类名-->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--设置前缀-->
+        <property name="prefix" value="/WEB-INF/jsp"/>
+        <!--设置后缀-->
+        <property name="suffix" value=".jsp"/>
+    </bean>
 </beans>

@@ -15,10 +15,10 @@
         <option value="$PROJECT_DIR$/Servlet/pom.xml" />
         <option value="$PROJECT_DIR$/servlet/pom.xml" />
         <option value="$PROJECT_DIR$/emailSystem/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringMVC/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMCV/pom.xml" />
         <option value="$PROJECT_DIR$/emailSystemSpringMVC/pom.xml" />
         <option value="$PROJECT_DIR$/ratepaySystem/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC/pom.xml" />
       </list>
     </option>
   </component>
