@@ -64,7 +64,7 @@
     let ajax2=input=>{
         $.post("/usermvc/checkName?name="+input.value,"",(res)=>{
             //res就是后端返回的结果，res变量名自定义
-            //document.getElementById("msg").innerHTML
+            //document.getElementById("msg").innerHTML=res;
             $('#msg').html(res)
         })
     }

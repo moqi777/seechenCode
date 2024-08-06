@@ -8,5 +8,14 @@
     <context:component-scan base-package="com.sc.controller"/>
     <mvc:annotation-driven/>
     <mvc:default-servlet-handler/>
+    <!--路径映射-->
+    <mvc:resources mapping="/images/**" location="/WEB-INF/images/"/>
+    <mvc:resources mapping="/css/**" location="/WEB-INF/css/"/>
+    <mvc:resources mapping="/js/**" location="/WEB-INF/js/"/>
+    <!--设置前缀和后缀-->
+    <bean id="viewResolvew" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
 
 </beans>

@@ -9,19 +9,19 @@
 <head>
     <base href="<%=basePath%>">
     <title>税务局税收服务平台-纳税服务</title>
-    <link href="${basePath}css/nsfw/css.css" rel="stylesheet" type="text/css" />
-    <link href="${basePath}css/nsfw/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/nsfw/css.css" rel="stylesheet" type="text/css" />
+    <link href="/css/nsfw/style.css" rel="stylesheet" type="text/css" />
 </head>
 <frameset cols="*,1222,*" class="bj" frameborder="no" border="0" framespacing="0">
-    <frame src="${basePath}common/bg.jsp" scrolling="No" noresize="noresize"/>
+    <frame src="/common/bg.jsp" scrolling="No" noresize="noresize"/>
     <frameset rows="156,*" cols="*" frameborder="no" border="0" framespacing="0">
-        <frame src="${basePath}nsfw/home_top.action" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" />
+        <frame src="/jsp/nsfw/top.jsp" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" />
         <frameset cols="14%,60%" frameborder="no" border="0" framespacing="0">
-            <frame src="${basePath}nsfw/home_left.action" scrolling="yes" noresize="noresize" id="leftFrame" />
-            <frame src="${basePath}common/welcome.jsp" name="mainFrame" id="mainFrame" />
+            <frame src="/jsp/nsfw/left.jsp" scrolling="yes" noresize="noresize" id="leftFrame" />
+            <frame src="/common/welcome.jsp" name="mainFrame" id="mainFrame" />
         </frameset>
     </frameset>
-    <frame src="${basePath}common/bg.jsp" scrolling="No" noresize="noresize"/>
+    <frame src="/common/bg.jsp" scrolling="No" noresize="noresize"/>
 </frameset>
 <body>
 <br>

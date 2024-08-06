@@ -1,12 +1,11 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-	<link href="${basePath}css/nsfw/css.css" rel="stylesheet" type="text/css" />
-	<link href="${basePath}css/nsfw/style.css" rel="stylesheet" type="text/css" />
+	<link href="/css/nsfw/css.css" rel="stylesheet" type="text/css" />
+	<link href="/css/nsfw/style.css" rel="stylesheet" type="text/css" />
 <!--[if IE 6]>
-<script type="text/javascript" src="${basePath}js/DD_belatedPNG.js" ></script>
+<script type="text/javascript" src="/js/DD_belatedPNG.js" ></script>
 <script type="text/javascript">
     DD_belatedPNG.fix('b, s, img, span, .prev, .next, a, input,');
 </script>
@@ -23,16 +22,16 @@
 
 <body>
 	<!-- 头部{ -->
-	<table width="1222" border="0" align="center" cellpadding="0" cellspacing="0" background="${basePath}images/nsfw/xingzheng.png" class="top">
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="/images/nsfw/xingzheng.png" class="top">
 		<tr>
 			<td width="26" height="106">&nbsp;</td>
 			<td width="416" height="110" align="left" valign="middle">
-				<img class="zxx_test_png" src="${basePath}images/home/ind01.png" width="470" height="90" alt="" />
+				<img class="zxx_test_png" src="/images/home/ind01.png" width="470" height="90" alt="" />
 			</td>
 			<td width="135">&nbsp;</td>
 			<td width="418">
 				<object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="450" height="86">
-					<param name="movie" value="${basePath}images/home/flash.swf" />
+					<param name="movie" value="/images/home/flash.swf" />
 					<param name="quality" value="high" />
 					<param name="wmode" value="transparent" />
 					<param name="swfversion" value="6.0.65.0" />
@@ -40,7 +39,7 @@
 					<param name="expressinstall" value="Scripts/expressInstall.swf" />
 					<!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
 					<!--[if !IE]>-->
-					<object type="application/x-shockwave-flash" data="${basePath}images/home/flash.swf"
+					<object type="application/x-shockwave-flash" data="/images/home/flash.swf"
 						width="380" height="86">
 						<!--<![endif]-->
 						<param name="quality" value="high" />
@@ -76,10 +75,10 @@
 					    <td align="center"></td>
                         <td align="left"></td>
                         <td align="left"><a><b></b><font color="blue">欢迎您，</font></a></td>
-                        <td align="center"><img src="${basePath}images/nsfw/help.png" width="12"height="17" /></td>
+                        <td align="center"><img src="/images/nsfw/help.png" width="12"height="17" /></td>
 						<td align="left"><a href="javascript:void(0)">帮助</a></td>
-						<td width="17" align="center"><img src="${basePath}images/nsfw/exit.png"width="14" height="14"/></td>
-						<td align="left" valign="middle"><a href="${basePath}sys/login_logout.action" target="_top">退出</a></td>
+						<td width="17" align="center"><img src="/images/nsfw/exit.png"width="14" height="14"/></td>
+						<td align="left" valign="middle"><a href="/jsp/login/loginUI.jsp" target="_top">退出</a></td>
 					</tr>
 				</table>
 			</td>
@@ -90,7 +89,7 @@
 	<div class="banner">
 		<div class="menu">
 			<ul class="clearfix">
-				<li><a href="${basePath}sys/sys.action" target="_top">工作主页</a></li>
+				<li><a href="/jsp/sys/sys.jsp" target="_top">工作主页</a></li>
                 <li><a href="javascript:void(0);">行政管理</a></li>
                 <li><a href="javascript:void(0);">后勤服务</a></li>
                 <li><a href="javascript:void(0);">在线学习</a></li>

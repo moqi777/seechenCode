@@ -1,5 +1,4 @@
 ﻿﻿<%@ page contentType="text/html; charset=UTF-8"%>
-<%@ taglib prefix="s" uri="/struts-tags"%>
 <%
     pageContext.setAttribute("ctx", request.getContextPath()) ;
 %>
@@ -8,16 +7,16 @@
 <head>
     <title>税务局税收服务平台</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link href="${ctx}/css/home.css" rel="stylesheet" type="text/css" />
+    <link href="/css/home.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <!-- 头部{ -->
-<table width="1222" border="0" align="center" cellpadding="0"
-       cellspacing="0" background="${ctx}/images/home/top_bg.png" class="top">
+<table width="100%" border="0" align="center" cellpadding="0"
+       cellspacing="0" background="/images/home/top_bg.png" class="top">
     <tr>
         <td width="32" height="106">&nbsp;</td>
         <td width="418" height="106" align="left" valign="middle">
-            <img class="zxx_test_png" src="${ctx}/images/home/ind01.png" width="470" height="90" alt="" />
+            <img class="zxx_test_png" src="/images/home/ind01.png" width="470" height="90" alt="" />
         </td>
         <td width="211">&nbsp;</td>
         
@@ -38,10 +37,10 @@
                     <td align="right">
                         <a><b></b><font color="blue">欢迎您，${user.name }&nbsp;</font></a>
                     </td>
-                    <td align="center"><img src="${ctx}/images/home/help.png" width="12" height="17"  /></td>
+                    <td align="center"><img src="/images/home/help.png" width="12" height="17"  /></td>
                     <td align="left"><a href="javascript:void(0);">帮助</a></td>
-                    <td align="center"><img src="${ctx}/images/home/exit.png" width="14" height="14"   /></td>
-                    <td align="left" valign="middle" ><a href="${ctx}/user/user_logout.action">退出</a></td>
+                    <td align="center"><img src="/images/home/exit.png" width="14" height="14"   /></td>
+                    <td align="left" valign="middle" ><a href="/jsp/login/loginUI.jsp">退出</a></td>
                 </tr>
             </table>
         </td>
@@ -51,11 +50,11 @@
 <!-- 导航{ -->
 <div class="menu">
     <ul class="clearfix">
-        <li class="hover"><a href="${ctx}/sys/sys.action">工作主页</a></li>
+        <li class="hover"><a href="/jsp/sys/sys.jsp">工作主页</a></li>
         <li><a href="javascript:void(0);">行政管理</a></li>
         <li><a href="javascript:void(0);">后勤服务</a></li>
         <li><a href="javascript:void(0);">在线学习</a></li>       
-        <li><a href="${ctx}/nsfw/home_frame.action">纳税服务</a> </li>
+        <li><a href="/jsp/nsfw/frame.jsp">纳税服务</a> </li>
         <li><a href="javascript:void(0);">我的空间</a></li>
     </ul>
 </div>
@@ -73,10 +72,10 @@
                     <td width="76" height="100" align="center" valign="middle">
                         <div class="left-tx">
                             
-							<img src="${ctx}/images/home/gs09.png" width="70" height="70" />
+							<img src="/images/home/gs09.png" width="70" height="70" />
                         </div>
                     </td>
-                    <td width="5%"><img src="${ctx}/images/home/gs10.png" width="4" height="59" alt="" /></td>
+                    <td width="5%"><img src="/images/home/gs10.png" width="4" height="59" alt="" /></td>
                     <td width="60%"><table width="95%" border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td colspan="2" style=" font-weight:bold; color:#3a7daa;">xx名</td>
@@ -121,7 +120,7 @@
             <div class="lc_grzxbt">
                 <h1>我的投诉</h1>
                 <div style="float:right;padding-top:3px;">
-                	<s:a action="sys_complainAddUI" namespace="/sys" target="_blank">我要投诉</s:a>&nbsp;&nbsp;
+                	<a href="/jsp/sys/complainAddUI.jsp" >我要投诉</a>&nbsp;&nbsp;
                 </div>
             </div>
             <table width="98%" border="0" align="center">

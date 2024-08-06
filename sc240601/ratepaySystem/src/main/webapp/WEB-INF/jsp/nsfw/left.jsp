@@ -9,9 +9,9 @@
 <html>
 <head>
     <base href="<%=basePath%>"/>
-    <link href="${ctx}/css/nsfw/css.css" rel="stylesheet" type="text/css"/>
-    <link href="${ctx}/css/nsfw/style.css" rel="stylesheet" type="text/css"/>
-    <script src="${ctx}/js/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <link href="/css/nsfw/css.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/nsfw/style.css" rel="stylesheet" type="text/css"/>
+    <script src="/js/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         //隐藏菜单
         $(document).ready(function () {
@@ -50,7 +50,7 @@
         }
     </script>
     <!--[if IE 6]>
-    <script type="text/javascript" src="${basePath}js/DD_belatedPNG.js"></script>
+    <script type="text/javascript" src="/js/DD_belatedPNG.js"></script>
     <script type="text/javascript">
         DD_belatedPNG.fix('b, s, img, span, .prev, .next, a, input,');
     </script>
@@ -76,16 +76,16 @@
             <div class="sm">
 				
                 <dl class="">
-                    <dt><a class="yh" href="${ctx}nsfw/test_listuserUI.action" target="mainFrame"><b></b>用户管理<s class="down"></s>
+                    <dt><a class="yh" href="/jsp/user/listUI.jsp" target="mainFrame"><b></b>用户管理<s class="down"></s>
                     </a></dt>
                 </dl>
 
                 <dl>
-                    <dt><a class="xxfb" href="${ctx}nsfw/test_listinfoUI.action" target="mainFrame"><b></b>信息发布管理<s
+                    <dt><a class="xxfb" href="/jsp/nsfw/info/listUI.jsp" target="mainFrame"><b></b>信息发布管理<s
                             class="down"></s> </a></dt>
                 </dl>
                 <dl class="">
-                    <dt><a class="tssl" href="${ctx}nsfw/test_listcomplainUI.action" target="mainFrame"><b></b>投诉受理管理<s
+                    <dt><a class="tssl" href="/jsp/nsfw/complain/listUI.jsp" target="mainFrame"><b></b>投诉受理管理<s
                             class="down"></s> </a></dt>
                 </dl>
                 <dl class="">
