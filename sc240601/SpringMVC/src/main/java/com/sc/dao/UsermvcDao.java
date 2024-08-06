@@ -11,4 +11,5 @@ public interface UsermvcDao {
     public int Count();
     //查询分页的数据集合
     public List<Usermvc> show(int currentIndex,int pageSize);
+    public boolean checkName(String name);
 }

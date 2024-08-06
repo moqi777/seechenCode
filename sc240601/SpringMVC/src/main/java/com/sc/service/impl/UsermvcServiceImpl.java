@@ -28,4 +28,8 @@ public class UsermvcServiceImpl implements UsermvcService {
         p.setList(ud.show(currentIndex,pageSize));
         return p;
     }
+
+    public boolean checkName(String name) {
+        return ud.checkName(name);
+    }
 }

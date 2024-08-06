@@ -12,6 +12,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
@@ -73,6 +74,17 @@ public class UsermvcController {
     @RequestMapping("/download")
     public ResponseEntity<byte[]> dowmload(String fileName,HttpServletRequest req) throws IOException {
         return UpDownUtil.download(fileName,req);
+    }
+    //springMVC如何处理异步请求：
+    //1.不能跳转
+    //2.方法的返回值就是给前端的响应结果 添加@ResponseBody
+    //3.如果是String返回值 需要修改响应格式否则中文乱码
+    //其他类型都不用处理
+    @RequestMapping(value = "/checkName",produces = "text/html;charset=utf-8")
+    @ResponseBody
+    public String checkName(String name){
+        if (us.checkName(name)) return "用户名可以使用";
+        return "用户名重复了";
     }
 }
 // <a href="/项目前缀/请求前缀/add"></a>

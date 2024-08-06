@@ -47,4 +47,16 @@
         <!--设置后缀-->
         <property name="suffix" value=".jsp"/>
     </bean>
+
+    <!--7.配置拦截器-->
+    <mvc:interceptors>
+        <!--配置一个拦截器-->
+        <mvc:interceptor>
+            <!--配置哪些请求需要拦截-->
+            <mvc:mapping path="/**"/>
+            <!--配置哪些请求不许要拦截 可以配置多个-->
+            <mvc:exclude-mapping path="/user/login"/>
+            <bean class="com.sc.interceptor.LoginInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

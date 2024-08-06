@@ -1,8 +1,10 @@
 package com.sc.controller;
 
+import com.sc.pojo.Usermvc;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpSession;
 import java.util.Random;
 
 /**
@@ -16,7 +18,7 @@ import java.util.Random;
 @RequestMapping("/user")
 public class UserController {
     @RequestMapping("/login")
-    public String login(){
+    public String login(HttpSession session){
         System.out.println("进入登录功能");
         //调用service控制
         Random r = new Random();
@@ -24,6 +26,7 @@ public class UserController {
         if (n==1){//失败
             return "redirect:/index.jsp";
         }else {
+            session.setAttribute("user",new Usermvc());
             return "redirect:/user/toShow";
         }
     }

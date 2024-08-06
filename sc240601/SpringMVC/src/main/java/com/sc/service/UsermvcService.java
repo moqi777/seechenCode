@@ -18,4 +18,5 @@ public interface UsermvcService {
     //2.查询最新数据（参数：前端能给什么就写什么）
     //返回值：前端需要什么返回就给什么
     public PageInfo<Usermvc> show(int currentIndex, int pageSize);
+    public boolean checkName(String name);
 }

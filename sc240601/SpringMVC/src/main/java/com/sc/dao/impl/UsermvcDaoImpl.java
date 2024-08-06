@@ -71,6 +71,21 @@ public class UsermvcDaoImpl implements UsermvcDao {
         return list;
     }
 
+    public boolean checkName(String name) {
+        String sql = "select * from usermvc where name=?";
+        ResultSet resultSet = DBUtil.select(sql, name);
+        boolean b=true;
+        try {
+            if (resultSet.next()){
+                b=false;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        DBUtil.close(resultSet,DBUtil.pstmt,DBUtil.conn);
+        return b;
+    }
+
     public Usermvc getOject(ResultSet resultSet) throws SQLException {
         Integer id = resultSet.getInt("id");
         String name = resultSet.getString("name");
