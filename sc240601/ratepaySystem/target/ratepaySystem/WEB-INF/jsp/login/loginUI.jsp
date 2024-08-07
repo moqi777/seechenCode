@@ -19,15 +19,24 @@
 		//document.forms[0].submit();
 		var account = $('#account').val();
 		var password = $('#password').val();
+		if (account==""){
+			document.getElementById("errMsg").innerText ="用户名为空";
+			return;
+		}
+		if (password==""){
+			document.getElementById("errMsg").innerText ="密码为空";
+			return;
+		}
 		axios.post("/uuser/login",{
 			account: account,   // 将数据封装成对象
 			password: password
 		}).then(res=>{
-			alert(res.data.login);
-		}).catch(error => {
-			// 错误处理
-			console.error("Login error:", error);
-			alert("An error occurred. Please try again.");
+			console.log(res.data.code)
+			if (res.data.code==0){
+				document.getElementById("errMsg").innerText = res.data.msg;
+			}else {
+				window.location.href="/uuser/toSys";
+			}
 		});
 	}
 
@@ -114,7 +123,7 @@ html {
 								<tr>
 									<td height="13">&nbsp; <span><div height=20
 												valign="middle" style="padding-left: 18px">
-												<font color="red" id="errMsg">${msg }</font>
+												<font color="red" id="errMsg"></font>
 											</div></span>
 									</td>
 								</tr>
