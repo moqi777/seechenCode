@@ -18,7 +18,8 @@
     <p>生日：<input type="date" name="time"></p>
     <p>头像：<input name="myhead" type="file" onchange="showImg(this)"></p>
     <p><img id="img" src="https://s2.loli.net/2024/08/02/MgH2iNkdstCPQKB.webp" style="width: 100px;height: 100px;border-radius: 50px"></p>
-    <button type="submit">新增</button>
+    <button type="submit">同步新增</button>
+    <button type="button" onclick="ajaxAdd()">异步新增</button>
 </form>
 </body>
 <%--先导jQuery--%>
@@ -56,7 +57,7 @@
         //参数1：请求方式 get/post
         //参数2：请求地址
         //参数3：是否是异步的请求  true异步  false同步
-        ajax.open("get","/usermvc/checkName?name="+input.value,true);
+        ajax.open("get","/usermvc/checkName?name="+input.value,false);
         //4.发送请求
         ajax.send();
     }
@@ -64,15 +65,34 @@
     let ajax2=input=>{
         $.post("/usermvc/checkName?name="+input.value,"",(res)=>{
             //res就是后端返回的结果，res变量名自定义
-            //document.getElementById("msg").innerHTML
+            //document.getElementById("msg").innerHTML=res;
             $('#msg').html(res)
-        })
+        },true)
     }
     //3.通过axios发送异步请求
     let ajax3=input=>{
         axios.post("/usermvc/checkName?name="+input.value).then(res=>{
             //res.data  后端返回的结果
-            $("#msg").html(res.data);
+            $("#msg").html(res.data.msg);
+        })
+    }
+    //前后端分离的模式实现异步新增 vue基本都是这么写的
+    let ajaxAdd=()=>{
+        //组装数据
+        let user = {
+            name:$("[name='name']").val(),
+            money:$("[name='money']").val(),
+            time:$("[name='time']").val()
+        }
+        axios.post("/usermvc/ajaxAdd",user).then(res=>{
+            console.log(res.data)
+            if (res.data.code==1){
+<%--                ${"#msg"}.css("color","green").html(res.data.msg);--%>
+                alert(res.data.msg);
+            }else {
+<%--                ${"#msg"}.css("color","red").html(res.data.msg);--%>
+                alert(res.data.msg);
+            }
         })
     }
 </script>

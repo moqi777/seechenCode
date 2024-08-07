@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sc.mapper.Mybatis_empMapper">
+    <insert id="add">
+        insert into mybatis_emp value(null,#{name},#{money})
+    </insert>
+    <delete id="del">
+        delete from mybatis_emp where id=#{id}
+    </delete>
+    <update id="addMoney">
+        update mybatis_emp set money=money+#{money} where id=#{id}
+    </update>
+</mapper>

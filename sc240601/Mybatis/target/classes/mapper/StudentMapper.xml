@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper接口和映射文件如何对应：通过namespace编写全类名-->
+<mapper namespace="com.sc.mapper.StudentMapper">
+    <insert id="add">
+        <!--sql语句一定不要加分号，否则报错很难发现问题-->
+        insert into student values(null,#{sname},#{ssex},#{sbirthday},#{classname});
+    </insert>
+    <select id="show" resultType="com.sc.pojo.Student">
+        select * from student
+    </select>
+</mapper>

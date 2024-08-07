@@ -1,15 +1,13 @@
 package com.sc.service.impl;
 
-import com.sc.dao.EmailUserDao;
-import com.sc.dao.Impl.EmailUserDaoImpl;
+import com.sc.mapper.EmailUserDao;
+import com.sc.mapper.Impl.EmailUserDaoImpl;
 import com.sc.pojo.EmailUser;
 import com.sc.service.EmailUserService;
 import com.sc.util.UpDownUtil;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
 import java.util.List;
 
 /**

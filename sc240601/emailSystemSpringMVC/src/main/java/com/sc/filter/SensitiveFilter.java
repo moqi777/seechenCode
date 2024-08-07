@@ -1,7 +1,7 @@
 package com.sc.filter;
 
-import com.sc.dao.Impl.WordsDaoImpl;
-import com.sc.dao.WordsDao;
+import com.sc.mapper.Impl.WordsDaoImpl;
+import com.sc.mapper.WordsDao;
 import com.sc.pojo.Words;
 
 import javax.servlet.*;

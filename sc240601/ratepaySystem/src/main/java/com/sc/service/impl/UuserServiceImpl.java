@@ -1,7 +1,7 @@
 package com.sc.service.impl;
 
-import com.sc.dao.UuserDao;
-import com.sc.dao.impl.UuserDaoimpl;
+import com.sc.mapper.UuserDao;
+import com.sc.mapper.impl.UuserDaoimpl;
 import com.sc.pojo.Uuser;
 import com.sc.service.UuserService;
 

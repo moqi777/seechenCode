@@ -1,11 +1,9 @@
 package com.sc.service.impl;
 
-import com.sc.dao.impl.UsermvcDaoImpl;
+import com.sc.mapper.impl.UsermvcDaoImpl;
 import com.sc.pojo.Usermvc;
 import com.sc.service.UsermvcService;
 import com.sc.util.PageInfo;
-
-import java.util.List;
 
 /**
  * @author:zhengYiLong
