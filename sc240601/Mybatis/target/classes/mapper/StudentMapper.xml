@@ -4,11 +4,19 @@
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--mapper接口和映射文件如何对应：通过namespace编写全类名-->
 <mapper namespace="com.sc.mapper.StudentMapper">
+    <!--自定义resultMap-->
+    <resultMap id="student" type="com.sc.pojo.Student">
+        <id column="sno" property="sno"></id>
+        <result column="sname" property="sname"></result>
+        <result column="ssex" property="ssex"></result>
+        <result column="sbirthday" property="sbirthday"></result>
+        <result column="class" property="classname"></result>
+    </resultMap>
     <insert id="add">
         <!--sql语句一定不要加分号，否则报错很难发现问题-->
         insert into student values(null,#{sname},#{ssex},#{sbirthday},#{classname});
     </insert>
-    <select id="show" resultType="com.sc.pojo.Student">
+    <select id="show" resultMap="student">
         select * from student
     </select>
 </mapper>

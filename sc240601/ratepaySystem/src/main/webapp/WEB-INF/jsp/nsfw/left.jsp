@@ -76,7 +76,7 @@
             <div class="sm">
 				
                 <dl class="">
-                    <dt><a class="yh" href="/jsp/user/listUI.jsp" target="mainFrame"><b></b>用户管理<s class="down"></s>
+                    <dt><a class="yh" href="/uuser/toListUI" target="mainFrame"><b></b>用户管理<s class="down"></s>
                     </a></dt>
                 </dl>
 

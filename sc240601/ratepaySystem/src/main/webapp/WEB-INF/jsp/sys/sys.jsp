@@ -1,4 +1,4 @@
-﻿﻿<%@ page contentType="text/html; charset=UTF-8"%>
+﻿﻿<%@ page contentType="text/html; charset=UTF-8" isELIgnored="false" %>
 <%
     pageContext.setAttribute("ctx", request.getContextPath()) ;
 %>
@@ -35,12 +35,12 @@
                     <td align="center"></td>
                     <td align="left"></td>
                     <td align="right">
-                        <a><b></b><font color="blue">欢迎您，${user.name }&nbsp;</font></a>
+                        <a><b></b><font color="blue">欢迎您，${sessionScope.loginUuser.name }&nbsp;</font></a>
                     </td>
                     <td align="center"><img src="/images/home/help.png" width="12" height="17"  /></td>
                     <td align="left"><a href="javascript:void(0);">帮助</a></td>
                     <td align="center"><img src="/images/home/exit.png" width="14" height="14"   /></td>
-                    <td align="left" valign="middle" ><a href="/jsp/login/loginUI.jsp">退出</a></td>
+                    <td align="left" valign="middle" ><a href="/uuser/exit">退出</a></td>
                 </tr>
             </table>
         </td>
@@ -50,11 +50,11 @@
 <!-- 导航{ -->
 <div class="menu">
     <ul class="clearfix">
-        <li class="hover"><a href="/jsp/sys/sys.jsp">工作主页</a></li>
+        <li class="hover"><a href="/uuser/toSys">工作主页</a></li>
         <li><a href="javascript:void(0);">行政管理</a></li>
         <li><a href="javascript:void(0);">后勤服务</a></li>
         <li><a href="javascript:void(0);">在线学习</a></li>       
-        <li><a href="/jsp/nsfw/frame.jsp">纳税服务</a> </li>
+        <li><a href="/uuser/toFrame">纳税服务</a> </li>
         <li><a href="javascript:void(0);">我的空间</a></li>
     </ul>
 </div>

@@ -89,7 +89,7 @@
 	<div class="banner">
 		<div class="menu">
 			<ul class="clearfix">
-				<li><a href="/jsp/sys/sys.jsp" target="_top">工作主页</a></li>
+				<li><a href="/uuser/toSys" target="_top">工作主页</a></li>
                 <li><a href="javascript:void(0);">行政管理</a></li>
                 <li><a href="javascript:void(0);">后勤服务</a></li>
                 <li><a href="javascript:void(0);">在线学习</a></li>

@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/emailSystemSpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/mailSystem" />
     <file type="web" url="file://$PROJECT_DIR$/Mybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisJoinSpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/ratepaySystem" />
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC" />
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/ratepaySystem/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC/pom.xml" />
         <option value="$PROJECT_DIR$/Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisJoinSpringMVC/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="emailSystem" />
+        <module name="servlet" />
         <module name="SpringMVC" />
         <module name="emailSystemSpringMVC" />
+        <module name="MybatisJoinSpringMVC" />
         <module name="ratepaySystem" />
-        <module name="servlet" />
         <module name="Mybatis" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="emailSystemSpringMVC" target="1.8" />
       <module name="mailSystem" target="1.7" />
       <module name="Mybatis" target="1.8" />
+      <module name="MybatisJoinSpringMVC" target="1.8" />
       <module name="ratepaySystem" target="1.8" />
       <module name="servlet" target="8" />
       <module name="Servlet" target="8" />

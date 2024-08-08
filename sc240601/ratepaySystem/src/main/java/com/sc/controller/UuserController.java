@@ -49,8 +49,44 @@ public class UuserController {
         }
     }
 
+    @RequestMapping("/exit")
+    public String exit(HttpServletRequest req){
+        req.getSession().removeAttribute("loginUuser");
+        return "redirect:/uuser/toLogin";
+    }
+
     @RequestMapping("/toSys")
     public String toSys(){
         return "/jsp/sys/sys";
+    }
+
+    @RequestMapping("/toFrame")
+    public String toFrame(){
+        return "/jsp/nsfw/frame";
+    }
+
+    @RequestMapping("/toBj")
+    public String toBj(){
+        return "/common/bg";
+    }
+
+    @RequestMapping("/toTop")
+    public String toTop(){
+        return "/jsp/nsfw/top";
+    }
+
+    @RequestMapping("/toLeft")
+    public String toLeft(){
+        return "/jsp/nsfw/left";
+    }
+
+    @RequestMapping("/toWelcome")
+    public String toWelcome(){
+        return "/common/welcome";
+    }
+
+    @RequestMapping("/toListUI")
+    public String toListUI(){
+        return "/jsp/user/listUI";
     }
 }

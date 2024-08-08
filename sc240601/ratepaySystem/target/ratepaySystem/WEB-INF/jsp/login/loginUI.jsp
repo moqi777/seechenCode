@@ -13,6 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>登录</title>
 <link href="/css/login.css" type="text/css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script type="text/javascript">
 	function logins() {
