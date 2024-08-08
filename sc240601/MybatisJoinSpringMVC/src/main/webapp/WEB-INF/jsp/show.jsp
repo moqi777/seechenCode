@@ -27,6 +27,7 @@
     }
 </style>
 <body>
+<button type="button" onclick="del()">删除所选</button>
 <button type="button" onclick="add()">新增</button>
 <div id="add">
     <h1>新增用户</h1>
@@ -43,26 +44,44 @@
 </div>
 <table border="1px" cellspacing="0px" cellpadding="5px">
     <tr>
+        <td><input type="checkbox" onchange="checkAll(this)"></td>
         <td>id</td>
         <td>用户名</td>
         <td>密码</td>
         <td>创建时间</td>
         <td>组id</td>
     </tr>
-    <c:forEach items="${list}" var="huser">
-        <tr>
-            <td>${huser.id}</td>
-            <td>${huser.username}</td>
-            <td>${huser.password}</td>
-            <td><fmt:formatDate value="${huser.createtime}" pattern="yyyy-MM-dd"/></td>
-            <td>${huser.did}</td>
-        </tr>
-    </c:forEach>
+    <form action="/huser/del" method="post" id="delFome">
+        <c:forEach items="${list}" var="huser">
+            <tr>
+                <td><input type="checkbox" name="check" value="${huser.id}"></td>
+                <td>${huser.id}</td>
+                <td>${huser.username}</td>
+                <td>${huser.password}</td>
+                <td><fmt:formatDate value="${huser.createtime}" pattern="yyyy-MM-dd"/></td>
+                <td>${huser.did}</td>
+            </tr>
+        </c:forEach>
+    </form>
 </table>
 </body>
 <script>
     let add = ()=>{
         document.getElementById("add").style="display:block;";
+    }
+    let checkAll = (checkAll)=>{
+        let check = document.getElementsByName("check");
+        check.forEach(value => {
+            if (checkAll.checked==true){
+                value.checked=true;
+            }else {
+                value.checked=false;
+            }
+        })
+    }
+    let del = ()=>{
+        let delFome = document.getElementById("delFome");
+        delFome.submit();
     }
 </script>
 </html>

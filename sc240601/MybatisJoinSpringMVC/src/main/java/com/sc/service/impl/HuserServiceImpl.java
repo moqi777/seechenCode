@@ -29,4 +29,15 @@ public class HuserServiceImpl implements HuserService {
         MybatisUtil.close();
         return i;
     }
+
+    public void delHuserByIds(int[] ids) {
+        HuserMapper mapper = MybatisUtil.getMapper(HuserMapper.class);
+        for (int id : ids) {
+            mapper.deleteByPrimaryKey(id);
+        }
+        MybatisUtil.close();
+        return;
+    }
+
+
 }

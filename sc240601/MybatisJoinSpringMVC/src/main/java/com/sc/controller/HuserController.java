@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -32,6 +33,12 @@ public class HuserController {
     public String add(Huser huser){
         huser.setCreatetime(new Date());
         huserService.insertHuser(huser);
+        return "redirect:/huser/toShow";
+    }
+
+    @RequestMapping("/del")
+    public String del(int[] check){
+        huserService.delHuserByIds(check);
         return "redirect:/huser/toShow";
     }
 }

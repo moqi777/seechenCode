@@ -10,35 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="ok">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/Mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/Mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/Mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/Mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/Mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/Mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/login/loginUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/login/loginUI.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/frame.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/frame.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/sys/sys.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/sys/sys.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/SpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/SpringMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/SpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/SpringMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/controller/UuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/controller/UuserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/login/loginUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/login/loginUI.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/frame.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/frame.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/sys/sys.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/sys/sys.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/controller/HuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/controller/HuserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/HuserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/HuserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/impl/HuserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/impl/HuserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/webapp/WEB-INF/jsp/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/webapp/WEB-INF/jsp/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/classes/com/sc/controller/HuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/classes/com/sc/controller/HuserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/mybatis/WEB-INF/classes/com/sc/controller/HuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/mybatis/WEB-INF/classes/com/sc/controller/HuserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/mybatis/WEB-INF/jsp/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/mybatis/WEB-INF/jsp/show.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1051,7 +1030,7 @@
       <workItem from="1722925430811" duration="20003000" />
       <workItem from="1722992837399" duration="4258000" />
       <workItem from="1723004319476" duration="49423000" />
-      <workItem from="1723116987681" duration="5009000" />
+      <workItem from="1723116987681" duration="7081000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
