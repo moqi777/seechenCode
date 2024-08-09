@@ -1,11 +1,10 @@
 package com.sc.service.impl;
 
-import com.sc.mapper.HuserMapper;
+import com.sc.dao.HuserMapper;
 import com.sc.pojo.Huser;
 import com.sc.service.HuserService;
 import com.sc.util.MybatisUtil;
 
-import java.util.Date;
 import java.util.List;
 
 /**

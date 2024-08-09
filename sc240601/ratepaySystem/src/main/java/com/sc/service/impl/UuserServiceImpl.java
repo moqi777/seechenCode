@@ -1,9 +1,12 @@
 package com.sc.service.impl;
 
-import com.sc.mapper.UuserDao;
-import com.sc.mapper.impl.UuserDaoimpl;
+import com.sc.dao.UuserDao;
+import com.sc.dao.impl.UuserDaoimpl;
 import com.sc.pojo.Uuser;
 import com.sc.service.UuserService;
+import com.sc.util.PageUtil;
+
+import java.util.List;
 
 /**
  * @author:zhengYiLong
@@ -21,5 +24,18 @@ public class UuserServiceImpl implements UuserService {
         if (uuser==null) return "用户不存在";
         if (!uuser.getPassword().equals(pwd)) return "密码错误";
         return uuser;
+    }
+
+    @Override
+    public PageUtil<Uuser> showAllUuserLimli(int currentIndex, int pageSize) {
+        PageUtil<Uuser> pageUtil = new PageUtil<>();
+        pageUtil.setCurrentIndex(currentIndex);
+        pageUtil.setPageSize(pageSize);
+        //查询数据库总条数
+        int count = uuserDao.selectUuserCount();
+        pageUtil.setTotalCount(count);
+        List<Uuser> list = uuserDao.selectUuserLimit(pageUtil);
+        pageUtil.setList(list);
+        return pageUtil;
     }
 }

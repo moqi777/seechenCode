@@ -1,7 +1,6 @@
 package day1;
 
-import com.sc.mapper.Mybatis_empMapper;
-import com.sc.pojo.Mybatis_emp;
+import com.sc.dao.Mybatis_empMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

@@ -1,6 +1,6 @@
-package com.sc.mapper.Impl;
+package com.sc.dao.Impl;
 
-import com.sc.mapper.WordsDao;
+import com.sc.dao.WordsDao;
 import com.sc.pojo.Words;
 import com.sc.util.DBUtil;
 

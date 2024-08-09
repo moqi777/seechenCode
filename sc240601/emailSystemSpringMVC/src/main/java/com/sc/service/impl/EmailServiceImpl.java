@@ -1,9 +1,9 @@
 package com.sc.service.impl;
 
-import com.sc.mapper.EmailDao;
-import com.sc.mapper.EmailUserDao;
-import com.sc.mapper.Impl.EmailDaoImpl;
-import com.sc.mapper.Impl.EmailUserDaoImpl;
+import com.sc.dao.EmailDao;
+import com.sc.dao.EmailUserDao;
+import com.sc.dao.Impl.EmailDaoImpl;
+import com.sc.dao.Impl.EmailUserDaoImpl;
 import com.sc.pojo.Email;
 import com.sc.pojo.EmailUser;
 import com.sc.pojo.Page;

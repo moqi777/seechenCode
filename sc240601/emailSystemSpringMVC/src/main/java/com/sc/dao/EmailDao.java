@@ -1,4 +1,4 @@
-package com.sc.mapper;
+package com.sc.dao;
 
 import com.sc.pojo.Email;
 import com.sc.pojo.Page;

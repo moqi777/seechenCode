@@ -1,4 +1,4 @@
-import com.sc.mapper.HuserMapper;
+import com.sc.dao.HuserMapper;
 import com.sc.pojo.Huser;
 import com.sc.util.MybatisUtil;
 import org.junit.Test;

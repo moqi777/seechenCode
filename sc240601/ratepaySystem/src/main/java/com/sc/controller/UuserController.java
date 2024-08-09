@@ -4,6 +4,7 @@ import com.sc.pojo.Result;
 import com.sc.pojo.Uuser;
 import com.sc.service.UuserService;
 import com.sc.service.impl.UuserServiceImpl;
+import com.sc.util.PageUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -86,7 +87,19 @@ public class UuserController {
     }
 
     @RequestMapping("/toListUI")
-    public String toListUI(){
+    public String toListUI(Integer currentIndex,Integer pageSize,HttpSession session,HttpServletRequest req){
+        if (pageSize==null){
+            if (session.getAttribute("pageSize")==null){
+                session.setAttribute("pageSize",5);
+                pageSize=5;
+            }else {
+                pageSize=(int)session.getAttribute("pageSize");
+            }
+        }else {
+            session.setAttribute("pageSize",pageSize);
+        }
+        PageUtil<Uuser> pageUtil = uuserService.showAllUuserLimli(currentIndex, pageSize);
+        req.setAttribute("page",pageUtil);
         return "/jsp/user/listUI";
     }
 }

@@ -1,6 +1,9 @@
-package com.sc.mapper;
+package com.sc.dao;
 
 import com.sc.pojo.Uuser;
+import com.sc.util.PageUtil;
+
+import java.util.List;
 
 /**
  * @author:zhengYiLong
@@ -11,4 +14,6 @@ import com.sc.pojo.Uuser;
  **/
 public interface UuserDao {
     Uuser selectToAccount(String account);
+    int selectUuserCount();
+    List<Uuser> selectUuserLimit(PageUtil<Uuser> pageUtil);
 }

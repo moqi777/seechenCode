@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="MybatisJoinSpringMVC:war exploded" />
+      <artifact name="ratepaySystem:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,14 +10,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="ok">
+      <change afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/dao/StudentMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/controller/HuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/controller/HuserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/HuserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/HuserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/mapper/HuserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/dao/HuserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/mapper/Mybatis_empMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/dao/Mybatis_empMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/mapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/src/test/java/day1/TestMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/test/java/day1/TestMybatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/src/test/java/day1/TestMybatis_emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/test/java/day1/TestMybatis_emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/src/test/java/day2/TestMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/test/java/day2/TestMybatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/com/sc/mapper/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/com/sc/mapper/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/mapper/HuserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/dao/HuserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/impl/HuserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/impl/HuserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/webapp/WEB-INF/jsp/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/webapp/WEB-INF/jsp/show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/classes/com/sc/controller/HuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/classes/com/sc/controller/HuserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/mybatis/WEB-INF/classes/com/sc/controller/HuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/mybatis/WEB-INF/classes/com/sc/controller/HuserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/mybatis/WEB-INF/jsp/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/target/mybatis/WEB-INF/jsp/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/test/java/TestHuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/test/java/TestHuser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/mapper/UsermvcDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/dao/UsermvcDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/mapper/impl/UsermvcDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/dao/impl/UsermvcDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/service/impl/UsermvcServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/service/impl/UsermvcServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/filter/SensitiveFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/filter/SensitiveFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/EmailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/EmailDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/EmailUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/EmailUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/Impl/EmailDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/Impl/EmailDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/Impl/EmailUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/Impl/EmailUserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/Impl/WordsDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/Impl/WordsDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/WordsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/WordsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/mapper/UuserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/dao/UuserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/mapper/impl/UuserDaoimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/dao/impl/UuserDaoimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/UuserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/UuserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/impl/UuserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/impl/UuserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/listUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/mapper/UuserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/mapper/impl/UuserDaoimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/UuserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/UuserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/impl/UuserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/impl/UuserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/controller/UuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/controller/UuserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/mapper/UuserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/mapper/impl/UuserDaoimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/service/UuserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/service/UuserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/service/impl/UuserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/service/impl/UuserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/user/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/user/listUI.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +105,10 @@
         <option value="jsf" />
         <option value="FxmlFile" />
         <option value="mybatis_mapper" />
-        <option value="spring-beans.schema" />
         <option value="Mybatis Config" />
         <option value="Jsp File" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -314,7 +356,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat_mybatisJoinSpringMVC">
+  <component name="RunManager" selected="Tomcat Server.Tomcat_ratepaySystem">
     <configuration name="Email" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pojo.Email" />
       <module name="emailSystem" />
@@ -341,69 +383,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHuser.testInsertHuser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisJoinSpringMVC" />
+    <configuration name="TestDB.testSELECTCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ratepaySystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHuser" />
-      <option name="METHOD_NAME" value="testInsertHuser" />
+      <option name="MAIN_CLASS_NAME" value="TestDB" />
+      <option name="METHOD_NAME" value="testSELECTCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHuser.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisJoinSpringMVC" />
+    <configuration name="TestMybatis.str" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day3" />
+      <option name="MAIN_CLASS_NAME" value="day3.TestMybatis" />
+      <option name="METHOD_NAME" value="str" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testquerySelective1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day3" />
+      <option name="MAIN_CLASS_NAME" value="day3.TestMybatis" />
+      <option name="METHOD_NAME" value="testquerySelective1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testquerySelective2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day3" />
+      <option name="MAIN_CLASS_NAME" value="day3.TestMybatis" />
+      <option name="METHOD_NAME" value="testquerySelective2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tst.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ratepaySystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHuser" />
-      <option name="METHOD_NAME" value="testSelectAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMybatis.testBatchDel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day2" />
-      <option name="MAIN_CLASS_NAME" value="day2.TestMybatis" />
-      <option name="METHOD_NAME" value="testBatchDel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMybatis.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day2" />
-      <option name="MAIN_CLASS_NAME" value="day2.TestMybatis" />
-      <option name="METHOD_NAME" value="testSelect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMybatis.testSelectMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day2" />
-      <option name="MAIN_CLASS_NAME" value="day2.TestMybatis" />
-      <option name="METHOD_NAME" value="testSelectMap" />
+      <option name="MAIN_CLASS_NAME" value="Tst" />
+      <option name="METHOD_NAME" value="t" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -952,25 +994,25 @@
     <list>
       <item itemvalue="Application.TestTransaction" />
       <item itemvalue="Application.Email" />
-      <item itemvalue="JUnit.TestMybatis.testBatchDel" />
-      <item itemvalue="JUnit.TestMybatis.testSelectMap" />
-      <item itemvalue="JUnit.TestMybatis.testSelect" />
+      <item itemvalue="JUnit.TestMybatis.testquerySelective1" />
+      <item itemvalue="JUnit.TestMybatis.testquerySelective2" />
+      <item itemvalue="JUnit.TestMybatis.str" />
+      <item itemvalue="JUnit.Tst.t" />
       <item itemvalue="Tomcat Server.Tomcat_servlet" />
       <item itemvalue="Tomcat Server.Tomcat_emailSystem" />
       <item itemvalue="Tomcat Server.Tomcat_emailSystemSpringMVC" />
       <item itemvalue="Tomcat Server.Tomcat_ratepaySystem" />
       <item itemvalue="Tomcat Server.Tomcat_mybatisJoinSpringMVC" />
       <item itemvalue="Tomcat Server.Tomcat_SpringMVC" />
-      <item itemvalue="JUnit.TestHuser.testSelectAll" />
-      <item itemvalue="JUnit.TestHuser.testInsertHuser" />
+      <item itemvalue="JUnit.TestDB.testSELECTCount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestHuser.testInsertHuser" />
-        <item itemvalue="JUnit.TestHuser.testSelectAll" />
-        <item itemvalue="JUnit.TestMybatis.testSelect" />
-        <item itemvalue="JUnit.TestMybatis.testSelectMap" />
-        <item itemvalue="JUnit.TestMybatis.testBatchDel" />
+        <item itemvalue="JUnit.TestDB.testSELECTCount" />
+        <item itemvalue="JUnit.Tst.t" />
+        <item itemvalue="JUnit.TestMybatis.str" />
+        <item itemvalue="JUnit.TestMybatis.testquerySelective1" />
+        <item itemvalue="JUnit.TestMybatis.testquerySelective2" />
       </list>
     </recent_temporary>
   </component>
@@ -1031,6 +1073,8 @@
       <workItem from="1722992837399" duration="4258000" />
       <workItem from="1723004319476" duration="49423000" />
       <workItem from="1723116987681" duration="7081000" />
+      <workItem from="1723169522753" duration="7408000" />
+      <workItem from="1723188969475" duration="8006000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>

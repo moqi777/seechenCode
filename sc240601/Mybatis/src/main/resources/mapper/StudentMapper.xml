@@ -16,7 +16,119 @@
         <!--sql语句一定不要加分号，否则报错很难发现问题-->
         insert into student values(null,#{sname},#{ssex},#{sbirthday},#{classname});
     </insert>
+    <insert id="addSelective">
+        insert into student
+        <trim prefix="(" suffix=")" suffixOverrides=","><!-- 描述(列1,列2) -->
+            <if test="sno!=null">
+                sno,
+            </if>
+            <if test="sname!=null">
+                sname,
+            </if>
+            <if test="ssex!=null">
+                ssex,
+            </if>
+            <if test="sbirthday!=null">
+                sbirthday,
+            </if>
+            <if test="classname!=null">
+                class,
+            </if>
+        </trim>
+        <trim prefix="value(" suffix=")" suffixOverrides=","> <!-- 描述values(值1,值2) -->
+            <if test="sno!=null">
+                #{sno},
+            </if>
+            <if test="sname!=null">
+                #{sname},
+            </if>
+            <if test="ssex!=null">
+                #{ssex},
+            </if>
+            <if test="sbirthday!=null">
+                #{sbirthday},
+            </if>
+            <if test="classname!=null">
+                #{class},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateSelecttive1">
+        update student
+        <set><!--动态添加关键字，还能去除多余的句号-->
+            <if test="sname!=null">
+                sname=#{sname},
+            </if>
+            <if test="ssex!=null">
+                ssex=#{ssex},
+            </if>
+            <if test="sbirthday!=null">
+                sbirthday=#{sbirthday},
+            </if>
+            <if test="classname!=null">
+                class=#{classname},
+            </if>
+        </set>
+        where sno=#{sno}
+    </update>
+    <update id="updateSelecttive2">
+        update student
+        <trim prefix="set " suffixOverrides=",">
+            <if test="sname!=null">
+                sname=#{sname},
+            </if>
+            <if test="ssex!=null">
+                ssex=#{ssex},
+            </if>
+            <if test="sbirthday!=null">
+                sbirthday=#{sbirthday},
+            </if>
+            <if test="classname!=null">
+                class=#{classname},
+            </if>
+        </trim>
+        where sno=#{sno}
+    </update>
     <select id="show" resultMap="student">
         select * from student
+    </select>
+    <select id="querySelective1" resultMap="student">
+        select *
+        from student
+        <where> <!--能够实现jdbc类似于where 1=1 帮你添加where 还可以动态去除多余的and-->
+            <if test="sname!=null">
+                <!--可以对sname属性值 做二次处理生成新的变量-->
+                <bind name="newName" value="'%'+sname+'%'"/>
+                and sname like #{newName}
+            </if>
+            <if test="sbirthday!=null">
+                and sbirthday=#{sbirthday}
+            </if>
+            <if test="ssex!=null">
+                and ssex=#{ssex}
+            </if>
+            <if test="classname!=null">
+                and class=#{classname}
+            </if>
+        </where>
+    </select>
+    <select id="querySelective2" resultMap="student">
+        select * from student
+        <trim prefix="where " prefixOverrides="and">
+            <if test="sname!=null">
+                <!--可以对sname属性值 做二次处理生成新的变量-->
+                <bind name="newName" value="'%'+sname+'%'"/>
+                and sname like #{newName}
+            </if>
+            <if test="sbirthday!=null">
+                and sbirthday=#{sbirthday}
+            </if>
+            <if test="ssex!=null">
+                and ssex=#{ssex}
+            </if>
+            <if test="classname!=null">
+                and class=#{classname}
+            </if>
+        </trim>
     </select>
 </mapper>

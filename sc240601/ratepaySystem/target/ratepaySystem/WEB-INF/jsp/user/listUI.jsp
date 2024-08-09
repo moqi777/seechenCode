@@ -1,4 +1,5 @@
-﻿<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+﻿<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <%
     pageContext.setAttribute("basePath", request.getContextPath()+"/") ;
 %>
@@ -29,7 +30,7 @@
                 <div class="t_list" style="margin:0px; border:0px none;">
                     <table width="100%" border="0">
                         <tr class="t_tit">
-                            <td width="30" align="center"><input type="checkbox" id="selAll" onclick="doSelectAll()" /></td>
+                            <td width="30" align="center"><input type="checkbox" onclick="doSelectAll()" /></td>
                             <td width="140" align="center">用户名</td>
                             <td width="140" align="center">帐号</td>
                             <td width="160" align="center">所属部门</td>
@@ -37,18 +38,24 @@
                             <td align="center">电子邮箱</td>
                             <td width="100" align="center">操作</td>
                         </tr>
-                       		<tr >
-                            <td width="30" align="center"><input type="checkbox" id="selAll"  /></td>
-                            <td width="140" align="center">dd</td>
-                            <td width="140" align="center">asdfasd</td>
-                            <td width="160" align="center">dddd</td>
-                            <td width="80" align="center">男</td>
-                            <td align="center">123@qq.com</td>
-                            <td width="100" align="center"><a href="editUI.jsp">修改</a> <a href="#">删除</a></td>
-                        </tr>
+                        <c:forEach var="uuser" items="${page.list}">
+                            <tr >
+                                <td width="30" align="center"><input type="checkbox" id="selAll"/></td>
+                                <td width="140" align="center">${uuser.name}</td>
+                                <td width="140" align="center">${uuser.account}</td>
+                                <td width="160" align="center">${uuser.dept}</td>
+                                <td width="80" align="center"><c:if test="${uuser.gender==true}">男</c:if><c:if test="${uuser.gender==false}">女</c:if></td>
+                                <td align="center">${uuser.email}</td>
+                                <td width="100" align="center"><a href="editUI.jsp">修改</a> <a href="#">删除</a></td>
+                            </tr>
+                        </c:forEach>
                     </table>
                 </div>
             </div>
+            <li style="float:right;">
+                <input type="button" value="上一页" class="s_button"/>&nbsp;
+                <input type="button" value="下一页" class="s_button"/>&nbsp;
+            </li>
         </div>
     </div>
 </form>

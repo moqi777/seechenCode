@@ -60,7 +60,7 @@
             注意，如果context是MyBatis3Simple：只支持ANNOTATEDMAPPER和XMLMAPPER
         -->
 		<!--设置mapper接口包的位置-->
-		<javaClientGenerator targetPackage="com.sc.mapper"
+		<javaClientGenerator targetPackage="com.sc.dao"
 			targetProject="src/main/java" type="XMLMAPPER" />
 
 		<!-- 需要逆向 enableCountByExample="false" enableUpdateByExample="false"

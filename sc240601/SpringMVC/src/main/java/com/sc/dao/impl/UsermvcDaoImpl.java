@@ -1,6 +1,6 @@
-package com.sc.mapper.impl;
+package com.sc.dao.impl;
 
-import com.sc.mapper.UsermvcDao;
+import com.sc.dao.UsermvcDao;
 import com.sc.pojo.Usermvc;
 import com.sc.util.DBUtil;
 

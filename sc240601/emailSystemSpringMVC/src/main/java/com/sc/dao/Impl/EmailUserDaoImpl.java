@@ -1,6 +1,6 @@
-package com.sc.mapper.Impl;
+package com.sc.dao.Impl;
 
-import com.sc.mapper.EmailUserDao;
+import com.sc.dao.EmailUserDao;
 import com.sc.pojo.EmailUser;
 import com.sc.util.DBUtil;
 

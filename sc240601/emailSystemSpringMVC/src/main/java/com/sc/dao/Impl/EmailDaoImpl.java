@@ -1,6 +1,6 @@
-package com.sc.mapper.Impl;
+package com.sc.dao.Impl;
 
-import com.sc.mapper.EmailDao;
+import com.sc.dao.EmailDao;
 import com.sc.pojo.Email;
 import com.sc.pojo.Page;
 import com.sc.util.DBUtil;

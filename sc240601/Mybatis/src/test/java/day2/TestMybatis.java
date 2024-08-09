@@ -1,7 +1,7 @@
 package day2;
 
-import com.sc.mapper.HuserMapper;
-import com.sc.mapper.StudentMapper;
+import com.sc.dao.HuserMapper;
+import com.sc.dao.StudentMapper;
 import com.sc.pojo.Huser;
 import com.sc.pojo.Student;
 import com.sc.util.MybatisUtil;

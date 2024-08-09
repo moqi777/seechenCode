@@ -78,7 +78,7 @@
                         <td align="center"><img src="/images/nsfw/help.png" width="12"height="17" /></td>
 						<td align="left"><a href="javascript:void(0)">帮助</a></td>
 						<td width="17" align="center"><img src="/images/nsfw/exit.png"width="14" height="14"/></td>
-						<td align="left" valign="middle"><a href="/jsp/login/loginUI.jsp" target="_top">退出</a></td>
+						<td align="left" valign="middle"><a href="/uuser/exit" target="_top">退出</a></td>
 					</tr>
 				</table>
 			</td>
