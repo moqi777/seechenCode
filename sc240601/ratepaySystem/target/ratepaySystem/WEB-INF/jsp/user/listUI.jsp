@@ -52,13 +52,53 @@
                     </table>
                 </div>
             </div>
-            <li style="float:right;">
-                <input type="button" value="上一页" class="s_button"/>&nbsp;
-                <input type="button" value="下一页" class="s_button"/>&nbsp;
+            <li style="float:right;margin: 15px">
+                <input type="button" value="首页" class="s_button" onclick="first()"/>&nbsp;
+                <input type="button" value="上一页" class="s_button" onclick="last()"/>&nbsp;
+
+                <c:forEach begin="1" end="${page.totalPage}" var="i">
+                    <span style="cursor: pointer;
+                    <c:if test="${page.currentIndex==i}">background-color: #add8ee;</c:if>
+                                width: 100px;height: 20px;border: 1px solid black;
+                            border-radius: 100%;font-weight: bolder;"
+                          <c:if test="${page.currentIndex!=i}">onclick="location.href='/uuser/toListUI?currentIndex='+'${i}'" </c:if>>
+                        &nbsp;&nbsp;${i}&nbsp;&nbsp;
+                    </span>
+                </c:forEach>
+
+                <input type="button" value="下一页" class="s_button" onclick="next()"/>&nbsp;
+                <input type="button" value="尾页" class="s_button" onclick="end()"/>&nbsp;
+
+                显示页数：<select onchange="location.href='/uuser/toListUI?currentIndex=1&pageSize='+this.value">
+                            <option <c:if test="${pageSize==5}">selected</c:if> value="5">5页</option>
+                            <option <c:if test="${pageSize==10}">selected</c:if> value="10">10页</option>
+                            <option <c:if test="${pageSize==20}">selected</c:if> value="20">20页</option>
+                        </select>
             </li>
         </div>
     </div>
 </form>
-
+<script>
+    let first = ()=>{
+        if ("${page.currentIndex}"!=1){
+            location.href="/uuser/toListUI?currentIndex=1";
+        }
+    }
+    let end = ()=>{
+        if ("${page.currentIndex}"!="${page.totalPage}"){
+            location.href="/uuser/toListUI?currentIndex="+"${page.totalPage}";
+        }
+    }
+    let next = ()=>{
+        if ("${page.currentIndex}"!="${page.totalPage}"){
+            location.href="/uuser/toListUI?currentIndex="+"${page.currentIndex+1}";
+        }
+    }
+    let last = ()=>{
+        if ("${page.currentIndex}"!=1){
+            location.href="/uuser/toListUI?currentIndex="+"${page.currentIndex-1}";
+        }
+    }
+</script>
 </body>
 </html>

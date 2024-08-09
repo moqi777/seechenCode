@@ -9,56 +9,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="ok">
-      <change afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/dao/StudentMapper.java" afterDir="false" />
+    <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="Ok">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ratepaySystem_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ratepaySystem_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ratepaySystem_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ratepaySystem_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/mapper/HuserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/dao/HuserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/mapper/Mybatis_empMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/dao/Mybatis_empMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/java/com/sc/mapper/StudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/test/java/day1/TestMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/test/java/day1/TestMybatis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/test/java/day1/TestMybatis_emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/test/java/day1/TestMybatis_emp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/test/java/day2/TestMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/test/java/day2/TestMybatis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/com/sc/mapper/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/com/sc/mapper/StudentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/mapper/HuserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/dao/HuserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/impl/HuserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/java/com/sc/service/impl/HuserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/test/java/TestHuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/test/java/TestHuser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/mapper/UsermvcDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/dao/UsermvcDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/mapper/impl/UsermvcDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/dao/impl/UsermvcDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/service/impl/UsermvcServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/com/sc/service/impl/UsermvcServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/filter/SensitiveFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/filter/SensitiveFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/EmailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/EmailDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/EmailUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/EmailUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/Impl/EmailDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/Impl/EmailDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/Impl/EmailUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/Impl/EmailUserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/Impl/WordsDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/Impl/WordsDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/mapper/WordsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/dao/WordsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/java/com/sc/service/impl/EmailUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/mapper/UuserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/dao/UuserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/mapper/impl/UuserDaoimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/dao/impl/UuserDaoimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/UuserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/UuserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/impl/UuserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/impl/UuserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/pojo/Uuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/pojo/Uuser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/resources/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/listUI.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/mapper/UuserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/mapper/impl/UuserDaoimpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/UuserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/UuserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/impl/UuserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/impl/UuserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/controller/UuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/controller/UuserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/mapper/UuserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/mapper/impl/UuserDaoimpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/service/UuserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/service/UuserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/service/impl/UuserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/classes/com/sc/service/impl/UuserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/nsfw/top.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/user/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/ratepaySystem/WEB-INF/jsp/user/listUI.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,11 +65,11 @@
         <option value="jsf" />
         <option value="FxmlFile" />
         <option value="mybatis_mapper" />
-        <option value="Mybatis Config" />
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Mybatis Config" />
       </list>
     </option>
   </component>
@@ -998,13 +958,13 @@
       <item itemvalue="JUnit.TestMybatis.testquerySelective2" />
       <item itemvalue="JUnit.TestMybatis.str" />
       <item itemvalue="JUnit.Tst.t" />
+      <item itemvalue="JUnit.TestDB.testSELECTCount" />
       <item itemvalue="Tomcat Server.Tomcat_servlet" />
       <item itemvalue="Tomcat Server.Tomcat_emailSystem" />
       <item itemvalue="Tomcat Server.Tomcat_emailSystemSpringMVC" />
       <item itemvalue="Tomcat Server.Tomcat_ratepaySystem" />
       <item itemvalue="Tomcat Server.Tomcat_mybatisJoinSpringMVC" />
       <item itemvalue="Tomcat Server.Tomcat_SpringMVC" />
-      <item itemvalue="JUnit.TestDB.testSELECTCount" />
     </list>
     <recent_temporary>
       <list>
@@ -1074,7 +1034,8 @@
       <workItem from="1723004319476" duration="49423000" />
       <workItem from="1723116987681" duration="7081000" />
       <workItem from="1723169522753" duration="7408000" />
-      <workItem from="1723188969475" duration="8006000" />
+      <workItem from="1723188969475" duration="13273000" />
+      <workItem from="1723210898311" duration="231000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
@@ -1174,7 +1135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721791204741</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Ok">
+      <created>1723197129233</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723197129233</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1284,7 +1252,8 @@
     <MESSAGE value="一阶段结束综合项目兜兜5G十个基本功能已全部实现" />
     <MESSAGE value="依托答辩" />
     <MESSAGE value="ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+    <MESSAGE value="Ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ok" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

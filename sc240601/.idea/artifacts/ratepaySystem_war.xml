@@ -9,7 +9,7 @@
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="ratepaySystem.war">
+    <root id="archive" name="mybatis.war">
       <element id="artifact" artifact-name="ratepaySystem:war exploded" />
     </root>
   </artifact>
