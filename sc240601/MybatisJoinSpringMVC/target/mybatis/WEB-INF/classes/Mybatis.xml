@@ -23,5 +23,7 @@
 
     <mappers>
         <mapper resource="mapper/HuserMapper.xml"></mapper>
+        <mapper resource="mapper/HuserinfoMapper.xml"></mapper>
+        <mapper resource="mapper/HdeptMapper.xml"></mapper>
     </mappers>
 </configuration>

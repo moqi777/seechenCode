@@ -1,13 +1,19 @@
 package com.sc.pojo;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.Date;
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
+//切记：关联映射 根据需求来 不要做双向关联
 public class Huser implements Serializable {
+    //1:1关联属性
+    private Huserinfo info;
+
     private Integer id;
 
     private String username;
@@ -19,6 +25,14 @@ public class Huser implements Serializable {
     private Integer did;
 
     private static final long serialVersionUID = 1L;
+
+    public Huser(Integer id, String username, String password, Date createtime, Integer did) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.createtime = createtime;
+        this.did = did;
+    }
 
     public Integer getId() {
         return id;

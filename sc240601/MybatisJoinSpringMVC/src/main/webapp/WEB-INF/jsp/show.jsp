@@ -15,7 +15,8 @@
 <style>
     #add{
         width: 400px;
-        height: 250px;
+        height: 400px;
+        background-color: white;
         border: 1px solid black;
         align-content: center;
         align-items: center;
@@ -34,22 +35,33 @@
     <form action="/huser/add" method="post">
         <p>用户名：<input type="text" name="username"></p>
         <p>密码：<input type="password" name="password"></p>
-        <select name="did">
+        <p>年龄：<input name="info.age"></p>
+        <p>
+            性别：<select name="info.sex">
+                <option value="1">男</option>
+                <option value="0">女</option>
+            </select>
+        </p>
+        <p>
+            部门：<select name="did">
             <option value="1">技术部</option>
             <option value="2">体育部</option>
             <option value="3">项目部</option>
-        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </select>
+        </p>
         <button type="submit" onclick="this.style='display: none'">提交</button>
     </form>
 </div>
 <table border="1px" cellspacing="0px" cellpadding="5px">
     <tr>
         <td><input type="checkbox" onchange="checkAll(this)"></td>
-        <td>id</td>
-        <td>用户名</td>
+        <td>用户编号</td>
+        <td>账号</td>
         <td>密码</td>
-        <td>创建时间</td>
-        <td>组id</td>
+        <td>时间</td>
+        <td>性别</td>
+        <td>年龄</td>
+        <td>部门名称</td>
     </tr>
     <form action="/huser/del" method="post" id="delFome">
         <c:forEach items="${list}" var="huser">
@@ -59,7 +71,9 @@
                 <td>${huser.username}</td>
                 <td>${huser.password}</td>
                 <td><fmt:formatDate value="${huser.createtime}" pattern="yyyy-MM-dd"/></td>
-                <td>${huser.did}</td>
+                <td>${huser.info.sex}</td>
+                <td>${huser.info.age}</td>
+                <td>${huser.dept.deptname}</td>
             </tr>
         </c:forEach>
     </form>

@@ -16,11 +16,34 @@
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="createtime" jdbcType="DATE" property="createtime" />
     <result column="did" jdbcType="INTEGER" property="did" />
+    <!--  关联属性 property描述对象 collection描述集合-->
+    <!--  实现方式有两种：1.借助于多表查询 封装两个类的信息-->
+    <!--  实现方式有两种：2.借助于其他Mapper接口方法来实现映射关系-->
+    <!--  property：关联属性名    javaType：关联的属性的类型-->
+    <association property="info" javaType="com.sc.pojo.Huserinfo"/>
+  </resultMap>
+
+  <resultMap id="BaseResultMap2" type="com.sc.pojo.Huser">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="createtime" jdbcType="DATE" property="createtime" />
+    <result column="did" jdbcType="INTEGER" property="did" />
+    <!--第二种方式：使用两次的查询 实现 映射关系
+        property：关联属性名
+        column：调用mapper接口方法需要的参数
+        select：调用其他mapper接口全类名+方法名-->
+    <association property="info" column="id" select="com.sc.mapper.HuserinfoMapper.selectByPrimaryKey"/>
   </resultMap>
   <!--用于定义sql语句 可以重用的片段 也可以配多个
       下面所有的标签都可以通过include标签来包含-->
   <sql id="Base_Column_List">
     id, username, password, createtime, did
+  </sql>
+  <sql id="user_info">
+    i.id,u.username,u.password,
+    u.createtime,u.did,i.id,i.sex,
+    i.age,i.mess
   </sql>
   <!--增 删 改 查标签 都必须id和mapper接口方法对应-->
   <!--查询语句标签：必须添加resultMap 或 resultType
@@ -50,6 +73,25 @@
     where password=#{pw}
     limit #{begin},#{length}
   </select>
+  <!--mybatis想实现关联映射 借助于resultMap标签实现的-->
+  <select id="selectById" resultMap="BaseResultMap">
+    select
+    <include refid="user_info"></include>
+    from huser u,huserinfo i
+    where u.id=i.id and u.id=#{id}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select
+    <include refid="user_info"></include>
+    from huser u,huserinfo i
+    where u.id=i.id
+  </select>
+  <select id="selectById2" resultMap="BaseResultMap2">
+    select * from huser where id=#{id}
+  </select>
+  <select id="selectByDid" resultMap="BaseResultMap2">
+    select * from huser where did=#{did}
+  </select>
   <delete id="deleteByPrimaryKey">
     delete from huser
     where id = #{id}
@@ -74,7 +116,7 @@
       #{createtime}, #{did})
   </insert>
   <!--动态新增：根据传入参数属性 如果指定列有值 就插入 否则不插入-->
-  <insert id="insertSelective">
+  <insert id="insertSelective" useGeneratedKeys="true" keyProperty="id">
     insert into huser
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">

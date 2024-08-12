@@ -34,6 +34,10 @@
             url：网络请求 访问映射文件-->
         <mapper resource="mapper/StudentMapper.xml"/>
         <mapper resource="mapper/Mybatis_empMapper.xml"/>
+        <mapper resource="mapper/HdeptMapper.xml"/>
         <mapper resource="mapper/HuserMapper.xml"/>
+        <mapper resource="mapper/HuserinfoMapper.xml"/>
+        <mapper resource="mapper/SstudentMapper.xml"/>
+        <mapper resource="mapper/SteacherMapper.xml"/>
     </mappers>
 </configuration>

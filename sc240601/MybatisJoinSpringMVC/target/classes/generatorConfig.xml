@@ -60,7 +60,7 @@
             注意，如果context是MyBatis3Simple：只支持ANNOTATEDMAPPER和XMLMAPPER
         -->
 		<!--设置mapper接口包的位置-->
-		<javaClientGenerator targetPackage="com.sc.mapper"
+		<javaClientGenerator targetPackage="com.sc.dao"
 			targetProject="src/main/java" type="XMLMAPPER" />
 
 		<!-- 需要逆向 enableCountByExample="false" enableUpdateByExample="false"
@@ -73,7 +73,12 @@
 			映射文件：会追加 映射文件内的标签会再添加一遍 会报错
 			如何防止：用完就注
 		-->
-		<table tableName="huser" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+		<table tableName="huserinfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+			   enableSelectByExample="false" selectByExampleQueryId="false">
+			<!--<columnOverride column="ID" javaType="java.lang.Integer"></columnOverride>
+			<columnOverride column="dept" javaType="java.lang.Integer"></columnOverride>-->
+		</table>
+		<table tableName="hdept" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
 			   enableSelectByExample="false" selectByExampleQueryId="false">
 			<!--<columnOverride column="ID" javaType="java.lang.Integer"></columnOverride>
 			<columnOverride column="dept" javaType="java.lang.Integer"></columnOverride>-->

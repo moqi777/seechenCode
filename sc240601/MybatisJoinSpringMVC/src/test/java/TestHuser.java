@@ -1,6 +1,8 @@
-import com.sc.dao.HuserMapper;
-import com.sc.pojo.Huser;
-import com.sc.util.MybatisUtil;
+import com.ms.mapper.HuserMapper;
+import com.ms.mapper.HuserinfoMapper;
+import com.ms.pojo.Huser;
+import com.ms.pojo.Huserinfo;
+import com.ms.util.MybatisUtil;
 import org.junit.Test;
 
 import java.util.Date;
@@ -17,7 +19,7 @@ public class TestHuser {
     @Test
     public void testSelectAll(){
         HuserMapper mapper = MybatisUtil.getMapper(HuserMapper.class);
-        List<Huser> list = mapper.selectAll();
+        List<Huser> list = mapper.selectAll2();
         for (Huser huser : list) {
             System.out.println(huser);
         }
@@ -25,10 +27,10 @@ public class TestHuser {
     }
 
     @Test
-    public void testInsertHuser(){
-        HuserMapper mapper = MybatisUtil.getMapper(HuserMapper.class);
-        Huser huser = new Huser(null, "小白", "456789", new Date(), 2);
-        mapper.insertSelective(huser);
+    public void TestA(){
+        HuserinfoMapper mapper = MybatisUtil.getMapper(HuserinfoMapper.class);
+        Huserinfo huserinfo = mapper.selectByPrimaryKey(30);
+        System.out.println(huserinfo);
         MybatisUtil.close();
     }
 }

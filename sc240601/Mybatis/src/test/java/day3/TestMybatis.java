@@ -1,11 +1,12 @@
 package day3;
 
-import com.sc.dao.StudentMapper;
-import com.sc.pojo.Student;
+import com.sc.mapper.*;
+import com.sc.pojo.*;
 import com.sc.util.MybatisUtil;
 import org.junit.Test;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author:zhengYiLong
@@ -62,9 +63,55 @@ public class TestMybatis {
         mapper.querySelective2(student);
         MybatisUtil.close();
     }
+    @Test   //新增用户的同时 新增用户信息 保证id是一致的
+    public void oneToOneInsert(){
+        HuserMapper mapper = MybatisUtil.getMapper(HuserMapper.class);
+        Huser user = new Huser();//springMVC可以得到的
+        user.setUsername("李四");
+        user.setPassword("123");
+        user.setDid(2);
+        user.setInfo(new Huserinfo());
+        mapper.insertSelective(user);
+        MybatisUtil.close();
+
+        user.getInfo().setId(user.getId());
+        user.getInfo().setAge(18);
+        user.getInfo().setSex("男");
+        HuserinfoMapper mapper2 = MybatisUtil.getMapper(HuserinfoMapper.class);
+        mapper2.insertSelective(user.getInfo());
+        MybatisUtil.close();
+    }
     @Test
-    public void str(){
-        String String="String";
-        System.out.println(String);
+    public void testOneToOneSelect(){
+        HuserMapper mapper = MybatisUtil.getMapper(HuserMapper.class);
+        Huser huser = mapper.selectById(25);
+        MybatisUtil.close();
+    }
+    @Test
+    public void testOneToOneSelect2(){
+        HuserMapper mapper = MybatisUtil.getMapper(HuserMapper.class);
+        Huser huser = mapper.selectById2(25);
+        MybatisUtil.close();
+    }
+    @Test
+    public void testOneToMany(){
+        HdeptMapper mapper = MybatisUtil.getMapper(HdeptMapper.class);
+        List<Hdept> hdepts = mapper.selectAll2();
+        for (Hdept hdept : hdepts) {
+            System.out.println(hdept);
+            for (Huser user : hdept.getUsers()) {
+                System.out.println(user);
+                System.out.println(user.getInfo());
+            }
+        }
+        MybatisUtil.close();
+    }
+    @Test
+    public void testManyToMany(){
+        SstudentMapper mapper = MybatisUtil.getMapper(SstudentMapper.class);
+        Sstudent s = mapper.selectById2(1);
+        System.out.println(s);
+        System.out.println(s.getTeachers());
+        MybatisUtil.close();
     }
 }
