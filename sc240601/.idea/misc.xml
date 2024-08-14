@@ -8,6 +8,8 @@
     <file type="web" url="file://$PROJECT_DIR$/MybatisJoinSpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/ratepaySystem" />
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring2" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC" />
   </component>
   <component name="MavenProjectsManager">
@@ -23,6 +25,9 @@
         <option value="$PROJECT_DIR$/SpringMVC/pom.xml" />
         <option value="$PROJECT_DIR$/Mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/MybatisJoinSpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring2/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring2/pom.xml" />
       </list>
     </option>
   </component>

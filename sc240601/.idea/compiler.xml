@@ -12,8 +12,10 @@
         <module name="SpringMVC" />
         <module name="emailSystemSpringMVC" />
         <module name="MybatisJoinSpringMVC" />
+        <module name="Spring" />
         <module name="ratepaySystem" />
         <module name="Mybatis" />
+        <module name="Spring2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +27,9 @@
       <module name="ratepaySystem" target="1.8" />
       <module name="servlet" target="8" />
       <module name="Servlet" target="8" />
+      <module name="Spring" target="1.8" />
+      <module name="spring2" target="1.7" />
+      <module name="Spring2" target="1.7" />
       <module name="SpringMVC" target="1.8" />
       <module name="springmvc" target="1.8" />
     </bytecodeTargetLevel>

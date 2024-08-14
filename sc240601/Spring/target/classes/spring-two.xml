@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--IOC扫描包：但是虽然以后可以写父包 里面的子包都可以扫描
+        但是以后在SSM整合 不要这么写
+        原因：spring 要扫描，springMVC 也要扫描
+        如果写父包 扫描一定会重复扫描 会创建多个无用对象出来
+        以后：spring只负责扫描业务层 springMVC只负责扫描控制层 dao层不用扫描 靠spring整合-->
+    <context:component-scan base-package="com.spring.service,com.spring.dao"/>
+
+</beans>

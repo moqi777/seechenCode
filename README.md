@@ -30,7 +30,7 @@
 
 ### ratepaySystem
 
-该模块是一个基于jdbc+SpringMVC+Mybatis的纳税管理系统，使用ajax异步请求+同步请求，页面为jsp页面，使用EL表达式嵌套。只实现了一个纳税服务下的用户管理模块功能：
+该模块是一个基于SpringMVC+Mybatis的纳税管理系统，使用ajax异步请求+同步请求，页面为jsp页面，使用EL表达式嵌套。只实现了一个纳税服务下的用户管理模块功能：
 
 - 是一个前后端不分离项目，异步同步请求都有
 - 所有资源和页面都放进了WEB-INF中，在外面只有一个index.jsp用于重定向进controller中的中间层转发访问WEB-INF资源
@@ -43,6 +43,10 @@
 ### MybatisJoinSpringMVC
 
 刚刚学完springMVC和mybatis后整合在一起的一个小demo项目
+
+### Spring
+
+学习spring代码
 
 ## study
 

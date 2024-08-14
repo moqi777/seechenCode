@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ratepaySystem:war exploded" />
+      <artifact name="Spring2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -11,40 +11,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="Ok">
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Mybatis_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Mybatis_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ratepaySystem_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ratepaySystem_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/Mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/Mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/Mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/Mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/HuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/resources/mapper/HuserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/Mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/Mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mybatis/target/classes/mapper/HuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/target/classes/mapper/HuserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/test/java/TestHuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisJoinSpringMVC/src/test/java/TestHuser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/dao/UuserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/dao/impl/UuserDaoimpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/mapper/UuserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/mapper/UuserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/UuserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/UuserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/impl/UuserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/service/impl/UuserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/util/DBUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/util/PageUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/resources/mapper/UuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/resources/mapper/UuserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/resources/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/nsfw/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/listUI.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/test/java/TestDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/test/java/TestDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/UuserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/service/UuserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/mapper/UuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/mapper/UuserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/test-classes/TestDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/test-classes/TestDB.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +61,11 @@
         <option value="jsf" />
         <option value="FxmlFile" />
         <option value="mybatis_mapper" />
-        <option value="Interface" />
         <option value="Mybatis Config" />
-        <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -329,11 +300,11 @@
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\ratepaySystem\src\main\webapp\WEB-INF\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Spring2\src\main\resources" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Mybatis\src\main\resources\mapper" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\ratepaySystem\src\main\webapp\WEB-INF" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SpringMVC" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\emailSystem\src\main\webapp\emailView" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\javaSE\src\doudou5G" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sc.util" />
@@ -342,7 +313,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat_ratepaySystem">
+  <component name="RunManager" selected="Tomcat Server.Tomcat_spring2">
     <configuration name="Email" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pojo.Email" />
       <module name="emailSystem" />
@@ -369,68 +340,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ratepaySystem" />
+    <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDB" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDB.testSELECTCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ratepaySystem" />
+    <configuration name="Test1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDB" />
-      <option name="METHOD_NAME" value="testSELECTCount" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMybatis.testHappyLock2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day4" />
-      <option name="MAIN_CLASS_NAME" value="day4.TestMybatis" />
-      <option name="METHOD_NAME" value="testHappyLock2" />
+    <configuration name="TestSpring.testAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpring" />
+      <option name="METHOD_NAME" value="testAnnotation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMybatis.testNotHappyLock1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day4" />
-      <option name="MAIN_CLASS_NAME" value="day4.TestMybatis" />
-      <option name="METHOD_NAME" value="testNotHappyLock1" />
+    <configuration name="TestSpring.testCorwFolw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpring" />
+      <option name="METHOD_NAME" value="testCorwFolw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMybatis.testNotHappyLock2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day4" />
-      <option name="MAIN_CLASS_NAME" value="day4.TestMybatis" />
-      <option name="METHOD_NAME" value="testNotHappyLock2" />
+    <configuration name="TestSpring.testIOC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpring" />
+      <option name="METHOD_NAME" value="testIOC" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1067,14 +1021,196 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Tomcat_spring" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 " />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="Spring:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7e76f5b9-ab59-4cd4-8800-0bd42d1a24aa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64149" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Spring:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat_spring2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 " />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="Spring2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="063ad000-0a0e-4820-afa7-4913bd98fb1d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59619" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Spring2:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TestTransaction" />
       <item itemvalue="Application.Email" />
-      <item itemvalue="JUnit.TestMybatis.testHappyLock2" />
-      <item itemvalue="JUnit.TestMybatis.testNotHappyLock1" />
-      <item itemvalue="JUnit.TestMybatis.testNotHappyLock2" />
-      <item itemvalue="JUnit.TestDB.testSELECTCount" />
-      <item itemvalue="JUnit.TestDB" />
+      <item itemvalue="JUnit.TestSpring.testCorwFolw" />
+      <item itemvalue="JUnit.TestSpring.testIOC" />
+      <item itemvalue="JUnit.TestSpring.testAnnotation" />
+      <item itemvalue="JUnit.Test1.test1" />
+      <item itemvalue="JUnit.Test1.test2" />
+      <item itemvalue="Tomcat Server.Tomcat_spring2" />
+      <item itemvalue="Tomcat Server.Tomcat_spring" />
       <item itemvalue="Tomcat Server.Tomcat_mybatis" />
       <item itemvalue="Tomcat Server.Tomcat_servlet" />
       <item itemvalue="Tomcat Server.Tomcat_emailSystem" />
@@ -1085,11 +1221,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDB.testSELECTCount" />
-        <item itemvalue="JUnit.TestDB" />
-        <item itemvalue="JUnit.TestMybatis.testNotHappyLock2" />
-        <item itemvalue="JUnit.TestMybatis.testNotHappyLock1" />
-        <item itemvalue="JUnit.TestMybatis.testHappyLock2" />
+        <item itemvalue="JUnit.Test1.test2" />
+        <item itemvalue="JUnit.Test1.test1" />
+        <item itemvalue="JUnit.TestSpring.testAnnotation" />
+        <item itemvalue="JUnit.TestSpring.testIOC" />
+        <item itemvalue="JUnit.TestSpring.testCorwFolw" />
       </list>
     </recent_temporary>
   </component>
@@ -1157,7 +1293,11 @@
       <workItem from="1723304681312" duration="19157000" />
       <workItem from="1723514859282" duration="196000" />
       <workItem from="1723515072680" duration="27842000" />
-      <workItem from="1723597335921" duration="1090000" />
+      <workItem from="1723597335921" duration="20517000" />
+      <workItem from="1723633746446" duration="18000" />
+      <workItem from="1723633789102" duration="98000" />
+      <workItem from="1723633904783" duration="78000" />
+      <workItem from="1723634008785" duration="3156000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
