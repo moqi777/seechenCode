@@ -40,6 +40,10 @@
 - 可新增用户信息
 - 可根据用户名迷糊查询用户信息
 
+### MybatisJoinSpringMVC
+
+刚刚学完springMVC和mybatis后整合在一起的一个小demo项目
+
 ## study
 
 学了一小点线程的代码

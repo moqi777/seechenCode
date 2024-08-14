@@ -121,6 +121,12 @@
       <artifactId>mybatis-generator-core</artifactId>
       <version>${mybatis-generator-core.version}</version>
     </dependency>
+    <!--mybatis分页插件-->
+    <dependency>
+      <groupId>com.github.pagehelper</groupId>
+      <artifactId>pagehelper</artifactId>
+      <version>4.2.1</version>
+    </dependency>
   </dependencies>
 
   <build>

@@ -2,6 +2,15 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--根节点：namespace配置全类名 用于和Mapper接口一一对应-->
 <mapper namespace="com.sc.mapper.HuserMapper">
+  <!--手动添加二级缓存
+      flushInterval：刷新缓存时间间隔 单位是毫秒 默认是不设置无限制
+      readOnly：是否为只读缓存 会失效
+      eviction：配置清除缓存策略 默认LRU
+          LRU：最近最少使用 最长时间不用的缓存对象先删除
+          FIFO：类似于队列 先进先出 按照创建缓存顺序来删除
+      size：缓存个数
+  -->
+  <cache flushInterval="60000" readOnly="true" eviction="LRU" size="512"/>
   <!--resultMap：用于 实现ORM的 也可以用于实现复杂 关联查询
       属性id：map唯一标识 resultMap可以配置多个
       属性type：表示当前这个表对应哪个类

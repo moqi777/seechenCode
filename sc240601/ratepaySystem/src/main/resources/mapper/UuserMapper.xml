@@ -25,9 +25,30 @@
     from uuser
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectByAccount" resultMap="BaseResultMap">
+    select * from uuser where account=#{account}
+  </select>
+  <select id="selectByAccountOrNameLimit" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"></include>
+    from uuser
+    <if test="nameOrAccount!=null and nameOrAccount!=''">
+      where
+      <bind name="newNameOrAccount" value="'%'+nameOrAccount+'%'"/>
+      name like #{newNameOrAccount}
+      or account like #{newNameOrAccount}
+    </if>
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from uuser
     where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="delByIds">
+    delete from uuser
+    where id in
+    <foreach collection="array" item="id" separator="," open="(" close=")">
+      #{id}
+    </foreach>
   </delete>
   <insert id="insert" parameterType="com.sc.pojo.Uuser">
     insert into uuser (id, name, account, 

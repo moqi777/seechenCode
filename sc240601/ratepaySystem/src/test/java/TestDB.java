@@ -1,4 +1,7 @@
-import com.sc.dao.impl.UuserDaoimpl;
+import com.github.pagehelper.PageInfo;
+import com.sc.pojo.Uuser;
+import com.sc.service.UuserService;
+import com.sc.service.impl.UuserServiceImpl;
 import org.junit.Test;
 
 /**
@@ -11,8 +14,8 @@ import org.junit.Test;
 public class TestDB {
     @Test
     public void testSELECTCount(){
-        UuserDaoimpl uuserDaoimpl = new UuserDaoimpl();
-        int count = uuserDaoimpl.selectUuserCount();
-        System.out.println(count);
+        UuserService uuserService = new UuserServiceImpl();
+        Integer[] arr = {1,2};
+        uuserService.delbyIds(arr);
     }
 }

@@ -1,9 +1,10 @@
 package com.sc.service;
 
+import com.github.pagehelper.PageInfo;
 import com.sc.pojo.Uuser;
-import com.sc.util.PageUtil;
 
 public interface UuserService {
     Object login(String name,String pwd);
-    PageUtil<Uuser> showAllUuserLimli(int currentIndex,int pageSize);
+    PageInfo<Uuser> showAllUuserLimli(String nameOrAccount, Integer currentIndex, Integer pageSize);
+    void delbyIds(Integer[] ids);
 }

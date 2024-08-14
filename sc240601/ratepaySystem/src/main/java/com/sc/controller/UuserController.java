@@ -1,19 +1,20 @@
 package com.sc.controller;
 
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageInfo;
 import com.sc.pojo.Result;
 import com.sc.pojo.Uuser;
 import com.sc.service.UuserService;
 import com.sc.service.impl.UuserServiceImpl;
-import com.sc.util.PageUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.Arrays;
 
 /**
  * @author:zhengYiLong
@@ -87,7 +88,7 @@ public class UuserController {
     }
 
     @RequestMapping("/toListUI")
-    public String toListUI(Integer currentIndex,Integer pageSize,HttpSession session,HttpServletRequest req){
+    public String toListUI(String nameOrAccount,Integer currentIndex,Integer pageSize,HttpSession session,HttpServletRequest req){
         if (pageSize==null){
             if (session.getAttribute("pageSize")==null){
                 session.setAttribute("pageSize",5);
@@ -98,8 +99,15 @@ public class UuserController {
         }else {
             session.setAttribute("pageSize",pageSize);
         }
-        PageUtil<Uuser> pageUtil = uuserService.showAllUuserLimli(currentIndex, pageSize);
-        req.setAttribute("page",pageUtil);
+        PageInfo<Uuser> page = uuserService.showAllUuserLimli(nameOrAccount,currentIndex, pageSize);
+        req.setAttribute("nameOrAccount",nameOrAccount);
+        req.setAttribute("page",page);
         return "/jsp/user/listUI";
+    }
+
+    @RequestMapping("/del")
+    public String del(Integer[] check,Integer currentIndex){
+        uuserService.delbyIds(check);
+        return "redirect:/uuser/toListUI?currentIndex="+currentIndex;
     }
 }
