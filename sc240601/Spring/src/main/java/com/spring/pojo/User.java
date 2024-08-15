@@ -1,8 +1,6 @@
 package com.spring.pojo;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
@@ -14,7 +12,8 @@ import java.util.Date;
  * @desc:
  * @DateTime:2024/8/14 10:54
  **/
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {

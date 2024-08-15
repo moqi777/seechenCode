@@ -8,5 +8,8 @@
     <p>生日：<input name="time"/></p>
     <button>提交</button>
 </form>
+<a href="/add">新增</a>
+<a href="/login">登录</a>
+<a href="/del">删除</a>
 </body>
 </html>

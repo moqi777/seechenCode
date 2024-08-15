@@ -105,6 +105,11 @@ public class UuserController {
         return "/jsp/user/listUI";
     }
 
+    @RequestMapping("/toAddUI")
+    public String toAddUI(){
+        return "/jsp/user/addUI";
+    }
+
     @RequestMapping("/del")
     public String del(Integer[] check,Integer currentIndex){
         uuserService.delbyIds(check);

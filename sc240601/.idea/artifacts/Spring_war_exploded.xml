@@ -25,6 +25,12 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.0.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.33" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.21.9" />
         </element>
       </element>
       <element id="directory" name="META-INF">

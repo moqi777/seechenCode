@@ -51,6 +51,24 @@
       <version>1.18.22</version>
       <scope>provided</scope>
     </dependency>
+    <!--阿里的德鲁伊连接池-->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+    <!-- Spring整合ORM框架依赖 -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-orm</artifactId>
+      <version>5.0.3.RELEASE</version>
+    </dependency>
+      <!--mysql依赖-->
+      <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.0.33</version>
+      </dependency>
   </dependencies>
 
   <build>

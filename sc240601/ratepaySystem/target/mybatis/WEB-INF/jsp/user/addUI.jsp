@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
-<%@include file="/common/header.jsp"%>
+<%@include file="/WEB-INF/common/header.jsp"%>
 <title>用户管理</title>
 <!--引入日期组件  -->
 <script type="text/javascript"

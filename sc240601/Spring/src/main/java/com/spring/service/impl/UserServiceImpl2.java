@@ -27,4 +27,18 @@ public class UserServiceImpl2 implements UserService {
         ud.add(u);
         return 0;
     }
+
+    @Override
+    public int login() {
+        System.out.println("业务层执行另一个登录功能");
+        ud.login();
+        return 0;
+    }
+
+    @Override
+    public int del() {
+        System.out.println("业务层执行另一个删除功能");
+        ud.del();
+        return 0;
+    }
 }

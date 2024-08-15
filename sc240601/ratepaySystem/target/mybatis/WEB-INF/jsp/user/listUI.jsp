@@ -24,7 +24,7 @@
                     <li><input type="button" class="s_button" value="搜 索" onclick="Search()"/></li>
                     <li><input type="button" class="s_button" value="清 除" onclick="Clean()"/></li>
                     <li style="float:right;">
-                        <input type="button" value="新增" class="s_button" onclick="javascript:location.href='addUI.jsp'"/>&nbsp;
+                        <input type="button" value="新增" class="s_button" onclick="javascript:location.href='/uuser/toAddUI'"/>&nbsp;
                         <input type="button" value="删除" class="s_button" onclick="doDeleteAll()"/>&nbsp;
                     </li>
                 </div>

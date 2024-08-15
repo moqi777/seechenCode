@@ -4,4 +4,6 @@ import com.spring.pojo.User;
 
 public interface UserService {
     public int add(User u);
+    public int login();
+    int del();
 }
