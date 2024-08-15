@@ -40,6 +40,8 @@
 - 可新增用户信息
 - 可根据用户名迷糊查询用户信息
 
+就这样吧，用户模块差一个新增功能，懒的写了，PPT和sql文件都放在模块根目录了
+
 ### MybatisJoinSpringMVC
 
 刚刚学完springMVC和mybatis后整合在一起的一个小demo项目
