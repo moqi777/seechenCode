@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Spring" />
     <file type="web" url="file://$PROJECT_DIR$/Spring2" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC" />
+    <file type="web" url="file://$PROJECT_DIR$/SSM" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -27,7 +28,7 @@
         <option value="$PROJECT_DIR$/MybatisJoinSpringMVC/pom.xml" />
         <option value="$PROJECT_DIR$/Spring/pom.xml" />
         <option value="$PROJECT_DIR$/spring2/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring2/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM/pom.xml" />
       </list>
     </option>
   </component>

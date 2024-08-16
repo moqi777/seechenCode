@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/MybatisJoinSpringMVC/MybatisJoinSpringMVC.iml" filepath="$PROJECT_DIR$/MybatisJoinSpringMVC/MybatisJoinSpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSM/SSM.iml" filepath="$PROJECT_DIR$/SSM/SSM.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring/Spring.iml" filepath="$PROJECT_DIR$/Spring/Spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring2/Spring2.iml" filepath="$PROJECT_DIR$/Spring2/Spring2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/emailSystem/emailSystem.iml" filepath="$PROJECT_DIR$/emailSystem/emailSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/emailSystemSpringMVC/emailSystemSpringMVC.iml" filepath="$PROJECT_DIR$/emailSystemSpringMVC/emailSystemSpringMVC.iml" />

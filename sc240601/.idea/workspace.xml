@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Spring:war exploded" />
+      <artifact name="SSM:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,51 +10,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="Ok">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spring_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/emailSystem_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/emailSystem_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_11_0_M2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_11_0_M2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_11_0_M2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_11_0_M2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_11_0_M2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_11_0_M2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spring2_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spring2_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring/Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/Spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/com/spring/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/java/com/spring/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/com/spring/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/java/com/spring/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/com/spring/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/java/com/spring/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/com/spring/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/java/com/spring/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/com/spring/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/java/com/spring/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/com/spring/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/java/com/spring/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/com/spring/service/impl/UserServiceImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/java/com/spring/service/impl/UserServiceImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/resources/spring-two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/resources/spring-two.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/service/impl/UserServiceImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/com/spring/service/impl/UserServiceImpl2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/spring-two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/Spring/WEB-INF/classes/spring-two.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/Spring/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/Spring/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/classes/com/spring/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/classes/com/spring/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/classes/com/spring/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/classes/com/spring/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/classes/com/spring/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/classes/com/spring/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/classes/com/spring/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/classes/com/spring/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/classes/com/spring/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/classes/com/spring/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/classes/com/spring/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/classes/com/spring/service/impl/UserServiceImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/classes/com/spring/service/impl/UserServiceImpl2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/target/classes/spring-two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/target/classes/spring-two.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystem/emailSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystem/emailSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/java/com/sc/controller/UuserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/addUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/addUI.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/src/main/webapp/WEB-INF/jsp/user/listUI.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/classes/com/sc/controller/UuserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/mybatis/WEB-INF/classes/com/sc/controller/UuserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/mybatis/WEB-INF/classes/com/sc/controller/UuserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/mybatis/WEB-INF/jsp/user/addUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/mybatis/WEB-INF/jsp/user/addUI.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratepaySystem/target/mybatis/WEB-INF/jsp/user/listUI.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ratepaySystem/target/mybatis/WEB-INF/jsp/user/listUI.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/src/main/resources/spring-three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/resources/spring-three.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/Spring2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/java/com/spring2/controller/EmpController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/java/com/spring2/dao/EmpDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/java/com/spring2/dao/impl/EmpDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/java/com/spring2/pojo/Dept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/java/com/spring2/pojo/Emp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/java/com/spring2/service/EmpService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/java/com/spring2/service/impl/EmpServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/resources/ApplicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/resources/SpringMVC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/src/test/java/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/classes/ApplicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/classes/SpringMVC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/classes/com/spring2/controller/EmpController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/classes/com/spring2/dao/EmpDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/classes/com/spring2/dao/impl/EmpDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/classes/com/spring2/pojo/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/classes/com/spring2/pojo/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/classes/com/spring2/service/EmpService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/classes/com/spring2/service/impl/EmpServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/spring-aop-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/spring-aspects-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/spring-beans-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/spring-context-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/spring-core-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/spring-expression-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/spring-jcl-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/spring-web-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/lib/spring-webmvc-5.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/Spring2/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/classes/ApplicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/classes/SpringMVC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/classes/com/spring2/controller/EmpController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/classes/com/spring2/dao/EmpDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/classes/com/spring2/dao/impl/EmpDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/classes/com/spring2/pojo/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/classes/com/spring2/pojo/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/classes/com/spring2/service/EmpService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/classes/com/spring2/service/impl/EmpServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring2/target/test-classes/Test1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +112,12 @@
         <option value="jsf" />
         <option value="FxmlFile" />
         <option value="mybatis_mapper" />
-        <option value="Mybatis Config" />
-        <option value="Interface" />
-        <option value="Jsp File" />
         <option value="spring-beans.schema" />
+        <option value="Mybatis Config" />
+        <option value="Mybatis Mapper" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -315,7 +328,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SSM/src/main/java/com/ssm/util" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -325,18 +338,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44252872" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SSM\src\main\java\com\ssm\util" />
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SSM\src\main\resources" />
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SSM\src\main\webapp\WEB-INF" />
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Spring2\src\main\webapp" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Spring\src\main\resources" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\MybatisJoinSpringMVC\src\main\java\com\ms\pojo" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\MybatisJoinSpringMVC\src\main\java\com\ms\mapper" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\MybatisJoinSpringMVC\src\main\resources" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Mybatis\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Spring2\src\main\resources" />
@@ -352,7 +365,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat_spring">
+  <component name="RunManager" selected="Tomcat Server.Tomcat_SSM">
     <configuration name="Email" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pojo.Email" />
       <module name="emailSystem" />
@@ -427,6 +440,96 @@
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat_SSM" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 " />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="SSM:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ebc6141f-8825-44d9-b416-f4237273d5a9" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64604" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSM:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="Tomcat_SpringMVC" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
@@ -1150,96 +1253,6 @@
         </option>
       </method>
     </configuration>
-    <configuration name="Tomcat_spring2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 " />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <deployment>
-        <artifact name="Spring2:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="063ad000-0a0e-4820-afa7-4913bd98fb1d" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59619" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Spring2:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.TestTransaction" />
       <item itemvalue="Application.Email" />
@@ -1248,8 +1261,8 @@
       <item itemvalue="JUnit.TestSpring.testAnnotation" />
       <item itemvalue="JUnit.Test1.test1" />
       <item itemvalue="JUnit.Test1.test2" />
-      <item itemvalue="Tomcat Server.Tomcat_spring2" />
       <item itemvalue="Tomcat Server.Tomcat_spring" />
+      <item itemvalue="Tomcat Server.Tomcat_SSM" />
       <item itemvalue="Tomcat Server.Tomcat_mybatis" />
       <item itemvalue="Tomcat Server.Tomcat_servlet" />
       <item itemvalue="Tomcat Server.Tomcat_emailSystem" />
@@ -1337,7 +1350,10 @@
       <workItem from="1723633789102" duration="98000" />
       <workItem from="1723633904783" duration="78000" />
       <workItem from="1723634008785" duration="5342000" />
-      <workItem from="1723683394127" duration="15730000" />
+      <workItem from="1723683394127" duration="19653000" />
+      <workItem from="1723776030809" duration="504000" />
+      <workItem from="1723776570994" duration="26000" />
+      <workItem from="1723776630265" duration="17638000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
