@@ -1,5 +1,7 @@
 package com.ssm.pojo;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -18,6 +20,7 @@ public class OAdmin implements Serializable {
 
     private String status;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date createtime;
 
     private String sex;

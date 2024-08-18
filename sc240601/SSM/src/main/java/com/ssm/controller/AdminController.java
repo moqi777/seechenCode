@@ -1,19 +1,27 @@
 package com.ssm.controller;
 
 import com.github.pagehelper.PageInfo;
+import com.mysql.cj.util.DnsSrv;
 import com.ssm.pojo.OAdmin;
+import com.ssm.pojo.Result;
 import com.ssm.service.AdminService;
 import com.ssm.util.CodeUtil;
+import com.ssm.util.UpDownUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Date;
 import java.util.Map;
 
 /**
@@ -28,6 +36,8 @@ import java.util.Map;
 public class AdminController {
     @Autowired
     AdminService adminService;
+    @Autowired
+    UpDownUtil upDownUtil;
     //生成验证码的请求
     @RequestMapping("/getCode")
     public void getCode(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -48,12 +58,58 @@ public class AdminController {
         }
         return "redirect:/toLogin";
     }
+    @RequestMapping("/exit")
+    public String exit(HttpSession session){
+        session.removeAttribute("admin");
+        return "redirect:/toLogin";
+    }
     @RequestMapping("/show")
     public String show(@RequestParam(defaultValue = "1")Integer currentIndex,
-                       @RequestParam(defaultValue = "5")Integer pageSize,
+                       @RequestParam(defaultValue = "10")Integer pageSize,
+                       String conditional,
+                       String options,
                        Map map){
-        PageInfo<OAdmin> pageInfo = adminService.show(currentIndex,pageSize,null);
+        PageInfo<OAdmin> pageInfo = adminService.show(currentIndex,pageSize,conditional,options);
         map.put("p",pageInfo);
+        map.put("conditional",conditional);
+        map.put("option",options);
         return "/admin/list";
+    }
+    //验证新增用户姓名是否重复
+    @RequestMapping("/checkName")
+    @ResponseBody
+    public Result checkName(@RequestBody OAdmin admin){
+        int i = adminService.checkAccount(admin.getAccount());
+        System.out.println(i);
+        return new Result(i,null,null);
+    }
+    //新增用户
+    @RequestMapping("/add")
+    public String add(OAdmin admin, MultipartFile imgFile,HttpServletRequest req){
+        System.out.println(imgFile);
+        System.out.println("aaaaaaaaaaa");
+        String fileName = upDownUtil.upload(req, imgFile);
+        admin.setHeadPic(fileName);
+        admin.setCreatetime(new Date());
+        adminService.add(admin);
+        return "redirect:/admin/show";
+    }
+    //删除用户
+    @RequestMapping("/del")
+    public String del(Integer[] ids,Integer currentIndex){
+        adminService.del(ids);
+        return "redirect:/admin/show?currentIndex="+currentIndex;
+    }
+    //启动用户
+    @RequestMapping("/startUsing")
+    public String disabledel(Integer[] ids,Integer currentIndex){
+        adminService.startUsing(ids);
+        return "redirect:/admin/show?currentIndex="+currentIndex;
+    }
+    //禁用用户
+    @RequestMapping("/disable")
+    public String disable(Integer[] ids,Integer currentIndex){
+        adminService.disable(ids);
+        return "redirect:/admin/show?currentIndex="+currentIndex;
     }
 }

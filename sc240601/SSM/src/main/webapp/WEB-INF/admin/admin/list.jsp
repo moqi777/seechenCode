@@ -22,29 +22,38 @@
     <div class="col-lg-12">
       <div class="card">
         <div class="card-toolbar clearfix">
-          <form class="pull-right search-bar" method="get" action="#!" role="form">
+          <div class="pull-right search-bar">
             <div class="input-group">
               <div class="input-group-btn">
                 <input type="hidden" name="search_field" id="search-field" value="title">
                 <button class="btn btn-default dropdown-toggle" id="search-btn" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false">
-                  栏目 <span class="caret"></span>
+                  选项 <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li> <a tabindex="-1" href="javascript:void(0)" data-field="cat_name">栏目</a> </li>
+                  <li> <a tabindex="-1" href="javascript:void(0)" data-field="cat_name" onclick="options='account'">用户名</a> </li>
+                  <li> <a tabindex="-1" href="javascript:void(0)" data-field="cat_name" onclick="options='name'">姓名</a> </li>
+                  <li> <a tabindex="-1" href="javascript:void(0)" data-field="cat_name" onclick="options='phone'">手机号</a> </li>
+                  <li> <a tabindex="-1" href="javascript:void(0)" data-field="cat_name" onclick="options='email'">邮箱</a> </li>
+                  <li> <a tabindex="-1" href="javascript:void(0)" data-field="cat_name" onclick="options='sex'">性别</a> </li>
+                  <li> <a tabindex="-1" href="javascript:void(0)" data-field="cat_name" onclick="options='status'">状态</a> </li>
                 </ul>
               </div>
-              <input type="text" class="form-control" value="" name="keyword" placeholder="请输入名称">
+              <input type="text" class="form-control" value="${conditional}" name="keyword" placeholder="请输入关键词" id="conditional">
+              <div class="input-group-btn">
+                <button class="btn btn-default dropdown-toggle" onclick="conditionalQuery()">搜索</button>
+              </div>
             </div>
-          </form>
+          </div>
           <div class="toolbar-btn-action">
-            <a class="btn btn-primary m-r-5" href="add.html"><i class="mdi mdi-plus"></i> 新增</a>
-            <a class="btn btn-success m-r-5" href="#!"><i class="mdi mdi-check"></i> 启用</a>
-            <a class="btn btn-warning m-r-5" href="#!"><i class="mdi mdi-block-helper"></i> 禁用</a>
-            <a class="btn btn-danger" href="#!"><i class="mdi mdi-window-close"></i> 删除</a>
+            <a class="btn btn-primary m-r-5" href="/toAdminAdd"><i class="mdi mdi-plus"></i> 新增</a>
+            <a class="btn btn-success m-r-5" href="#!" onclick="startUsing()"><i class="mdi mdi-check"></i> 启用</a>
+            <a class="btn btn-warning m-r-5" href="#!" onclick="disable()"><i class="mdi mdi-block-helper"></i> 禁用</a>
+            <a class="btn btn-danger" href="#!" onclick="del()"><i class="mdi mdi-window-close"></i> 删除</a>
           </div>
         </div>
         <div class="card-body">
 
+          <form method="post" id="form">
           <div class="table-responsive">
             <table class="table table-bordered">
               <thead>
@@ -71,13 +80,13 @@
                 <tr>
                   <td>
                     <label class="lyear-checkbox checkbox-primary">
-                      <input type="checkbox" name="ids[]" value="1"><span></span>
+                      <input type="checkbox" name="ids" value="${a.id}"><span></span>
                     </label>
                   </td>
                   <td>${a.id}</td>
                   <td>${a.account}</td>
                   <td>${a.name}</td>
-                  <td><img src="" alt=""></td>
+                  <td><img src="/upload/${a.headPic}" alt="" width="30px" height="30px"></td>
                   <td>${a.phone}</td>
                   <td>${a.email}</td>
                   <td>${a.sex==1?"男":"女"}</td>
@@ -105,12 +114,14 @@
               </tbody>
             </table>
           </div>
+          </form>
+          <c:if test="${p.total>0}">
           <ul class="pagination">
             <%--上一页--%>
             <c:if test="${p.pageNum==1}"><li class="disabled"><span>«</span></li></c:if>
-            <c:if test="${p.pageNum!=1}"><li><a href="/admin/show?currentIndex=${p.prePage}">«</a></li></c:if>
+            <c:if test="${p.pageNum!=1}"><li><a href="/admin/show?currentIndex=${p.prePage}&conditional=${conditional}&options=${option}">«</a></li></c:if>
             <%--如果循环到了后面，给一个1可以直接到最前面--%>
-            <c:if test="${p.navigatepageNums[0]!=1}"><li><a href="/admin/show?currentIndex=1">1</a></li><li class="disabled"><span>...</span></li></c:if>
+            <c:if test="${p.navigatepageNums[0]!=1}"><li><a href="/admin/show?currentIndex=1&conditional=${conditional}&options=${option}">1</a></li><li class="disabled"><span>...</span></li></c:if>
             <%--循环页码展示--%>
             <c:forEach var="i" items="${p.navigatepageNums}">
               <%--如果是当前页给样式，但是不能跳转--%>
@@ -119,15 +130,16 @@
               </c:if>
               <%--如果不是当前页可以跳转，但是没有样式--%>
               <c:if test="${p.pageNum!=i}">
-                <li><a href="/admin/show?currentIndex=${i}">${i}</a></li>
+                <li><a href="/admin/show?currentIndex=${i}&conditional=${conditional}&options=${option}">${i}</a></li>
               </c:if>
             </c:forEach>
             <%--如果总页数很多，给一个尾页可以直接到最后一页--%>
-            <c:if test="${p.navigatepageNums[7]!=p.pages}"><li class="disabled"><span>...</span></li><li><a href="/admin/show?currentIndex=${p.pages}">${p.pages}</a></li></c:if>
+            <c:if test="${p.navigatepageNums[7]!=p.pages&&p.pages>8}"><li class="disabled"><span>...</span></li><li><a href="/admin/show?currentIndex=${p.pages}&conditional=${conditional}&options=${option}">${p.pages}</a></li></c:if>
             <%--下一页--%>
             <c:if test="${p.pageNum==p.lastPage}"><li class="disabled"><span>»</span></li></c:if>
-            <c:if test="${p.pageNum!=p.lastPage}"><li><a href="/admin/show?currentIndex=${p.nextPage}">»</a></li></c:if>
+            <c:if test="${p.pageNum!=p.lastPage}"><li><a href="/admin/show?currentIndex=${p.nextPage}&conditional=${conditional}&options=${option}">»</a></li></c:if>
           </ul>
+          </c:if>
 
         </div>
       </div>
@@ -149,6 +161,64 @@ $(function(){
         $('#search-btn').html($(this).text() + ' <span class="caret"></span>');
     });
 });
+
+let del = ()=>{
+  var checkbox = document.getElementsByName("ids");
+  //获取到按了按钮的总条数
+  let i = 0;
+  checkbox.forEach(value => {
+    if (value.checked==true){
+      i++;
+    }
+  })
+  //只有总条数大于0才发起请求，防止发送无效请求
+  if (i>0){
+    //判断一下如果删了这么多条是否需要往前条一页
+    if (checkbox.length==i && ${p.pageNum}!=1){//表示这一页都删完，所以要往前跳一页
+      document.getElementById("form").setAttribute("action","/admin/del?currentIndex=${p.prePage}");
+    }else {
+      document.getElementById("form").setAttribute("action","/admin/del?currentIndex=${p.pageNum}");
+    }
+  }
+  document.getElementById("form").submit();
+}
+let startUsing = ()=>{
+  var checkbox = document.getElementsByName("ids");
+  //获取到按了按钮的总条数
+  let i = 0;
+  checkbox.forEach(value => {
+    if (value.checked==true){
+      i++;
+    }
+  })
+  //只有总条数大于0才发起请求，防止发送无效请求
+  if (i>0){
+    document.getElementById("form").setAttribute("action","/admin/startUsing?currentIndex=${p.pageNum}");
+    document.getElementById("form").submit();
+  }
+}
+let disable = ()=>{
+  var checkbox = document.getElementsByName("ids");
+  //获取到按了按钮的总条数
+  let i = 0;
+  checkbox.forEach(value => {
+    if (value.checked==true){
+      i++;
+    }
+  })
+  //只有总条数大于0才发起请求，防止发送无效请求
+  if (i>0){
+    document.getElementById("form").setAttribute("action","/admin/disable?currentIndex=${p.pageNum}");
+    document.getElementById("form").submit();
+  }
+}
+//搜索框功能
+let options = "";//条件
+let conditionalQuery = ()=>{
+  //关键词
+  let conditional = document.getElementById("conditional").value;
+  location.href = "/admin/show?conditional="+conditional+"&options="+options;
+}
 </script>
 </body>
 </html>

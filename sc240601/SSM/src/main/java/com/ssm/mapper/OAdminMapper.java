@@ -20,4 +20,12 @@ public interface OAdminMapper {
     OAdmin login(OAdmin admin);
 
     List<OAdmin> show(OAdmin admin);
+
+    int selectByAccount(String account);
+    //根据id删除用户
+    int deleteByIds(Integer[] ids);
+    //根据id将用户状态设置为启用1
+    int startUsingByIds(Integer[] ids);
+    //根基id将用户状态设置为禁用2
+    int disableByIds(Integer[] ids);
 }

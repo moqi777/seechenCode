@@ -24,4 +24,8 @@ public class JspController {
     public String toIndex(){
         return "/index";
     }
+    @RequestMapping("/toAdminAdd")
+    public String toAdminAdd(){
+        return "/admin/add";
+    }
 }

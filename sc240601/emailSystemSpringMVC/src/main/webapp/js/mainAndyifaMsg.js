@@ -1,4 +1,4 @@
-//单击标题读邮件事件
+    //单击标题读邮件事件
 let readEmail = (b)=>{
     let email_id = b.previousElementSibling.value;
     //获取到邮件Id就可以展示邮件了
