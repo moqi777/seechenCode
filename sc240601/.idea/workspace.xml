@@ -10,35 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="Ok">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/controller/JspController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/controller/JspController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/mapper/OAdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/mapper/OAdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/pojo/OAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/pojo/OAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/java/com/ssm/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/resources/mapper/OAdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/resources/mapper/OAdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/webapp/WEB-INF/admin/admin/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/webapp/WEB-INF/admin/admin/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/webapp/WEB-INF/admin/admin/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/webapp/WEB-INF/admin/admin/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/src/main/webapp/WEB-INF/admin/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/src/main/webapp/WEB-INF/admin/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/classes/com/ssm/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/classes/com/ssm/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/classes/com/ssm/controller/JspController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/classes/com/ssm/controller/JspController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/classes/com/ssm/mapper/OAdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/classes/com/ssm/mapper/OAdminMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/classes/com/ssm/pojo/OAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/classes/com/ssm/pojo/OAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/classes/com/ssm/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/classes/com/ssm/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/classes/com/ssm/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/classes/com/ssm/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/classes/mapper/OAdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/classes/mapper/OAdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/admin/admin/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/admin/admin/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/admin/admin/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/admin/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/admin/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/controller/JspController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/controller/JspController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/mapper/OAdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/mapper/OAdminMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/pojo/OAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/pojo/OAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/com/ssm/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/mapper/OAdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/target/ssm/WEB-INF/classes/mapper/OAdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/js/mainAndyifaMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/emailSystemSpringMVC/src/main/webapp/js/mainAndyifaMsg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/SSM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/SSM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +67,8 @@
         <option value="spring-beans.schema" />
         <option value="Mybatis Config" />
         <option value="Mybatis Mapper" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -292,6 +272,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -300,7 +284,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SSM/src/main/java/com/ssm/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringBoot/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -310,18 +294,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44252872" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\src\main\resources" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SSM\src\main\java\com\ssm\util" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SSM\src\main\resources" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SSM\src\main\webapp\WEB-INF" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Spring2\src\main\webapp" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Spring\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Spring2\src\main\resources" />
@@ -337,7 +321,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat_SSM">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Email" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pojo.Email" />
       <module name="emailSystem" />
@@ -394,22 +378,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSpring.testCorwFolw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSpring" />
-      <option name="METHOD_NAME" value="testCorwFolw" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSpring.testIOC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestSpring" />
       <option name="METHOD_NAME" value="testIOC" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.springboot.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1228,7 +1215,6 @@
     <list>
       <item itemvalue="Application.TestTransaction" />
       <item itemvalue="Application.Email" />
-      <item itemvalue="JUnit.TestSpring.testCorwFolw" />
       <item itemvalue="JUnit.TestSpring.testIOC" />
       <item itemvalue="JUnit.TestSpring.testAnnotation" />
       <item itemvalue="JUnit.Test1.test1" />
@@ -1242,14 +1228,15 @@
       <item itemvalue="Tomcat Server.Tomcat_ratepaySystem" />
       <item itemvalue="Tomcat Server.Tomcat_mybatisJoinSpringMVC" />
       <item itemvalue="Tomcat Server.Tomcat_SpringMVC" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.Test1.test2" />
         <item itemvalue="JUnit.Test1.test1" />
         <item itemvalue="JUnit.TestSpring.testAnnotation" />
         <item itemvalue="JUnit.TestSpring.testIOC" />
-        <item itemvalue="JUnit.TestSpring.testCorwFolw" />
       </list>
     </recent_temporary>
   </component>
@@ -1326,7 +1313,7 @@
       <workItem from="1723776030809" duration="504000" />
       <workItem from="1723776570994" duration="26000" />
       <workItem from="1723776630265" duration="17638000" />
-      <workItem from="1723961775630" duration="25843000" />
+      <workItem from="1723961775630" duration="45506000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
