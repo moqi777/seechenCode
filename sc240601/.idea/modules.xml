@@ -12,8 +12,10 @@
       <module fileurl="file://$PROJECT_DIR$/emailSystemSpringMVC/emailSystemSpringMVC.iml" filepath="$PROJECT_DIR$/emailSystemSpringMVC/emailSystemSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaSE/javaSE.iml" filepath="$PROJECT_DIR$/javaSE/javaSE.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp/ocp.iml" filepath="$PROJECT_DIR$/ocp/ocp.iml" />
       <module fileurl="file://$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" filepath="$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootTest/springbootTest.iml" filepath="$PROJECT_DIR$/springbootTest/springbootTest.iml" />
     </modules>
   </component>
 </project>

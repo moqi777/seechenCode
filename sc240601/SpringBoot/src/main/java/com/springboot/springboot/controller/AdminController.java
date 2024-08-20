@@ -8,10 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author:zhengYiLong
@@ -22,11 +19,16 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 //前后端分离的项目 处理的前后的结果都是json
 @RestController
+// @CrossOrigin //跨域注解 不推荐 不灵活 每个类都要加
 public class AdminController {
     //1.定义日志对象
     private static final Logger LOG = LoggerFactory.getLogger(AdminController.class);
     @Autowired
     AdminService as;
+
+    public void setAs(AdminService as) {
+        this.as = as;
+    }
 
     @RequestMapping("/testLog")
     public Result testLog(Integer num){
