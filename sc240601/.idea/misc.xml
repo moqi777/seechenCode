@@ -12,6 +12,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Spring2" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/SSM" />
+    <file type="web" url="file://$PROJECT_DIR$/SSMTest" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -31,6 +32,7 @@
         <option value="$PROJECT_DIR$/SSM/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/springbootTest/pom.xml" />
+        <option value="$PROJECT_DIR$/SSMTest/pom.xml" />
       </list>
     </option>
   </component>
