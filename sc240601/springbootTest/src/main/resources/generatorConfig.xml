@@ -73,7 +73,7 @@
             映射文件：会追加 映射文件内的标签会再添加一遍 会报错
             如何防止：用完就注
         -->
-        <table tableName="o_admin" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+        <table tableName="emp" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false">
             <!--<columnOverride column="ID" javaType="java.lang.Integer"></columnOverride>
             <columnOverride column="dept" javaType="java.lang.Integer"></columnOverride>-->

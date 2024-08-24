@@ -34,7 +34,7 @@ public class CrossOriginFilterConfig {
     public CorsConfiguration config(){
         CorsConfiguration config = new CorsConfiguration();
         //设置规则
-        config.addAllowedOrigin("*");
+        config.addAllowedOriginPattern("*");
         config.addAllowedHeader("*");
         config.setAllowedMethods(Arrays.asList("GET","POST","PUT","DELETE"));
         config.setAllowCredentials(true);

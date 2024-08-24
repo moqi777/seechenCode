@@ -1,105 +1,258 @@
-2024-08-20 11:34:16.438  INFO 28044 --- [restartedMain] com.springboot.springboot.Application    : Starting Application using Java 1.8.0_131 on 莫七的计算机 with PID 28044 (D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
-2024-08-20 11:34:16.448  INFO 28044 --- [restartedMain] com.springboot.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
-2024-08-20 11:34:16.532  INFO 28044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-08-20 11:34:16.532  INFO 28044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-08-20 11:34:17.724  INFO 28044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2024-08-20 11:34:17.730  INFO 28044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-20 11:34:17.731  INFO 28044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
-2024-08-20 11:34:17.796  INFO 28044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-20 11:34:17.797  INFO 28044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1264 ms
-2024-08-20 11:34:17.854  WARN 28044 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'as'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OAdminMapper' defined in file [D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes\com\springboot\springboot\mapper\OAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' available: expected single matching bean but found 2: test,spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties
-2024-08-20 11:34:17.856  INFO 28044 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-08-20 11:34:17.868  INFO 28044 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2024-08-23 11:07:22.490  INFO 20028 --- [restartedMain] com.springboot.springboot.Application    : Starting Application using Java 1.8.0_131 on 莫七的计算机 with PID 20028 (D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-23 11:07:22.502  INFO 20028 --- [restartedMain] com.springboot.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2024-08-23 11:07:22.700  INFO 20028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-23 11:07:22.701  INFO 20028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-23 11:07:25.219  INFO 20028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-08-23 11:07:25.258  INFO 20028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-23 11:07:25.259  INFO 20028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-23 11:07:25.494  INFO 20028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-23 11:07:25.494  INFO 20028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2790 ms
+2024-08-23 11:07:27.429  WARN 20028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-23 11:07:27.522  INFO 20028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-08-23 11:07:27.556  INFO 20028 --- [restartedMain] com.springboot.springboot.Application    : Started Application in 6.115 seconds (JVM running for 8.886)
+2024-08-23 11:20:16.425  INFO 28148 --- [restartedMain] com.springboot.springboot.Application    : Starting Application using Java 1.8.0_131 on 莫七的计算机 with PID 28148 (D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-23 11:20:16.429  INFO 28148 --- [restartedMain] com.springboot.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2024-08-23 11:20:16.603  INFO 28148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-23 11:20:16.605  INFO 28148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-23 11:20:18.530  INFO 28148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-08-23 11:20:18.541  INFO 28148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-23 11:20:18.541  INFO 28148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-23 11:20:18.633  INFO 28148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-23 11:20:18.634  INFO 28148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2027 ms
+2024-08-23 11:20:19.371  WARN 28148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-23 11:20:19.408  INFO 28148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-08-23 11:20:19.419  INFO 28148 --- [restartedMain] com.springboot.springboot.Application    : Started Application in 3.898 seconds (JVM running for 6.066)
+2024-08-23 11:21:54.195  INFO 28148 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-23 11:21:54.196  INFO 28148 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-23 11:21:54.198  INFO 28148 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-23 11:21:54.239 ERROR 28148 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-08-20 11:34:17.891 ERROR 28044 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+java.lang.IllegalArgumentException: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+	at org.springframework.web.cors.CorsConfiguration.validateAllowCredentials(CorsConfiguration.java:473) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.cors.CorsConfiguration.checkOrigin(CorsConfiguration.java:577) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.cors.DefaultCorsProcessor.checkOrigin(DefaultCorsProcessor.java:174) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.cors.DefaultCorsProcessor.handleInternal(DefaultCorsProcessor.java:116) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.cors.DefaultCorsProcessor.processRequest(DefaultCorsProcessor.java:95) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:87) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.24.jar:5.3.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.69.jar:9.0.69]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
 
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of method dataSource in org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari required a single bean, but 2 were found:
-	- test: defined by method 'test' in class path resource [com/springboot/springboot/config/MyConfig.class]
-	- spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties: defined in null
-
-
-Action:
-
-Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
-
-2024-08-20 11:34:52.920  INFO 29476 --- [restartedMain] com.springboot.springboot.Application    : Starting Application using Java 1.8.0_131 on 莫七的计算机 with PID 29476 (D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
-2024-08-20 11:34:52.921  INFO 29476 --- [restartedMain] com.springboot.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
-2024-08-20 11:34:52.984  INFO 29476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-08-20 11:34:52.985  INFO 29476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-08-20 11:34:54.053  INFO 29476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2024-08-20 11:34:54.058  INFO 29476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-20 11:34:54.059  INFO 29476 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
-2024-08-20 11:34:54.120  INFO 29476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-20 11:34:54.120  INFO 29476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1134 ms
-2024-08-20 11:34:54.166  WARN 29476 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'as'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OAdminMapper' defined in file [D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes\com\springboot\springboot\mapper\OAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' available: expected single matching bean but found 2: test,spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties
-2024-08-20 11:34:54.168  INFO 29476 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-08-20 11:34:54.178  INFO 29476 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-08-20 11:34:54.193 ERROR 29476 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of method dataSource in org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari required a single bean, but 2 were found:
-	- test: defined by method 'test' in class path resource [com/springboot/springboot/config/MyConfig.class]
-	- spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties: defined in null
-
-
-Action:
-
-Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
-
-2024-08-20 11:35:39.363  INFO 35028 --- [restartedMain] com.springboot.springboot.Application    : Starting Application using Java 1.8.0_131 on 莫七的计算机 with PID 35028 (D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
-2024-08-20 11:35:39.365  INFO 35028 --- [restartedMain] com.springboot.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
-2024-08-20 11:35:39.436  INFO 35028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-08-20 11:35:39.436  INFO 35028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-08-20 11:35:40.392  INFO 35028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2024-08-20 11:35:40.398  INFO 35028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-20 11:35:40.398  INFO 35028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
-2024-08-20 11:35:40.462  INFO 35028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-20 11:35:40.463  INFO 35028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1025 ms
-2024-08-20 11:35:41.014  INFO 35028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-08-20 11:35:41.044  INFO 35028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2024-08-20 11:35:41.053  INFO 35028 --- [restartedMain] com.springboot.springboot.Application    : Started Application in 2.152 seconds (JVM running for 3.049)
-2024-08-20 11:36:54.363  INFO 40132 --- [restartedMain] com.springboot.springboot.Application    : Starting Application using Java 1.8.0_131 on 莫七的计算机 with PID 40132 (D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
-2024-08-20 11:36:54.366  INFO 40132 --- [restartedMain] com.springboot.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
-2024-08-20 11:36:54.433  INFO 40132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-08-20 11:36:54.435  INFO 40132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-08-20 11:36:55.371  INFO 40132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2024-08-20 11:36:55.377  INFO 40132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-08-20 11:36:55.377  INFO 40132 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
-2024-08-20 11:36:55.434  INFO 40132 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-08-20 11:36:55.435  INFO 40132 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 998 ms
-2024-08-20 11:36:55.486  WARN 40132 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'as'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OAdminMapper' defined in file [D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes\com\springboot\springboot\mapper\OAdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' available: expected single matching bean but found 2: test,spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties
-2024-08-20 11:36:55.489  INFO 40132 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-08-20 11:36:55.500  INFO 40132 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-08-20 11:36:55.519 ERROR 40132 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 0 of method dataSource in org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari required a single bean, but 2 were found:
-	- test: defined by method 'test' in class path resource [com/springboot/springboot/config/MyConfig.class]
-	- spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties: defined in null
-
-
-Action:
-
-Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
-
+2024-08-23 11:23:04.389  INFO 3184 --- [restartedMain] com.springboot.springboot.Application    : Starting Application using Java 1.8.0_131 on 莫七的计算机 with PID 3184 (D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-23 11:23:04.392  INFO 3184 --- [restartedMain] com.springboot.springboot.Application    : No active profile set, falling back to 1 default profile: "default"
+2024-08-23 11:23:04.537  INFO 3184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-23 11:23:04.538  INFO 3184 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-23 11:23:07.033  INFO 3184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-08-23 11:23:07.047  INFO 3184 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-23 11:23:07.047  INFO 3184 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-23 11:23:07.183  INFO 3184 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-23 11:23:07.183  INFO 3184 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2643 ms
+2024-08-23 11:23:08.129  WARN 3184 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-23 11:23:08.180  INFO 3184 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-08-23 11:23:08.195  INFO 3184 --- [restartedMain] com.springboot.springboot.Application    : Started Application in 4.739 seconds (JVM running for 6.629)
+2024-08-23 11:23:49.343  INFO 3184 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-23 11:23:49.344  INFO 3184 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-23 11:23:49.345  INFO 3184 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-23 11:23:49.528  INFO 3184 --- [http-nio-8082-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-23 11:23:50.306  INFO 3184 --- [http-nio-8082-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-23 11:23:50.317 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.m.OAdminMapper.insertSelective     : ==>  Preparing: insert into o_admin ( ACCOUNT, PASSWORD, PHONE ) values ( ?, ?, ? )
+2024-08-23 11:23:50.347 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.m.OAdminMapper.insertSelective     : ==> Parameters: 123(String), 123(String), 123(String)
+2024-08-23 11:23:50.514 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.m.OAdminMapper.insertSelective     : <==    Updates: 1
+2024-08-23 12:30:34.493 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:30:34.511 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:30:34.881 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:30:35.087 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:30:35.207 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:30:35.256 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:30:40.610 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:30:40.611 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:30:40.620 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:30:40.622 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:30:40.623 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:30:40.642 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:30:44.547 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:30:44.549 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:30:44.553 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:30:44.554 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:30:44.555 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:30:44.563 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:30:45.484 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:30:45.486 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:30:45.491 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:30:45.493 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:30:45.495 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:30:45.512 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:31:13.465 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:31:13.466 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:31:13.470 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:31:13.470 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:31:13.472 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:31:13.476 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:31:15.344 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:31:15.346 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:31:15.351 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:31:15.353 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:31:15.356 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:31:15.359 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:31:25.503 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:31:25.503 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:31:25.506 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:31:25.508 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:31:25.509 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:31:25.516 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:31:26.484 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:31:26.486 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:31:26.494 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:31:26.496 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:31:26.497 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:31:26.506 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:31:46.408 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:31:46.409 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:31:46.413 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:31:46.415 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:31:46.416 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:31:46.423 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:31:47.552 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:31:47.553 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:31:47.558 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:31:47.560 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:31:47.561 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:31:47.567 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:32:16.742 DEBUG 3184 --- [http-nio-8082-exec-10] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:32:16.743 DEBUG 3184 --- [http-nio-8082-exec-10] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:32:16.747 DEBUG 3184 --- [http-nio-8082-exec-10] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:32:16.749 DEBUG 3184 --- [http-nio-8082-exec-10] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:32:16.750 DEBUG 3184 --- [http-nio-8082-exec-10] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:32:16.756 DEBUG 3184 --- [http-nio-8082-exec-10] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:32:20.909 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:32:20.910 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:32:20.913 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:32:20.914 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:32:20.915 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:32:20.923 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:32:20.938 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:32:20.938 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:32:20.940 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:32:20.942 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:32:20.942 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:32:20.945 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:32:33.882 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:32:33.883 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:32:33.886 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:32:33.887 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:32:33.887 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:32:33.890 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:32:36.708 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:32:36.709 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:32:36.714 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:32:36.717 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:32:36.718 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:32:36.722 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:32:46.198 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:32:46.199 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:32:46.204 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:32:46.206 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:32:46.209 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:32:46.213 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:32:48.488 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:32:48.491 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:32:48.496 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:32:48.497 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:32:48.498 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:32:48.502 DEBUG 3184 --- [http-nio-8082-exec-6] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:32:48.534 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:32:48.536 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:32:48.539 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:32:48.541 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:32:48.541 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:32:48.546 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:33:06.431 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:33:06.432 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:33:06.435 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:33:06.436 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:33:06.438 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:33:06.444 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:33:06.457 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:33:06.458 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:33:06.461 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:33:06.462 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:33:06.463 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:33:06.464 DEBUG 3184 --- [http-nio-8082-exec-2] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:33:08.797 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:33:08.798 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:33:08.800 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:33:08.801 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:33:08.802 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:33:08.805 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:33:21.617 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:33:21.617 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:33:21.620 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:33:21.620 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:33:21.620 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:33:21.623 DEBUG 3184 --- [http-nio-8082-exec-4] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:33:23.880 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:33:23.880 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:33:23.883 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:33:23.884 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:33:23.884 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:33:23.888 DEBUG 3184 --- [http-nio-8082-exec-5] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:33:26.344 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:33:26.345 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:33:26.347 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:33:26.348 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:33:26.348 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:33:26.352 DEBUG 3184 --- [http-nio-8082-exec-7] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:33:28.948 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:33:28.949 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:33:28.951 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:33:28.952 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:33:28.953 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:33:28.956 DEBUG 3184 --- [http-nio-8082-exec-8] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:34:02.306 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:34:02.306 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:34:02.309 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:34:02.310 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:34:02.311 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:34:02.316 DEBUG 3184 --- [http-nio-8082-exec-9] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:34:04.914 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:34:04.914 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:34:04.918 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:34:04.919 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:34:04.920 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:34:04.922 DEBUG 3184 --- [http-nio-8082-exec-1] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 12:37:15.383 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.s.mapper.OAdminMapper.show_COUNT     : ==>  Preparing: SELECT count(0) FROM o_admin
+2024-08-23 12:37:15.383 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.s.mapper.OAdminMapper.show_COUNT     : ==> Parameters: 
+2024-08-23 12:37:15.387 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.s.mapper.OAdminMapper.show_COUNT     : <==      Total: 1
+2024-08-23 12:37:15.387 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.springboot.mapper.OAdminMapper.show  : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin LIMIT ?
+2024-08-23 12:37:15.388 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.springboot.mapper.OAdminMapper.show  : ==> Parameters: 5(Integer)
+2024-08-23 12:37:15.389 DEBUG 3184 --- [http-nio-8082-exec-3] c.s.springboot.mapper.OAdminMapper.show  : <==      Total: 5
+2024-08-23 15:10:24.902  INFO 3184 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-23 15:10:24.971  INFO 3184 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

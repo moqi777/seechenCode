@@ -21,7 +21,6 @@ public class CycleServlet implements Servlet {
         //init()中如何获取初始化参数
         String reqValue = servletConfig.getInitParameter("reqCharSet");
         System.out.println("CycleController："+reqValue);
-
         //init()获取全局参数
         String respValue = servletConfig.getServletContext().getInitParameter("respCharset");
         System.out.println("CycleController："+respValue);

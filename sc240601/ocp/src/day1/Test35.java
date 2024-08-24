@@ -1,6 +1,8 @@
 package day1;
 
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -22,5 +24,23 @@ public class Test35 {
                         i->symbols.get(i),
                         i->1.0/exchangeRate.get(i)));//收集器方法
         System.out.println(mapl);
+
+        var map2 = mapl.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByKey()) //对流中的entry元素进行排序
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,//借助与Entry类的getKey 获取流中的Key元素
+                        Map.Entry::getValue,
+                        //是用于防止值(key和value)重复的，如果值存在了 使用老的值
+                        (oldValue,newValue)->oldValue,
+                        LinkedHashMap::new//借助于new LinkedHashMap 构建最终的集合
+                ));
+        System.out.println(map2);
+        map2.forEach((var k,var v)->
+                //参数1：打印规则 参数2：k的值 参数3：v的值
+                //%s表示k的打印规则 通过字符串打印
+                //%.2f表示v的打印规则 通过浮点型 保留2位
+                //\n 每打印一组key和value换行
+                System.out.printf("%s->%.2f\n",k,v));
     }
 }

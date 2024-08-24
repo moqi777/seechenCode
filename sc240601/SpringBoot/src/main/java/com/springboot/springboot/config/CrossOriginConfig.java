@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @desc:跨域配置类
  * @DateTime:2024/8/20 14:17
  **/
-@Configuration
+// @Configuration
 public class CrossOriginConfig implements WebMvcConfigurer {
     //跨域配置类 不需要创建一个对象(因为springboot已经创建好了)
     //我们需要的是在它创建的对象里面 添加跨域规则

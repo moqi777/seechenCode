@@ -53,7 +53,7 @@ public class AdminController {
         return new Result(0,"登录失败",null);
     }
     @RequestMapping("/add")
-    public Result add(OAdmin a){
+    public Result add(@RequestBody OAdmin a){
         int i = as.add(a);
         if (i>0){
             return new Result(1,"新增成功",null);
