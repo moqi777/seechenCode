@@ -23,6 +23,10 @@ public class Demo1_hashcode {
         System.out.println("num1："+num1.hashCode());
         System.out.println("num2："+num2.hashCode());
 
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
+
         //String类hashcode
         String s1 = "java";
         String s2 = new String("java");

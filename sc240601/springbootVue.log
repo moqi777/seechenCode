@@ -1,0 +1,247 @@
+2024-08-27 15:19:20.193  INFO 34732 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 34732 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-27 15:19:20.195  INFO 34732 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-27 15:19:20.303  INFO 34732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-27 15:19:20.304  INFO 34732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-27 15:19:22.763  INFO 34732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-08-27 15:19:22.782  INFO 34732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27 15:19:22.782  INFO 34732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-27 15:19:23.020  INFO 34732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27 15:19:23.020  INFO 34732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2714 ms
+2024-08-27 15:19:25.584  INFO 34732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-27 15:19:25.675  INFO 34732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-08-27 15:19:25.706  INFO 34732 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 6.185 seconds (JVM running for 10.52)
+2024-08-27 15:19:40.442  INFO 34732 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-27 15:19:40.442  INFO 34732 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-27 15:19:40.443  INFO 34732 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-27 15:19:59.471  WARN 34732 --- [http-nio-9999-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.sv.springbootvue.pojo.Result com.sv.springbootvue.controller.MyUserController.selectAll(java.lang.Integer,java.lang.Integer,com.sv.springbootvue.pojo.Myuser)]
+2024-08-27 15:20:33.676  INFO 34732 --- [http-nio-9999-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27 15:20:34.490  INFO 34732 --- [http-nio-9999-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27 15:20:34.530 DEBUG 34732 --- [http-nio-9999-exec-7] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==>  Preparing: select id, name, regTime, integral, sex from myuser where id = ?
+2024-08-27 15:20:34.553 DEBUG 34732 --- [http-nio-9999-exec-7] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==> Parameters: 100(Integer)
+2024-08-27 15:20:34.588 DEBUG 34732 --- [http-nio-9999-exec-7] c.s.s.m.MyuserMapper.selectByPrimaryKey  : <==      Total: 0
+2024-08-27 15:20:54.941 DEBUG 34732 --- [http-nio-9999-exec-10] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==>  Preparing: select id, name, regTime, integral, sex from myuser where id = ?
+2024-08-27 15:20:54.941 DEBUG 34732 --- [http-nio-9999-exec-10] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==> Parameters: 61998(Integer)
+2024-08-27 15:20:54.946 DEBUG 34732 --- [http-nio-9999-exec-10] c.s.s.m.MyuserMapper.selectByPrimaryKey  : <==      Total: 1
+2024-08-27 15:21:50.429  WARN 34732 --- [http-nio-9999-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.sv.springbootvue.pojo.Result com.sv.springbootvue.controller.MyUserController.selectAll(java.lang.Integer,java.lang.Integer,com.sv.springbootvue.pojo.Myuser)]
+2024-08-27 15:23:24.757  INFO 34732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-27 15:23:24.769  INFO 34732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-27 15:23:42.395  INFO 5712 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 5712 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-27 15:23:42.398  INFO 5712 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-27 15:23:42.572  INFO 5712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-27 15:23:42.573  INFO 5712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-27 15:23:45.331  INFO 5712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-08-27 15:23:45.343  INFO 5712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27 15:23:45.343  INFO 5712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-27 15:23:45.441  INFO 5712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27 15:23:45.441  INFO 5712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2866 ms
+2024-08-27 15:23:50.951  INFO 5712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-27 15:23:50.989  INFO 5712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-08-27 15:23:51.002  INFO 5712 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 9.899 seconds (JVM running for 12.331)
+2024-08-27 15:23:51.740  INFO 5712 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-27 15:23:51.740  INFO 5712 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-27 15:23:51.741  INFO 5712 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-27 15:23:51.805  INFO 5712 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27 15:23:52.613  INFO 5712 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27 15:23:52.692 DEBUG 5712 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:23:52.716 DEBUG 5712 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:23:52.760 DEBUG 5712 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:23:52.765 DEBUG 5712 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?, ?
+2024-08-27 15:23:52.766 DEBUG 5712 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer), 5(Integer)
+2024-08-27 15:23:52.771 DEBUG 5712 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:23:59.544 DEBUG 5712 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:23:59.545 DEBUG 5712 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:23:59.547 DEBUG 5712 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:23:59.548 DEBUG 5712 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:23:59.548 DEBUG 5712 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:23:59.551 DEBUG 5712 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:24:30.232 DEBUG 5712 --- [http-nio-9999-exec-7] c.s.s.m.MyuserMapper.deleteByPrimaryKey  : ==>  Preparing: delete from myuser where id = ?
+2024-08-27 15:24:30.233 DEBUG 5712 --- [http-nio-9999-exec-7] c.s.s.m.MyuserMapper.deleteByPrimaryKey  : ==> Parameters: 61962(Integer)
+2024-08-27 15:24:30.282 DEBUG 5712 --- [http-nio-9999-exec-7] c.s.s.m.MyuserMapper.deleteByPrimaryKey  : <==    Updates: 1
+2024-08-27 15:26:08.096  INFO 5712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-27 15:26:08.108  INFO 5712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-27 15:26:19.328  INFO 37352 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 37352 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-27 15:26:19.332  INFO 37352 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-27 15:26:19.500  INFO 37352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-27 15:26:19.501  INFO 37352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-27 15:26:21.597  INFO 37352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-08-27 15:26:21.608  INFO 37352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27 15:26:21.609  INFO 37352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-27 15:26:21.725  INFO 37352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27 15:26:21.725  INFO 37352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2222 ms
+2024-08-27 15:26:22.445  INFO 37352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-27 15:26:22.484  INFO 37352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-08-27 15:26:22.497  INFO 37352 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 4.095 seconds (JVM running for 6.378)
+2024-08-27 15:26:25.601  INFO 37352 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-27 15:26:25.601  INFO 37352 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-27 15:26:25.602  INFO 37352 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-27 15:26:25.652  INFO 37352 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27 15:26:26.367  INFO 37352 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27 15:26:26.429 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:26:26.456 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:26:26.487 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:26:26.493 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:26:26.494 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:26:26.498 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:26:30.489 DEBUG 37352 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:26:30.490 DEBUG 37352 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:26:30.495 DEBUG 37352 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:26:30.495 DEBUG 37352 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:26:30.496 DEBUG 37352 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:26:30.500 DEBUG 37352 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:26:31.472 DEBUG 37352 --- [http-nio-9999-exec-5] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:26:31.474 DEBUG 37352 --- [http-nio-9999-exec-5] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:26:31.476 DEBUG 37352 --- [http-nio-9999-exec-5] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:26:31.477 DEBUG 37352 --- [http-nio-9999-exec-5] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:26:31.477 DEBUG 37352 --- [http-nio-9999-exec-5] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:26:31.480 DEBUG 37352 --- [http-nio-9999-exec-5] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:26:32.200 DEBUG 37352 --- [http-nio-9999-exec-6] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:26:32.200 DEBUG 37352 --- [http-nio-9999-exec-6] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:26:32.202 DEBUG 37352 --- [http-nio-9999-exec-6] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:26:32.202 DEBUG 37352 --- [http-nio-9999-exec-6] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:26:32.203 DEBUG 37352 --- [http-nio-9999-exec-6] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:26:32.206 DEBUG 37352 --- [http-nio-9999-exec-6] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:26:32.825 DEBUG 37352 --- [http-nio-9999-exec-8] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:26:32.825 DEBUG 37352 --- [http-nio-9999-exec-8] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:26:32.827 DEBUG 37352 --- [http-nio-9999-exec-8] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:26:32.828 DEBUG 37352 --- [http-nio-9999-exec-8] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:26:32.828 DEBUG 37352 --- [http-nio-9999-exec-8] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:26:32.830 DEBUG 37352 --- [http-nio-9999-exec-8] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:26:33.445 DEBUG 37352 --- [http-nio-9999-exec-7] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:26:33.446 DEBUG 37352 --- [http-nio-9999-exec-7] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:26:33.451 DEBUG 37352 --- [http-nio-9999-exec-7] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:26:33.452 DEBUG 37352 --- [http-nio-9999-exec-7] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:26:33.452 DEBUG 37352 --- [http-nio-9999-exec-7] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:26:33.454 DEBUG 37352 --- [http-nio-9999-exec-7] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:26:42.882 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:26:42.882 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:26:42.885 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:26:42.886 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:26:42.886 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:26:42.888 DEBUG 37352 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:27:46.579  INFO 37352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-27 15:27:46.589  INFO 37352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-27 15:27:58.697  INFO 9000 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 9000 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-27 15:27:58.701  INFO 9000 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-27 15:27:58.837  INFO 9000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-27 15:27:58.840  INFO 9000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-27 15:28:00.594  INFO 9000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-08-27 15:28:00.605  INFO 9000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27 15:28:00.605  INFO 9000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-27 15:28:00.709  INFO 9000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27 15:28:00.710  INFO 9000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1868 ms
+2024-08-27 15:28:01.499  INFO 9000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-27 15:28:01.538  INFO 9000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-08-27 15:28:01.555  INFO 9000 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 3.795 seconds (JVM running for 5.8)
+2024-08-27 15:28:06.185  INFO 9000 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-27 15:28:06.185  INFO 9000 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-27 15:28:06.187  INFO 9000 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-27 15:28:06.239  INFO 9000 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27 15:28:06.997  INFO 9000 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27 15:28:07.063 DEBUG 9000 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:28:07.086 DEBUG 9000 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:28:07.114 DEBUG 9000 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:28:07.125 DEBUG 9000 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:28:07.125 DEBUG 9000 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:28:07.130 DEBUG 9000 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:28:25.280 DEBUG 9000 --- [http-nio-9999-exec-2] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:28:25.281 DEBUG 9000 --- [http-nio-9999-exec-2] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:28:25.283 DEBUG 9000 --- [http-nio-9999-exec-2] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:28:25.284 DEBUG 9000 --- [http-nio-9999-exec-2] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:28:25.284 DEBUG 9000 --- [http-nio-9999-exec-2] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 999(Integer)
+2024-08-27 15:28:25.371 DEBUG 9000 --- [http-nio-9999-exec-2] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 998
+2024-08-27 15:28:51.301  INFO 9000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-27 15:28:51.313  INFO 9000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-27 15:28:58.160  INFO 21836 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 21836 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-27 15:28:58.163  INFO 21836 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-27 15:28:58.290  INFO 21836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-27 15:28:58.291  INFO 21836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-27 15:28:59.993  INFO 21836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-08-27 15:29:00.002  INFO 21836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27 15:29:00.003  INFO 21836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-27 15:29:00.105  INFO 21836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27 15:29:00.105  INFO 21836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1812 ms
+2024-08-27 15:29:00.832  INFO 21836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-27 15:29:00.867  INFO 21836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-08-27 15:29:00.879  INFO 21836 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 3.747 seconds (JVM running for 6.218)
+2024-08-27 15:29:04.804  INFO 21836 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-27 15:29:04.805  INFO 21836 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-27 15:29:04.806  INFO 21836 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-27 15:29:04.854  INFO 21836 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27 15:29:05.546  INFO 21836 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27 15:29:05.619 DEBUG 21836 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:29:05.642 DEBUG 21836 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:29:05.672 DEBUG 21836 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:29:05.679 DEBUG 21836 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:29:05.680 DEBUG 21836 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 999(Integer)
+2024-08-27 15:29:05.765 DEBUG 21836 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 998
+2024-08-27 15:29:21.953  INFO 21836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-27 15:29:21.978  INFO 21836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-27 15:37:01.385  INFO 18500 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 18500 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-27 15:37:01.389  INFO 18500 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-27 15:37:01.521  INFO 18500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-27 15:37:01.522  INFO 18500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-27 15:37:04.905  INFO 18500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-08-27 15:37:05.191  INFO 18500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27 15:37:05.192  INFO 18500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-27 15:37:05.340  INFO 18500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27 15:37:05.341  INFO 18500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3818 ms
+2024-08-27 15:37:06.973  INFO 18500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-27 15:37:07.095  INFO 18500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-08-27 15:37:07.141  INFO 18500 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 7.179 seconds (JVM running for 9.033)
+2024-08-27 15:38:13.154  INFO 18500 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-27 15:38:13.158  INFO 18500 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-27 15:38:13.171  INFO 18500 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2024-08-27 15:38:13.652  WARN 18500 --- [http-nio-9999-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.sv.springbootvue.pojo.Result com.sv.springbootvue.controller.MyUserController.selectAll(java.lang.Integer,java.lang.Integer,com.sv.springbootvue.pojo.Myuser)]
+2024-08-27 15:41:39.635  INFO 10860 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 10860 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-27 15:41:39.638  INFO 10860 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-27 15:41:39.737  INFO 10860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-27 15:41:39.738  INFO 10860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-27 15:41:40.859  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-08-27 15:41:40.868  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27 15:41:40.869  INFO 10860 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-27 15:41:40.939  INFO 10860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27 15:41:40.940  INFO 10860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1200 ms
+2024-08-27 15:41:41.581  INFO 10860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-27 15:41:41.607  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-08-27 15:41:41.616  INFO 10860 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 2.583 seconds (JVM running for 3.9)
+2024-08-27 15:42:04.680  INFO 10860 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-27 15:42:04.681  INFO 10860 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-27 15:42:04.684  INFO 10860 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-08-27 15:42:04.738  INFO 10860 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27 15:42:05.337  INFO 10860 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27 15:42:05.418 DEBUG 10860 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:42:05.441 DEBUG 10860 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:42:05.484 DEBUG 10860 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:42:05.489 DEBUG 10860 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:42:05.490 DEBUG 10860 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-08-27 15:42:05.492 DEBUG 10860 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-08-27 15:42:10.881 DEBUG 10860 --- [http-nio-9999-exec-2] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-08-27 15:42:10.881 DEBUG 10860 --- [http-nio-9999-exec-2] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-08-27 15:42:10.890 DEBUG 10860 --- [http-nio-9999-exec-2] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-08-27 15:42:10.891 DEBUG 10860 --- [http-nio-9999-exec-2] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-08-27 15:42:10.891 DEBUG 10860 --- [http-nio-9999-exec-2] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 999(Integer)
+2024-08-27 15:42:10.943 DEBUG 10860 --- [http-nio-9999-exec-2] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 998
+2024-08-27 15:59:18.137  INFO 10860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-27 15:59:18.172  INFO 10860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-27 15:59:25.598  INFO 21008 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 21008 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-08-27 15:59:25.600  INFO 21008 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-27 15:59:25.648  INFO 21008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-27 15:59:25.649  INFO 21008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-27 15:59:26.671  INFO 21008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-08-27 15:59:26.679  INFO 21008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27 15:59:26.679  INFO 21008 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-08-27 15:59:26.753  INFO 21008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27 15:59:26.753  INFO 21008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1096 ms
+2024-08-27 15:59:27.242  INFO 21008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-27 15:59:27.265  INFO 21008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-08-27 15:59:27.272  INFO 21008 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 2.022 seconds (JVM running for 2.872)
+2024-08-27 16:01:02.668  INFO 21008 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-27 16:01:02.668  INFO 21008 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-27 16:01:02.669  INFO 21008 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-27 16:01:02.701  INFO 21008 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27 16:01:03.229  INFO 21008 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27 16:01:03.260 DEBUG 21008 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==>  Preparing: select id, name, regTime, integral, sex from myuser where id = ?
+2024-08-27 16:01:03.278 DEBUG 21008 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==> Parameters: 61998(Integer)
+2024-08-27 16:01:03.316 DEBUG 21008 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectByPrimaryKey  : <==      Total: 1
+2024-08-27 16:02:27.997  INFO 21008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-27 16:02:28.002  INFO 21008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

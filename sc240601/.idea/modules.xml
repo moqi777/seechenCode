@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" filepath="$PROJECT_DIR$/ratepaySystem/ratepaySystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootTest/springbootTest.iml" filepath="$PROJECT_DIR$/springbootTest/springbootTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootVue/springbootVue.iml" filepath="$PROJECT_DIR$/springbootVue/springbootVue.iml" />
     </modules>
   </component>
 </project>

@@ -7,8 +7,6 @@
     <file url="file://$PROJECT_DIR$/MybatisJoinSpringMVC/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SSM/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SSM/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SSMTest/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SSMTest/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot/src/main/java" charset="UTF-8" />
@@ -25,6 +23,8 @@
     <file url="file://$PROJECT_DIR$/servlet/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootTest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springbootTest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootVue/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootVue/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

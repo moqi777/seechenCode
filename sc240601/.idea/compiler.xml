@@ -15,6 +15,7 @@
         <module name="SpringBoot" />
         <module name="Spring" />
         <module name="SSM" />
+        <module name="springbootVue" />
         <module name="ratepaySystem" />
         <module name="Mybatis" />
         <module name="springbootTest" />
@@ -34,6 +35,7 @@
       <module name="Spring2" target="1.7" />
       <module name="SpringBoot" target="1.8" />
       <module name="springbootTest" target="1.8" />
+      <module name="springbootVue" target="1.8" />
       <module name="SpringMVC" target="1.8" />
       <module name="springmvc" target="1.8" />
       <module name="SSM" target="1.8" />

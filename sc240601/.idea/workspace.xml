@@ -10,16 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="Ok">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaSE/src/day3/Demo1_hashcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSE/src/day3/Demo1_hashcode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb.log.2024-08-19.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb.log.2024-08-20.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE/day3/Demo1_hashcode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE/day3/Demo1_hashcode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ocp/day2/Test85.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ocp/day2/Test85.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +283,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SSMTest/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -295,18 +293,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35267037" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\src\main\java\com\sv\springbootvue\config" />
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\src\main\resources" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SSMTest\src\main\resources" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\springbootTest\src\main\java\com\sc\springboottest\config" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\springbootTest\src\main\resources" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SpringBoot\src\main\resources" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SSM\src\main\java\com\ssm\util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\Spring2\src\main\resources" />
@@ -322,7 +320,20 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat_spring">
+  <component name="RunManager" selected="Spring Boot.SpringbootVueApplication">
+    <configuration name="Demo1_hashcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.Demo1_hashcode" />
+      <module name="javaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Email" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pojo.Email" />
       <module name="emailSystem" />
@@ -336,12 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2.Test64" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.Test1" />
       <module name="ocp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day2.*" />
+          <option name="PATTERN" value="day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,25 +360,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test85" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2.Test85" />
+    <configuration name="TestStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.TestStream" />
       <module name="ocp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2.TestFlatMap" />
-      <module name="ocp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day2.*" />
+          <option name="PATTERN" value="day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -401,17 +399,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringbootTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springbootTest" />
+    <configuration name="SpringbootVueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springbootVue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sc.springboottest.*" />
+          <option name="PATTERN" value="com.sv.springbootvue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.springboottest.SpringbootTestApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sv.springbootvue.SpringbootVueApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1232,11 +1228,11 @@
     <list>
       <item itemvalue="Application.TestTransaction" />
       <item itemvalue="Application.Email" />
-      <item itemvalue="Application.Test64" />
-      <item itemvalue="Application.TestFlatMap" />
-      <item itemvalue="Application.Test85" />
-      <item itemvalue="Spring Boot.SpringbootTestApplication" />
+      <item itemvalue="Application.TestStream" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Demo1_hashcode" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.SpringbootVueApplication" />
       <item itemvalue="Tomcat Server.Tomcat_spring" />
       <item itemvalue="Tomcat Server.Tomcat_SSM" />
       <item itemvalue="Tomcat Server.Tomcat_mybatis" />
@@ -1249,11 +1245,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringbootTestApplication" />
+        <item itemvalue="Spring Boot.SpringbootVueApplication" />
+        <item itemvalue="Application.Demo1_hashcode" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.TestStream" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Application.Test85" />
-        <item itemvalue="Application.TestFlatMap" />
-        <item itemvalue="Application.Test64" />
       </list>
     </recent_temporary>
   </component>
@@ -1337,7 +1333,8 @@
       <workItem from="1724328998671" duration="830000" />
       <workItem from="1724378608018" duration="4125000" />
       <workItem from="1724461920092" duration="13327000" />
-      <workItem from="1724488012342" duration="889000" />
+      <workItem from="1724488012342" duration="15995000" />
+      <workItem from="1724743997645" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>
