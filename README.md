@@ -28,6 +28,10 @@
 
 该模块是一个基于jdbc+SpringMVC部分(控制层的输入输出)的邮件管理系统。与emailSystem模块系统的区别只有controller层的区别，还有一点是使用了MVC三层架构模式编写代码，新增了一个service层。email_user表新增了一个字段用于存放头像地址，项目中注册也新增了一个可以上传头像的功能，登录到主页后右上角会显示头像，此处运用了springMVC的上传文件功能。想要clone该项目部署数据库可以使用emailSystem模块项目下的sql文件，记得加上一个头像字段img。
 
+### Mybatis
+
+学习Mybatis框架代码
+
 ### ratepaySystem
 
 该模块是一个基于SpringMVC+Mybatis的纳税管理系统，使用ajax异步请求+同步请求，页面为jsp页面，使用EL表达式嵌套。只实现了一个纳税服务下的用户管理模块功能：
@@ -59,6 +63,24 @@
 - 登录有一个图片验证码的功能，使用了CodeUtil工具类，使用该工具类传入req和resp就可以自动传一张验证码图片到前端，并将其对应的验证码存入session以供使用
 - 进入到用户管理页面后，使用mybatis的分页插件做分页
 - 新增用户、一键启用 禁用 删除所选用户、退出登录、新增用户可以上传图片、首页右上角可以显示图片、根据需求动态搜索
+
+### springboot
+
+学习springboot代码
+
+### springbootTest
+
+练习springboot代码
+
+### ocp
+
+java11的语法，考ocjp证学习代码
+
+### springbootVue
+
+![image-20240828215703592](https://s2.loli.net/2024/08/28/ULctAfV4YhDMPBk.png)
+
+使用springboot+mybatis+vue3完成了页面所示所有功能，vue项目代码在另一个仓库
 
 ## study
 

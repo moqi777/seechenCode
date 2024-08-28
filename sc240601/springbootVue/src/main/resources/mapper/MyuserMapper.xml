@@ -26,20 +26,34 @@
             <bind value="'%'+name+'%'" name="newName"/>
             and name like #{newName}
           </if>
-          <if test="regtime!=null">
-            and regtime = #{regtime}
-          </if>
-          <if test="integral!=null">
-            and integral = #{integral}
-          </if>
           <if test="sex!=null">
             and sex = #{sex}
           </if>
+            <choose>
+              <when test="regtime1!=null and regtime2!=null">
+                and regtime between #{regtime1} and #{regtime2}
+              </when>
+              <when test="regtime1!=null">
+                and regtime &gt;= #{regtime1}
+              </when>
+              <when test="regtime2!=null">
+                and regtime &lt;= #{regtime2}
+              </when>
+            </choose>
         </where>
     </select>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from myuser
     where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByIds">
+    delete from myuser
+    <where>
+        id in
+      <foreach collection="list" open="(" close=")" separator="," item="u">
+        #{u.id}
+      </foreach>
+    </where>
   </delete>
   <insert id="insert" parameterType="com.sv.springbootvue.pojo.Myuser">
     insert into myuser (id, name, regTime, 

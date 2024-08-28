@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 /**
  * @author:zhengYiLong
  * @email:1797344574@qq.com
@@ -28,14 +30,23 @@ public class MyUserController {
     public Result add(@RequestBody Myuser u){
         int i = us.add(u);
         if (i>0){
-            return new Result(1,"注册成功");
+            return new Result(1,"新增成功");
         }
-        return new Result(0,"注册失败");
+        return new Result(0,"新增失败");
     }
 
     @RequestMapping("/del")
     public Result del(Integer id){
         int i = us.del(id);
+        if (i>0){
+            return new Result(1,"删除成功");
+        }
+        return new Result(0,"删除失败");
+    }
+
+    @RequestMapping("/dels")
+    public Result dels(@RequestBody List<Myuser> myusers){
+        int i = us.dels(myusers);
         if (i>0){
             return new Result(1,"删除成功");
         }

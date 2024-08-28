@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /**
  * @author:zhengYiLong
  * @email:1797344574@qq.com
@@ -21,6 +23,11 @@ import org.springframework.transaction.annotation.Transactional;
 public class MyUserServiceImpl implements MyUserService {
     @Autowired
     MyuserMapper mapper;
+
+    @Override
+    public int dels(List<Myuser> myusers) {
+        return mapper.deleteByIds(myusers);
+    }
 
     @Override
     public int add(Myuser user) {

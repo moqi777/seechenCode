@@ -3,6 +3,8 @@ package com.sv.springbootvue.service;
 import com.github.pagehelper.PageInfo;
 import com.sv.springbootvue.pojo.Myuser;
 
+import java.util.List;
+
 /**
  * @author:zhengYiLong
  * @email:1797344574@qq.com
@@ -20,4 +22,6 @@ public interface MyUserService {
     public Myuser selectById(Integer id);
 
     public PageInfo<Myuser> selectAll(Integer pageNum,Integer pageSize,Myuser myuser);
+
+    public int dels(List<Myuser> myusers);
 }

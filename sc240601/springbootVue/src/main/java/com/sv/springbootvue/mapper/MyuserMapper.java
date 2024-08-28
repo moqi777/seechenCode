@@ -20,4 +20,6 @@ public interface MyuserMapper {
     int updateByPrimaryKey(Myuser record);
 
     List<Myuser> selectLimit(Myuser myuser);
+
+    int deleteByIds(List<Myuser> myusers);
 }
