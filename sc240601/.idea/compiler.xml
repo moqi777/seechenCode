@@ -24,22 +24,16 @@
     <bytecodeTargetLevel>
       <module name="emailSystem" target="8" />
       <module name="emailSystemSpringMVC" target="1.8" />
-      <module name="mailSystem" target="1.7" />
       <module name="Mybatis" target="1.8" />
       <module name="MybatisJoinSpringMVC" target="1.8" />
       <module name="ratepaySystem" target="1.8" />
       <module name="servlet" target="8" />
-      <module name="Servlet" target="8" />
       <module name="Spring" target="1.8" />
-      <module name="spring2" target="1.7" />
-      <module name="Spring2" target="1.7" />
       <module name="SpringBoot" target="1.8" />
       <module name="springbootTest" target="1.8" />
       <module name="springbootVue" target="1.8" />
       <module name="SpringMVC" target="1.8" />
-      <module name="springmvc" target="1.8" />
       <module name="SSM" target="1.8" />
-      <module name="SSMTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
