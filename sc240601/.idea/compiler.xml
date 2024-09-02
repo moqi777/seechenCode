@@ -10,13 +10,14 @@
         <module name="emailSystem" />
         <module name="servlet" />
         <module name="SpringMVC" />
-        <module name="emailSystemSpringMVC" />
-        <module name="MybatisJoinSpringMVC" />
         <module name="SpringBoot" />
         <module name="Spring" />
         <module name="SSM" />
         <module name="springbootVue" />
         <module name="ratepaySystem" />
+        <module name="kuaiziLive" />
+        <module name="emailSystemSpringMVC" />
+        <module name="MybatisJoinSpringMVC" />
         <module name="Mybatis" />
         <module name="springbootTest" />
       </profile>
@@ -24,6 +25,7 @@
     <bytecodeTargetLevel>
       <module name="emailSystem" target="8" />
       <module name="emailSystemSpringMVC" target="1.8" />
+      <module name="kuaiziLive" target="1.8" />
       <module name="Mybatis" target="1.8" />
       <module name="MybatisJoinSpringMVC" target="1.8" />
       <module name="ratepaySystem" target="1.8" />

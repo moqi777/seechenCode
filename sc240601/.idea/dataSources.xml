@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://127.0.0.1:3306/sc240601?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;rewriteBatchedStatement=true&amp;serverTimezone=Asia/Shanghai</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="kuaizi_live" uuid="f49339aa-f8d5-4cb2-a605-58625866e0fe">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/kuaizi_live?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;rewriteBatchedStatement=true&amp;serverTimezone=Asia/Shanghai</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
