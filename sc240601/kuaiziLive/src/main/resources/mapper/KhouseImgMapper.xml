@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sc.kuaizilive.mapper.KhouseImgMapper">
+  <resultMap id="BaseResultMap" type="com.sc.kuaizilive.pojo.KhouseImg">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="property_id" jdbcType="INTEGER" property="propertyId" />
+    <result column="photo_url" jdbcType="VARCHAR" property="photoUrl" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, property_id, photo_url
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from khouse_img
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from khouse_img
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.sc.kuaizilive.pojo.KhouseImg">
+    insert into khouse_img (id, property_id, photo_url
+      )
+    values (#{id,jdbcType=INTEGER}, #{propertyId,jdbcType=INTEGER}, #{photoUrl,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.sc.kuaizilive.pojo.KhouseImg">
+    insert into khouse_img
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="propertyId != null">
+        property_id,
+      </if>
+      <if test="photoUrl != null">
+        photo_url,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="propertyId != null">
+        #{propertyId,jdbcType=INTEGER},
+      </if>
+      <if test="photoUrl != null">
+        #{photoUrl,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+    <insert id="inserts">
+      INSERT INTO khouse_img (property_id, photo_url)
+      VALUES
+      <foreach collection="imgs" item="img" separator=",">
+        (#{property_id}, #{img})
+      </foreach>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.sc.kuaizilive.pojo.KhouseImg">
+    update khouse_img
+    <set>
+      <if test="propertyId != null">
+        property_id = #{propertyId,jdbcType=INTEGER},
+      </if>
+      <if test="photoUrl != null">
+        photo_url = #{photoUrl,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sc.kuaizilive.pojo.KhouseImg">
+    update khouse_img
+    set property_id = #{propertyId,jdbcType=INTEGER},
+      photo_url = #{photoUrl,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

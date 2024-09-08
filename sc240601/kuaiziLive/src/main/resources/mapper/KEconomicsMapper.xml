@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sc.kuaizilive.mapper.KEconomicsMapper">
+  <resultMap id="BaseResultMap" type="com.sc.kuaizilive.pojo.KEconomics">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="gender" jdbcType="CHAR" property="gender" />
+    <result column="region" jdbcType="VARCHAR" property="region" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="wechat" jdbcType="VARCHAR" property="wechat" />
+    <result column="telegram" jdbcType="VARCHAR" property="telegram" />
+    <result column="area" jdbcType="REAL" property="area" />
+    <result column="rooms" jdbcType="VARCHAR" property="rooms" />
+    <result column="floor" jdbcType="VARCHAR" property="floor" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.sc.kuaizilive.pojo.KEconomics">
+    <result column="message" jdbcType="LONGVARCHAR" property="message" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, user_name, nickname, gender, region, address, phone, wechat, telegram, area, 
+    rooms, floor, created_at, updated_at
+  </sql>
+  <sql id="Blob_Column_List">
+    message
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from k_economics
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from k_economics
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.sc.kuaizilive.pojo.KEconomics">
+    insert into k_economics (id, user_name, nickname, 
+      gender, region, address, 
+      phone, wechat, telegram, 
+      area, rooms, floor, created_at, 
+      updated_at, message)
+    values (#{id,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR}, 
+      #{gender,jdbcType=CHAR}, #{region,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, 
+      #{phone,jdbcType=VARCHAR}, #{wechat,jdbcType=VARCHAR}, #{telegram,jdbcType=VARCHAR}, 
+      #{area,jdbcType=REAL}, #{rooms,jdbcType=VARCHAR}, #{floor,jdbcType=VARCHAR}, #{createdAt,jdbcType=TIMESTAMP}, 
+      #{updatedAt,jdbcType=TIMESTAMP}, #{message,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.sc.kuaizilive.pojo.KEconomics">
+    insert into k_economics
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="userName != null">
+        user_name,
+      </if>
+      <if test="nickname != null">
+        nickname,
+      </if>
+      <if test="gender != null">
+        gender,
+      </if>
+      <if test="region != null">
+        region,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+      <if test="phone != null">
+        phone,
+      </if>
+      <if test="wechat != null">
+        wechat,
+      </if>
+      <if test="telegram != null">
+        telegram,
+      </if>
+      <if test="area != null">
+        area,
+      </if>
+      <if test="rooms != null">
+        rooms,
+      </if>
+      <if test="floor != null">
+        floor,
+      </if>
+      <if test="createdAt != null">
+        created_at,
+      </if>
+      <if test="updatedAt != null">
+        updated_at,
+      </if>
+      <if test="message != null">
+        message,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="userName != null">
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null">
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        #{gender,jdbcType=CHAR},
+      </if>
+      <if test="region != null">
+        #{region,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null">
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="wechat != null">
+        #{wechat,jdbcType=VARCHAR},
+      </if>
+      <if test="telegram != null">
+        #{telegram,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null">
+        #{area,jdbcType=REAL},
+      </if>
+      <if test="rooms != null">
+        #{rooms,jdbcType=VARCHAR},
+      </if>
+      <if test="floor != null">
+        #{floor,jdbcType=VARCHAR},
+      </if>
+      <if test="createdAt != null">
+        #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null">
+        #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="message != null">
+        #{message,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sc.kuaizilive.pojo.KEconomics">
+    update k_economics
+    <set>
+      <if test="userName != null">
+        user_name = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null">
+        nickname = #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        gender = #{gender,jdbcType=CHAR},
+      </if>
+      <if test="region != null">
+        region = #{region,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null">
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="wechat != null">
+        wechat = #{wechat,jdbcType=VARCHAR},
+      </if>
+      <if test="telegram != null">
+        telegram = #{telegram,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null">
+        area = #{area,jdbcType=REAL},
+      </if>
+      <if test="rooms != null">
+        rooms = #{rooms,jdbcType=VARCHAR},
+      </if>
+      <if test="floor != null">
+        floor = #{floor,jdbcType=VARCHAR},
+      </if>
+      <if test="createdAt != null">
+        created_at = #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null">
+        updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="message != null">
+        message = #{message,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.sc.kuaizilive.pojo.KEconomics">
+    update k_economics
+    set user_name = #{userName,jdbcType=VARCHAR},
+      nickname = #{nickname,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=CHAR},
+      region = #{region,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=VARCHAR},
+      wechat = #{wechat,jdbcType=VARCHAR},
+      telegram = #{telegram,jdbcType=VARCHAR},
+      area = #{area,jdbcType=REAL},
+      rooms = #{rooms,jdbcType=VARCHAR},
+      floor = #{floor,jdbcType=VARCHAR},
+      created_at = #{createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      message = #{message,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sc.kuaizilive.pojo.KEconomics">
+    update k_economics
+    set user_name = #{userName,jdbcType=VARCHAR},
+      nickname = #{nickname,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=CHAR},
+      region = #{region,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=VARCHAR},
+      wechat = #{wechat,jdbcType=VARCHAR},
+      telegram = #{telegram,jdbcType=VARCHAR},
+      area = #{area,jdbcType=REAL},
+      rooms = #{rooms,jdbcType=VARCHAR},
+      floor = #{floor,jdbcType=VARCHAR},
+      created_at = #{createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{updatedAt,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

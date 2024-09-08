@@ -12,10 +12,12 @@
     <result column="user_sex" jdbcType="CHAR" property="userSex" />
     <result column="user_email" jdbcType="VARCHAR" property="userEmail" />
     <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="head" jdbcType="VARCHAR" property="head" />
   </resultMap>
   <sql id="Base_Column_List">
     user_id, user_name, user_phone, areaCode, password, paymentCode, user_petName, user_sex, 
-    user_email, create_time
+    user_email, create_time, type, head
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
@@ -29,7 +31,13 @@
     from k_user
     where user_phone=#{phone}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    <select id="selectByUserName" resultMap="BaseResultMap">
+      select
+      <include refid="Base_Column_List"></include>
+      from k_user
+      where user_name=#{userName}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from k_user
     where user_id = #{userId,jdbcType=INTEGER}
   </delete>
@@ -37,11 +45,13 @@
     insert into k_user (user_id, user_name, user_phone, 
       areaCode, password, paymentCode, 
       user_petName, user_sex, user_email, 
-      create_time)
+      create_time, type, head
+      )
     values (#{userId,jdbcType=INTEGER}, #{userName,jdbcType=CHAR}, #{userPhone,jdbcType=VARCHAR}, 
       #{areacode,jdbcType=CHAR}, #{password,jdbcType=VARCHAR}, #{paymentcode,jdbcType=CHAR}, 
       #{userPetname,jdbcType=VARCHAR}, #{userSex,jdbcType=CHAR}, #{userEmail,jdbcType=VARCHAR}, 
-      #{createTime,jdbcType=TIMESTAMP})
+      #{createTime,jdbcType=TIMESTAMP}, #{type,jdbcType=INTEGER}, #{head,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.sc.kuaizilive.pojo.KUser">
     insert into k_user
@@ -76,6 +86,12 @@
       <if test="createTime != null">
         create_time,
       </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="head != null">
+        head,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="userId != null">
@@ -107,6 +123,12 @@
       </if>
       <if test="createTime != null">
         #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=INTEGER},
+      </if>
+      <if test="head != null">
+        #{head,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -140,6 +162,12 @@
       <if test="createTime != null">
         create_time = #{createTime,jdbcType=TIMESTAMP},
       </if>
+      <if test="type != null">
+        type = #{type,jdbcType=INTEGER},
+      </if>
+      <if test="head != null">
+        head = #{head,jdbcType=VARCHAR},
+      </if>
     </set>
     where user_id = #{userId,jdbcType=INTEGER}
   </update>
@@ -153,7 +181,9 @@
       user_petName = #{userPetname,jdbcType=VARCHAR},
       user_sex = #{userSex,jdbcType=CHAR},
       user_email = #{userEmail,jdbcType=VARCHAR},
-      create_time = #{createTime,jdbcType=TIMESTAMP}
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      type = #{type,jdbcType=INTEGER},
+      head = #{head,jdbcType=VARCHAR}
     where user_id = #{userId,jdbcType=INTEGER}
   </update>
 </mapper>

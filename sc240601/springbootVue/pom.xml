@@ -98,7 +98,8 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.sv.springbootvue.SpringbootVueApplication</mainClass>
-                    <skip>true</skip>
+                    <!--这个必须要注释 如果不注释 通过linux启动jar包项目 找不到主类-->
+                    <!--<skip>true</skip>-->
                 </configuration>
                 <executions>
                     <execution>

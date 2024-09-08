@@ -3,9 +3,8 @@ package com.sc.kuaizilive.controller;
 import com.sc.kuaizilive.pojo.KUser;
 import com.sc.kuaizilive.pojo.Result;
 import com.sc.kuaizilive.server.KUserServer;
-import org.mybatis.spring.annotation.MapperScan;
+import com.sc.kuaizilive.util.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -28,12 +27,25 @@ public class KUserController {
         Integer code = us.getCode();
         return new Result(1,"获取验证码成功",code);
     }
+    //注意该请求只会创建普通用户
     @RequestMapping("/codeLogin")
     public Result codeLogin(@RequestBody KUser user){
         KUser kUser = us.codeLogin(user);
         if (kUser!=null){
+            //登录成功生成token保存
+            kUser.setToken(JwtUtils.createToken());
             return new Result(1,"登录成功",kUser);
         }
         return new Result(0,"登录失败");
+    }
+    //密码登录
+    @RequestMapping("/pwLogin")
+    public Result pwLogin(@RequestBody KUser user){
+        return us.pwLogin(user);
+    }
+    //找回密码，用户不存在就注册一个账号
+    @RequestMapping("/updatePw")
+    public Result updatePw(@RequestBody KUser user){
+        return us.updatePw(user);
     }
 }

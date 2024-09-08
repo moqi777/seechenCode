@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sc.kuaizilive.mapper.KhouseContactMapper">
+  <resultMap id="BaseResultMap" type="com.sc.kuaizilive.pojo.KhouseContact">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="poster_type" jdbcType="INTEGER" property="posterType" />
+    <result column="language" jdbcType="INTEGER" property="language" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="wechat" jdbcType="VARCHAR" property="wechat" />
+    <result column="telegram" jdbcType="VARCHAR" property="telegram" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, poster_type, language, phone, wechat, telegram
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from khouse_contact
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from khouse_contact
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.sc.kuaizilive.pojo.KhouseContact">
+    insert into khouse_contact (id, poster_type, language, 
+      phone, wechat, telegram
+      )
+    values (#{id,jdbcType=INTEGER}, #{posterType,jdbcType=INTEGER}, #{language,jdbcType=INTEGER}, 
+      #{phone,jdbcType=VARCHAR}, #{wechat,jdbcType=VARCHAR}, #{telegram,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.sc.kuaizilive.pojo.KhouseContact" useGeneratedKeys="true" keyProperty="id">
+    insert into khouse_contact
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="posterType != null">
+        poster_type,
+      </if>
+      <if test="language != null">
+        language,
+      </if>
+      <if test="phone != null">
+        phone,
+      </if>
+      <if test="wechat != null">
+        wechat,
+      </if>
+      <if test="telegram != null">
+        telegram,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="posterType != null">
+        #{posterType,jdbcType=INTEGER},
+      </if>
+      <if test="language != null">
+        #{language,jdbcType=INTEGER},
+      </if>
+      <if test="phone != null">
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="wechat != null">
+        #{wechat,jdbcType=VARCHAR},
+      </if>
+      <if test="telegram != null">
+        #{telegram,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sc.kuaizilive.pojo.KhouseContact">
+    update khouse_contact
+    <set>
+      <if test="posterType != null">
+        poster_type = #{posterType,jdbcType=INTEGER},
+      </if>
+      <if test="language != null">
+        language = #{language,jdbcType=INTEGER},
+      </if>
+      <if test="phone != null">
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="wechat != null">
+        wechat = #{wechat,jdbcType=VARCHAR},
+      </if>
+      <if test="telegram != null">
+        telegram = #{telegram,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sc.kuaizilive.pojo.KhouseContact">
+    update khouse_contact
+    set poster_type = #{posterType,jdbcType=INTEGER},
+      language = #{language,jdbcType=INTEGER},
+      phone = #{phone,jdbcType=VARCHAR},
+      wechat = #{wechat,jdbcType=VARCHAR},
+      telegram = #{telegram,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

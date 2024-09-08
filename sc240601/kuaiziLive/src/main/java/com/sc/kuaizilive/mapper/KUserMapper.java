@@ -16,6 +16,9 @@ public interface KUserMapper {
     int updateByPrimaryKeySelective(KUser record);
 
     int updateByPrimaryKey(KUser record);
+
     //根据手机号查询账户
     KUser selectByPhone(String phone);
+    //根据用户名查账户
+    KUser selectByUserName(String userName);
 }
