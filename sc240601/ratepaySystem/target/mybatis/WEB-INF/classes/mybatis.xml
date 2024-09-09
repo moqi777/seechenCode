@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="jdbc.properties"/>
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <plugins>
+        <!--一个分页插件-->
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <property name="offsetAsPageNum" value="true" />
+            <property name="rowBoundsWithCount" value="true" />
+            <!--pageSize=0时，是否查询出全部结果，默认为false-->
+            <property name="pageSizeZero" value="true" />
+            <!--分页合理化参数，默认文false；pageNum<=0，查询第一页；pageNum>总页数，查询最后一页-->
+            <property name="reasonable" value="true" />
+            <property name="params"
+                      value="pageNum=pageHelperStart;pageSize=pageHelperRows;" />
+            <property name="supportMethodsArguments" value="false" />
+            <property name="returnPageInfo" value="none" />
+        </plugin>
+    </plugins>
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="pooled">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="mapper/UuserMapper.xml"></mapper>
+    </mappers>
+</configuration>

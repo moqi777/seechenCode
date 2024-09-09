@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <context:component-scan base-package="com.sc.controller"/>
+    <mvc:annotation-driven/>
+    <mvc:default-servlet-handler/>
+
+    <!--配置上传组件：id特殊 必须叫 multipartResolver ，因为这个bean被别的bean的ref引用了，id名字已经固定好了(在引用它的bean里的id就是这个值)，所以你这个bean的id也要一样-->
+    <!--一个bean表示java一个可重复组件(对象)-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!--设置上传文件的编码-->
+        <property name="defaultEncoding" value="utf-8"/>
+        <!--设置上传文件的大小 单位：字节 50M=1024*1024*10-->
+        <property name="maxUploadSize" value="524288000"/>
+    </bean>
+</beans>

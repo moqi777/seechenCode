@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--1.引入jdbc.properties配置 成功后${key}获取value-->
+    <properties resource="jdbc.properties"/>
+    <!--2.可选参数;-->
+    <settings>
+        <!--开启日志：mybatis运行任何sql语句控制台都可以看到执行过程-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <!--3.分页插件-->
+    <plugins>
+        <!--一个分页插件-->
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <property name="offsetAsPageNum" value="true" />
+            <property name="rowBoundsWithCount" value="true" />
+            <!--pageSize=0时，是否查询出全部结果，默认为false-->
+            <property name="pageSizeZero" value="true" />
+            <!--分页合理化参数，默认文false；pageNum<=0，查询第一页；pageNum>总页数，查询最后一页-->
+            <property name="reasonable" value="true" />
+            <property name="params"
+                      value="pageNum=pageHelperStart;pageSize=pageHelperRows;" />
+            <property name="supportMethodsArguments" value="false" />
+            <property name="returnPageInfo" value="none" />
+        </plugin>
+    </plugins>
+    <!--4.数据库环境：可以配置多个环境 通过default来生效哪个环境-->
+    <environments default="mysql">
+        <environment id="mysql">
+            <!--事务管理：mybatis主要有两种事务管理策略
+                1.JDBC：底层利用jdbc方式做事务
+                2.MANAGED：mybatis自身不做事务 让其他容器来实现 比如Spring容器-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--数据源：推荐使用连接池-->
+            <dataSource type="pooled">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--5.关联映射文件-->
+    <mappers>
+        <!--class：通过注解实现映射文件功能
+            resouce：资源 在项目中资源
+            url：网络请求 访问映射文件-->
+        <mapper resource="mapper/StudentMapper.xml"/>
+        <mapper resource="mapper/Mybatis_empMapper.xml"/>
+        <mapper resource="mapper/HdeptMapper.xml"/>
+        <mapper resource="mapper/HuserMapper.xml"/>
+        <mapper resource="mapper/HuserinfoMapper.xml"/>
+        <mapper resource="mapper/SstudentMapper.xml"/>
+        <mapper resource="mapper/SteacherMapper.xml"/>
+        <mapper resource="mapper/TestlockMapper.xml"/>
+        <mapper resource="mapper/MyuserMapper.xml"/>
+    </mappers>
+</configuration>

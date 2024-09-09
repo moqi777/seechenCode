@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="emailSystem" />
+        <module name="servlet" />
+        <module name="SpringMVC" />
+        <module name="SpringBoot" />
+        <module name="Spring" />
+        <module name="SSM" />
+        <module name="springbootVue" />
+        <module name="ratepaySystem" />
+        <module name="kuaiziLive" />
+        <module name="emailSystemSpringMVC" />
+        <module name="MybatisJoinSpringMVC" />
+        <module name="Mybatis" />
+        <module name="springbootTest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="emailSystem" target="8" />
+      <module name="emailSystemSpringMVC" target="1.8" />
+      <module name="kuaiziLive" target="1.8" />
+      <module name="Mybatis" target="1.8" />
+      <module name="MybatisJoinSpringMVC" target="1.8" />
+      <module name="ratepaySystem" target="1.8" />
+      <module name="servlet" target="8" />
+      <module name="Spring" target="1.8" />
+      <module name="SpringBoot" target="1.8" />
+      <module name="springbootTest" target="1.8" />
+      <module name="springbootVue" target="1.8" />
+      <module name="SpringMVC" target="1.8" />
+      <module name="SSM" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

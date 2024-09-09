@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--根节点：namespace配置全类名 用于和Mapper接口一一对应-->
+<mapper namespace="com.sc.mapper.HuserMapper">
+  <!--手动添加二级缓存
+      flushInterval：刷新缓存时间间隔 单位是毫秒 默认是不设置无限制
+      readOnly：是否为只读缓存 会失效
+      eviction：配置清除缓存策略 默认LRU
+          LRU：最近最少使用 最长时间不用的缓存对象先删除
+          FIFO：类似于队列 先进先出 按照创建缓存顺序来删除
+      size：缓存个数
+  -->
+  <cache flushInterval="60000" readOnly="true" eviction="LRU" size="512"/>
+  <!--resultMap：用于 实现ORM的 也可以用于实现复杂 关联查询
+      属性id：map唯一标识 resultMap可以配置多个
+      属性type：表示当前这个表对应哪个类
+      子标签id：表示主键列标签 mybatis推荐每个表添加主键
+      子标签result：表示其他列标签
+          column：表示表中的字段(准确的说是查询语句查询字段)
+          property：表示类中的属性名
+          jdbcType：表示表中字段的类型 可以省略-->
+  <resultMap id="BaseResultMap" type="com.sc.pojo.Huser">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="createtime" jdbcType="DATE" property="createtime" />
+    <result column="did" jdbcType="INTEGER" property="did" />
+    <!--  关联属性 property描述对象 collection描述集合-->
+    <!--  实现方式有两种：1.借助于多表查询 封装两个类的信息-->
+    <!--  实现方式有两种：2.借助于其他Mapper接口方法来实现映射关系-->
+    <!--  property：关联属性名    javaType：关联的属性的类型-->
+    <association property="info" javaType="com.sc.pojo.Huserinfo"/>
+  </resultMap>
+
+  <resultMap id="BaseResultMap2" type="com.sc.pojo.Huser">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="createtime" jdbcType="DATE" property="createtime" />
+    <result column="did" jdbcType="INTEGER" property="did" />
+    <!--第二种方式：使用两次的查询 实现 映射关系
+        property：关联属性名
+        column：调用mapper接口方法需要的参数
+        select：调用其他mapper接口全类名+方法名-->
+    <association property="info" column="id" select="com.sc.mapper.HuserinfoMapper.selectByPrimaryKey"/>
+  </resultMap>
+  <!--用于定义sql语句 可以重用的片段 也可以配多个
+      下面所有的标签都可以通过include标签来包含-->
+  <sql id="Base_Column_List">
+    id, username, password, createtime, did
+  </sql>
+  <sql id="user_info">
+    i.id,u.username,u.password,
+    u.createtime,u.did,i.id,i.sex,
+    i.age,i.mess
+  </sql>
+  <!--增 删 改 查标签 都必须id和mapper接口方法对应-->
+  <!--查询语句标签：必须添加resultMap 或 resultType
+      parameterType="java.lang.Integer" 表示mooer接口方法参数类型 可以省略的
+      resultType：自动映射 只要查询字段名 和表中属性一样 就可以自动映射 就可以自动给属性赋值 反之如果不提，则是null
+      resultMap：自定义表中和类中映射关系，这样查询字段和属性是否一样 都可以查询出来 它还可以复杂关联映射
+
+      #{id}：通过预编译 占位符 防止sql注入
+      ${id}：非预编译 字符串拼接 有注入风险
+      -->
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from huser
+    where id = #{id}
+  </select>
+  <select id="selectByUsername" resultType="com.sc.pojo.Huser">
+    select
+    <include refid="Base_Column_List"></include>
+    from huser
+    where username=#{username}
+  </select>
+  <select id="selectByMap" resultType="com.sc.pojo.Huser">
+    select
+    <include refid="Base_Column_List"/>
+    from huser
+    where password=#{pw}
+    limit #{begin},#{length}
+  </select>
+  <!--mybatis想实现关联映射 借助于resultMap标签实现的-->
+  <select id="selectById" resultMap="BaseResultMap">
+    select
+    <include refid="user_info"></include>
+    from huser u,huserinfo i
+    where u.id=i.id and u.id=#{id}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select
+    <include refid="user_info"></include>
+    from huser u,huserinfo i
+    where u.id=i.id
+  </select>
+  <select id="selectById2" resultMap="BaseResultMap2">
+    select * from huser where id=#{id}
+  </select>
+  <select id="selectByDid" resultMap="BaseResultMap2">
+    select * from huser where did=#{did}
+  </select>
+  <delete id="deleteByPrimaryKey">
+    delete from huser
+    where id = #{id}
+  </delete>
+  <!--foreach属性介绍：
+      collection:指定遍历的数组或集合 一般写list,array,自定义
+      item:就是每次遍历出来的数据 类似于临时变量
+      separator:指定 每个遍历的元素之间间隔符 会自动取出最后一个
+      open:指定遍历开始位置的内容
+      cloase:指定遍历开始位置的内容-->
+  <delete id="batchDel">
+    delete from huser where id in
+    <foreach collection="array" item="id"
+             separator="," open="(" close=")">
+        #{id}
+    </foreach>
+  </delete>
+  <!--全部新增 所有字段都添加数据-->
+  <insert id="insert">
+    insert into huser
+    values (#{id}, #{username}, #{password},
+      #{createtime}, #{did})
+  </insert>
+  <!--动态新增：根据传入参数属性 如果指定列有值 就插入 否则不插入-->
+  <insert id="insertSelective" useGeneratedKeys="true" keyProperty="id">
+    insert into huser
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="username != null">
+        username,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+      <if test="createtime != null">
+        createtime,
+      </if>
+      <if test="did != null">
+        did,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=DATE},
+      </if>
+      <if test="did != null">
+        #{did,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <insert id="addUser1">
+    insert into huser values(null,#{username},#{password},null ,null )
+  </insert>
+  <insert id="addUser2">
+    insert into huser values (null ,#{un},#{user.password},#{date},#{user.did})
+  </insert>
+  <insert id="batchAdd">
+    insert into huser values
+    <foreach collection="list" item="user" separator=",">
+      (null,#{user.username},#{user.password},#{user.createtime},#{user.did})
+    </foreach>
+  </insert>
+  <!--动态更新：根据参数的属性 是否有值 来动态更新对应属性-->
+  <update id="updateByPrimaryKeySelective">
+    update huser
+    <set>
+      <if test="username != null">
+        username = #{username},
+      </if>
+      <if test="password != null">
+        password = #{password},
+      </if>
+      <if test="createtime != null">
+        createtime = #{createtime},
+      </if>
+      <if test="did != null">
+        did = #{did},
+      </if>
+    </set>
+    where id = #{id}
+  </update>
+  <!--全列更新-->
+  <update id="updateByPrimaryKey">
+    update huser
+    set username = #{username},
+      password = #{password},
+      createtime = #{createtime},
+      did = #{did}
+    where id = #{id}
+  </update>
+</mapper>

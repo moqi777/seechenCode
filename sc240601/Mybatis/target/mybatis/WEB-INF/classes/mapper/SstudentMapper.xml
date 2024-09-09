@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sc.mapper.SstudentMapper">
+  <resultMap id="BaseResultMap" type="com.sc.pojo.Sstudent">
+    <id column="id" property="id" />
+    <result column="name" property="name" />
+  <!--  描述集合第一种方式-->
+    <collection property="teachers" ofType="com.sc.pojo.Steacher">
+      <id column="tid" property="id" />
+      <result column="tname" property="name" />
+    </collection>
+  </resultMap>
+
+  <resultMap id="BaseResultMap2" type="com.sc.pojo.Sstudent">
+    <id column="id" property="id" />
+    <result column="name" property="name" />
+    <!--  描述集合第二种方式-->
+    <collection property="teachers"
+                ofType="com.sc.pojo.Steacher"
+                column="id"
+                select="com.sc.mapper.SteacherMapper.selectBySid"/>
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from sstudent
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+    <select id="selectById" resultMap="BaseResultMap">
+        select
+        s.id,s.name,t.id tid,t.name tname
+        from sstudent s,stu_tea st,steacher t
+        where s.id=st.sid and st.tid=t.id
+        and s.id=#{id}
+    </select>
+  <select id="selectById2" resultMap="BaseResultMap2">
+        select * from sstudent where id=#{id}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from sstudent
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.sc.pojo.Sstudent">
+    insert into sstudent (id, name)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.sc.pojo.Sstudent">
+    insert into sstudent
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sc.pojo.Sstudent">
+    update sstudent
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sc.pojo.Sstudent">
+    update sstudent
+    set name = #{name,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
