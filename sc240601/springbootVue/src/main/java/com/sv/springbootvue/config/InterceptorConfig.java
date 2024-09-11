@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @desc:
  * @DateTime:2024/8/30 12:41
  **/
-@Configuration
+// @Configuration
 public class InterceptorConfig implements WebMvcConfigurer {
     @Autowired
     private TokenInterceptor interceptor;

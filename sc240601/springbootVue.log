@@ -1,0 +1,257 @@
+2024-09-11 17:09:56.460  INFO 37012 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 37012 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:09:56.461  INFO 37012 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:09:56.513  INFO 37012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:09:56.513  INFO 37012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:09:57.272  INFO 37012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:09:57.274  INFO 37012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:09:57.296  INFO 37012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:09:57.841  INFO 37012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:09:57.849  INFO 37012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:09:57.849  INFO 37012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:09:57.927  INFO 37012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:09:57.928  INFO 37012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1414 ms
+2024-09-11 17:09:58.940  INFO 37012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:09:58.971  INFO 37012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:09:58.981  INFO 37012 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 3.489 seconds (JVM running for 5.632)
+2024-09-11 17:23:00.117  INFO 36020 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 36020 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:23:00.118  INFO 36020 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:23:00.166  INFO 36020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:23:00.167  INFO 36020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:23:00.782  INFO 36020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:23:00.784  INFO 36020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:23:00.820  INFO 36020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:23:01.366  INFO 36020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:23:01.375  INFO 36020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:23:01.375  INFO 36020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:23:01.448  INFO 36020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:23:01.449  INFO 36020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1282 ms
+2024-09-11 17:23:02.463  INFO 36020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:23:02.502  INFO 36020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:23:02.511  INFO 36020 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 3.02 seconds (JVM running for 4.294)
+2024-09-11 17:23:29.252  INFO 36020 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 17:23:29.253  INFO 36020 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11 17:23:29.254  INFO 36020 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-11 17:23:55.764  INFO 1328 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 1328 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:23:55.765  INFO 1328 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:23:55.907  INFO 1328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:23:55.908  INFO 1328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:23:56.817  INFO 1328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:23:56.821  INFO 1328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:23:56.850  INFO 1328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:23:58.719  INFO 1328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:23:58.728  INFO 1328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:23:58.729  INFO 1328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:23:58.810  INFO 1328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:23:58.810  INFO 1328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2901 ms
+2024-09-11 17:23:59.811  INFO 1328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:23:59.844  INFO 1328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:23:59.851  INFO 1328 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 4.69 seconds (JVM running for 5.921)
+2024-09-11 17:26:30.122  INFO 1328 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 17:26:30.140  INFO 1328 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11 17:26:30.336  INFO 1328 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 195 ms
+2024-09-11 17:26:30.874  INFO 1328 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-11 17:26:31.850  INFO 1328 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-11 17:26:31.944 DEBUG 1328 --- [http-nio-9999-exec-1] c.s.s.mapper.OAdminMapper.login          : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin where password=? and (account=? or phone=? or email=?)
+2024-09-11 17:26:31.989 DEBUG 1328 --- [http-nio-9999-exec-1] c.s.s.mapper.OAdminMapper.login          : ==> Parameters: 123(String), admin(String), admin(String), admin(String)
+2024-09-11 17:26:32.622 DEBUG 1328 --- [http-nio-9999-exec-1] c.s.s.mapper.OAdminMapper.login          : <==      Total: 1
+2024-09-11 17:26:33.333 DEBUG 1328 --- [http-nio-9999-exec-2] c.s.s.mapper.OAdminMapper.login          : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin where password=? and (account=? or phone=? or email=?)
+2024-09-11 17:26:33.333 DEBUG 1328 --- [http-nio-9999-exec-2] c.s.s.mapper.OAdminMapper.login          : ==> Parameters: 123(String), admin(String), admin(String), admin(String)
+2024-09-11 17:26:33.335 DEBUG 1328 --- [http-nio-9999-exec-2] c.s.s.mapper.OAdminMapper.login          : <==      Total: 1
+2024-09-11 17:26:51.068 DEBUG 1328 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-09-11 17:26:51.068 DEBUG 1328 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-09-11 17:26:52.088 DEBUG 1328 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-09-11 17:26:52.092 DEBUG 1328 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-09-11 17:26:52.094 DEBUG 1328 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-09-11 17:26:52.124 DEBUG 1328 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-09-11 17:31:43.886  INFO 1328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-11 17:31:43.993  INFO 1328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-11 17:31:53.542  INFO 35732 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 35732 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:31:53.544  INFO 35732 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:31:53.617  INFO 35732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:31:53.618  INFO 35732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:31:54.272  INFO 35732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:31:54.274  INFO 35732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:31:54.299  INFO 35732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:31:54.895  INFO 35732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:31:54.903  INFO 35732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:31:54.903  INFO 35732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:31:54.976  INFO 35732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:31:54.976  INFO 35732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1357 ms
+2024-09-11 17:31:56.040  INFO 35732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:31:56.089  INFO 35732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:31:56.097  INFO 35732 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 3.091 seconds (JVM running for 4.339)
+2024-09-11 17:32:08.614  INFO 35732 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 17:32:08.614  INFO 35732 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11 17:32:08.615  INFO 35732 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-11 17:32:08.717  INFO 35732 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-11 17:32:09.449  INFO 35732 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-11 17:32:09.510 DEBUG 35732 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-09-11 17:32:09.526 DEBUG 35732 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-09-11 17:32:09.618 DEBUG 35732 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-09-11 17:32:09.623 DEBUG 35732 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-09-11 17:32:09.624 DEBUG 35732 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 50(Integer)
+2024-09-11 17:32:09.645 DEBUG 35732 --- [http-nio-9999-exec-1] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 50
+2024-09-11 17:32:27.614 DEBUG 35732 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser WHERE name LIKE ?
+2024-09-11 17:32:27.615 DEBUG 35732 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: %a%(String)
+2024-09-11 17:32:27.629 DEBUG 35732 --- [http-nio-9999-exec-4] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-09-11 17:32:27.630 DEBUG 35732 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser WHERE name like ? LIMIT ?
+2024-09-11 17:32:27.630 DEBUG 35732 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: %a%(String), 50(Integer)
+2024-09-11 17:32:27.636 DEBUG 35732 --- [http-nio-9999-exec-4] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 50
+2024-09-11 17:32:42.661 DEBUG 35732 --- [http-nio-9999-exec-3] c.s.s.mapper.MyuserMapper.deleteByIds    : ==>  Preparing: delete from myuser WHERE id in ( ? )
+2024-09-11 17:32:42.662 DEBUG 35732 --- [http-nio-9999-exec-3] c.s.s.mapper.MyuserMapper.deleteByIds    : ==> Parameters: 61998(Integer)
+2024-09-11 17:32:42.706 DEBUG 35732 --- [http-nio-9999-exec-3] c.s.s.mapper.MyuserMapper.deleteByIds    : <==    Updates: 1
+2024-09-11 17:32:42.921 DEBUG 35732 --- [http-nio-9999-exec-9] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser WHERE name LIKE ?
+2024-09-11 17:32:42.922 DEBUG 35732 --- [http-nio-9999-exec-9] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: %a%(String)
+2024-09-11 17:32:42.926 DEBUG 35732 --- [http-nio-9999-exec-9] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-09-11 17:32:42.930 DEBUG 35732 --- [http-nio-9999-exec-9] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser WHERE name like ? LIMIT ?
+2024-09-11 17:32:42.932 DEBUG 35732 --- [http-nio-9999-exec-9] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: %a%(String), 50(Integer)
+2024-09-11 17:32:42.940 DEBUG 35732 --- [http-nio-9999-exec-9] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 50
+2024-09-11 17:32:52.682 DEBUG 35732 --- [http-nio-9999-exec-2] c.s.s.m.MyuserMapper.deleteByPrimaryKey  : ==>  Preparing: delete from myuser where id = ?
+2024-09-11 17:32:52.682 DEBUG 35732 --- [http-nio-9999-exec-2] c.s.s.m.MyuserMapper.deleteByPrimaryKey  : ==> Parameters: 61999(Integer)
+2024-09-11 17:32:52.689 DEBUG 35732 --- [http-nio-9999-exec-2] c.s.s.m.MyuserMapper.deleteByPrimaryKey  : <==    Updates: 1
+2024-09-11 17:32:52.934 DEBUG 35732 --- [http-nio-9999-exec-6] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser WHERE name LIKE ?
+2024-09-11 17:32:52.934 DEBUG 35732 --- [http-nio-9999-exec-6] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: %a%(String)
+2024-09-11 17:32:52.935 DEBUG 35732 --- [http-nio-9999-exec-6] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-09-11 17:32:52.935 DEBUG 35732 --- [http-nio-9999-exec-6] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser WHERE name like ? LIMIT ?
+2024-09-11 17:32:52.935 DEBUG 35732 --- [http-nio-9999-exec-6] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: %a%(String), 50(Integer)
+2024-09-11 17:32:52.940 DEBUG 35732 --- [http-nio-9999-exec-6] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 50
+2024-09-11 17:32:58.327 DEBUG 35732 --- [http-nio-9999-exec-7] c.s.s.m.M.updateByPrimaryKeySelective    : ==>  Preparing: update myuser SET name = ?, regTime = ?, integral = ?, sex = ? where id = ?
+2024-09-11 17:32:58.328 DEBUG 35732 --- [http-nio-9999-exec-7] c.s.s.m.M.updateByPrimaryKeySelective    : ==> Parameters: ayh(String), 2020-01-28 00:00:00.0(Timestamp), 77(Integer), 女(String), 62019(Integer)
+2024-09-11 17:32:58.339 DEBUG 35732 --- [http-nio-9999-exec-7] c.s.s.m.M.updateByPrimaryKeySelective    : <==    Updates: 1
+2024-09-11 17:32:58.570 DEBUG 35732 --- [http-nio-9999-exec-8] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser WHERE name LIKE ?
+2024-09-11 17:32:58.570 DEBUG 35732 --- [http-nio-9999-exec-8] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: %a%(String)
+2024-09-11 17:32:58.571 DEBUG 35732 --- [http-nio-9999-exec-8] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-09-11 17:32:58.571 DEBUG 35732 --- [http-nio-9999-exec-8] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser WHERE name like ? LIMIT ?
+2024-09-11 17:32:58.572 DEBUG 35732 --- [http-nio-9999-exec-8] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: %a%(String), 50(Integer)
+2024-09-11 17:32:58.580 DEBUG 35732 --- [http-nio-9999-exec-8] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 50
+2024-09-11 17:33:11.455 DEBUG 35732 --- [http-nio-9999-exec-5] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==>  Preparing: SELECT count(0) FROM myuser
+2024-09-11 17:33:11.456 DEBUG 35732 --- [http-nio-9999-exec-5] c.s.s.m.MyuserMapper.selectLimit_COUNT   : ==> Parameters: 
+2024-09-11 17:33:11.460 DEBUG 35732 --- [http-nio-9999-exec-5] c.s.s.m.MyuserMapper.selectLimit_COUNT   : <==      Total: 1
+2024-09-11 17:33:11.461 DEBUG 35732 --- [http-nio-9999-exec-5] c.s.s.mapper.MyuserMapper.selectLimit    : ==>  Preparing: select id, name, regTime, integral, sex from myuser LIMIT ?
+2024-09-11 17:33:11.462 DEBUG 35732 --- [http-nio-9999-exec-5] c.s.s.mapper.MyuserMapper.selectLimit    : ==> Parameters: 5(Integer)
+2024-09-11 17:33:11.463 DEBUG 35732 --- [http-nio-9999-exec-5] c.s.s.mapper.MyuserMapper.selectLimit    : <==      Total: 5
+2024-09-11 17:33:24.830 DEBUG 35732 --- [http-nio-9999-exec-10] c.s.s.mapper.OAdminMapper.login          : ==>  Preparing: select ID, ACCOUNT, PASSWORD, NAME, PHONE, EMAIL, STATUS, CREATETIME, SEX, ROLEID, HEAD_PIC, OPERATOR from o_admin where password=? and (account=? or phone=? or email=?)
+2024-09-11 17:33:24.831 DEBUG 35732 --- [http-nio-9999-exec-10] c.s.s.mapper.OAdminMapper.login          : ==> Parameters: 123(String), admin(String), admin(String), admin(String)
+2024-09-11 17:33:24.843 DEBUG 35732 --- [http-nio-9999-exec-10] c.s.s.mapper.OAdminMapper.login          : <==      Total: 1
+2024-09-11 17:37:19.515  INFO 35732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-11 17:37:19.552  INFO 35732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-11 17:37:28.548  INFO 34552 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 34552 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:37:28.551  INFO 34552 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:37:28.621  INFO 34552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:37:28.622  INFO 34552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:37:29.421  INFO 34552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:37:29.424  INFO 34552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:37:29.446  INFO 34552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:37:30.018  INFO 34552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:37:30.026  INFO 34552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:37:30.026  INFO 34552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:37:30.095  INFO 34552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:37:30.095  INFO 34552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1472 ms
+2024-09-11 17:37:31.135  INFO 34552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:37:31.171  INFO 34552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:37:31.180  INFO 34552 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 3.155 seconds (JVM running for 4.506)
+2024-09-11 17:37:38.767  INFO 34552 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 17:37:38.767  INFO 34552 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11 17:37:38.768  INFO 34552 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-11 17:38:26.888  INFO 20416 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 20416 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:38:26.890  INFO 20416 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:38:26.937  INFO 20416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:38:26.937  INFO 20416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:38:27.923  INFO 20416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:38:27.926  INFO 20416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:38:27.955  INFO 20416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:38:28.630  INFO 20416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:38:28.639  INFO 20416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:38:28.640  INFO 20416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:38:28.718  INFO 20416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:38:28.719  INFO 20416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1781 ms
+2024-09-11 17:38:29.914  INFO 20416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:38:29.954  INFO 20416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:38:29.963  INFO 20416 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 3.562 seconds (JVM running for 5.816)
+2024-09-11 17:38:39.532  INFO 26084 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 26084 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:38:39.543  INFO 26084 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:38:39.589  INFO 26084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:38:39.589  INFO 26084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:38:40.172  INFO 26084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:38:40.174  INFO 26084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:38:40.193  INFO 26084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:38:40.711  INFO 26084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:38:40.719  INFO 26084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:38:40.719  INFO 26084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:38:40.796  INFO 26084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:38:40.797  INFO 26084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1207 ms
+2024-09-11 17:38:41.767  INFO 26084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:38:41.799  INFO 26084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:38:41.809  INFO 26084 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 2.723 seconds (JVM running for 4.284)
+2024-09-11 17:38:44.885  INFO 26084 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 17:38:44.886  INFO 26084 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11 17:38:44.887  INFO 26084 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-11 17:39:15.776  INFO 37152 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 37152 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:39:15.778  INFO 37152 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:39:15.845  INFO 37152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:39:15.845  INFO 37152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:39:16.489  INFO 37152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:39:16.491  INFO 37152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:39:16.510  INFO 37152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:39:17.022  INFO 37152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:39:17.029  INFO 37152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:39:17.029  INFO 37152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:39:17.106  INFO 37152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:39:17.107  INFO 37152 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1261 ms
+2024-09-11 17:39:18.082  INFO 37152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:39:18.110  INFO 37152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:39:18.120  INFO 37152 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 2.896 seconds (JVM running for 4.291)
+2024-09-11 17:39:22.103  INFO 37152 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 17:39:22.104  INFO 37152 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11 17:39:22.105  INFO 37152 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-11 17:40:01.062  INFO 23048 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 23048 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:40:01.064  INFO 23048 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:40:01.135  INFO 23048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:40:01.136  INFO 23048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:40:01.842  INFO 23048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:40:01.844  INFO 23048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:40:01.862  INFO 23048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:40:02.402  INFO 23048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:40:02.412  INFO 23048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:40:02.413  INFO 23048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:40:02.510  INFO 23048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:40:02.511  INFO 23048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1374 ms
+2024-09-11 17:40:03.528  INFO 23048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:40:03.553  INFO 23048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:40:03.561  INFO 23048 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 2.941 seconds (JVM running for 4.147)
+2024-09-11 17:40:09.026  INFO 23048 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 17:40:09.026  INFO 23048 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11 17:40:09.027  INFO 23048 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-11 17:42:28.381  WARN 23048 --- [http-nio-9999-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.sv.springbootvue.pojo.Result com.sv.springbootvue.controller.OAdminController.login(com.sv.springbootvue.pojo.OAdmin)]
+2024-09-11 17:44:14.153  INFO 17072 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 17072 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-11 17:44:14.154  INFO 17072 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-11 17:44:14.216  INFO 17072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 17:44:14.217  INFO 17072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 17:44:14.976  INFO 17072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-11 17:44:14.978  INFO 17072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-11 17:44:14.997  INFO 17072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-09-11 17:44:15.493  INFO 17072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-11 17:44:15.501  INFO 17072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-11 17:44:15.501  INFO 17072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-11 17:44:15.571  INFO 17072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-11 17:44:15.572  INFO 17072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1354 ms
+2024-09-11 17:44:16.451  INFO 17072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-11 17:44:16.478  INFO 17072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-11 17:44:16.488  INFO 17072 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 2.76 seconds (JVM running for 3.945)
+2024-09-11 17:44:34.889  INFO 17072 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-11 17:44:34.889  INFO 17072 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-11 17:44:34.890  INFO 17072 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-11 17:44:34.938  INFO 17072 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-11 17:44:35.648  INFO 17072 --- [http-nio-9999-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-11 17:44:38.582  WARN 17072 --- [lettuce-nioEventLoop-4-4] i.l.c.c.t.DefaultClusterTopologyRefresh  : Unable to connect to [192.168.11.27:7003]: Connection refused: no further information: /192.168.11.27:7003
+2024-09-11 17:44:38.704 DEBUG 17072 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==>  Preparing: select id, name, regTime, integral, sex from myuser where id = ?
+2024-09-11 17:44:38.741 DEBUG 17072 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==> Parameters: 32002(Integer)
+2024-09-11 17:44:38.784 DEBUG 17072 --- [http-nio-9999-exec-1] c.s.s.m.MyuserMapper.selectByPrimaryKey  : <==      Total: 0
+2024-09-11 17:45:10.721 DEBUG 17072 --- [http-nio-9999-exec-5] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==>  Preparing: select id, name, regTime, integral, sex from myuser where id = ?
+2024-09-11 17:45:10.722 DEBUG 17072 --- [http-nio-9999-exec-5] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==> Parameters: 62002(Integer)
+2024-09-11 17:45:10.736 DEBUG 17072 --- [http-nio-9999-exec-5] c.s.s.m.MyuserMapper.selectByPrimaryKey  : <==      Total: 1
+2024-09-11 17:47:15.118 DEBUG 17072 --- [http-nio-9999-exec-9] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==>  Preparing: select id, name, regTime, integral, sex from myuser where id = ?
+2024-09-11 17:47:15.119 DEBUG 17072 --- [http-nio-9999-exec-9] c.s.s.m.MyuserMapper.selectByPrimaryKey  : ==> Parameters: 62002(Integer)
+2024-09-11 17:47:15.119 DEBUG 17072 --- [http-nio-9999-exec-9] c.s.s.m.MyuserMapper.selectByPrimaryKey  : <==      Total: 1
+2024-09-11 17:47:30.450  INFO 17072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-11 17:47:30.466  INFO 17072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -9,7 +9,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="Ok" />
+    <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="Ok">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4d4b8dcf-528a-4698-9491-7dac7f307eee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootVue/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootVue/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/controller/MyUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/controller/MyUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/service/impl/MyUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/service/impl/MyUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootVue/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springbootVue/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +288,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../NewStudy/seechen/包/mysql-connector-java-8.0.17.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -291,6 +302,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35267037" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -322,7 +336,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat_SSM">
+  <component name="RunManager" selected="Spring Boot.SpringbootVueApplication">
     <configuration name="Email" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pojo.Email" />
       <module name="emailSystem" />
@@ -378,33 +392,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KUserControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kuaiziLive" />
+    <configuration name="TestRedis.testCluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbootTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sc.kuaizilive.controller.*" />
+          <option name="PATTERN" value="com.sc.springboottest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sc.kuaizilive.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.sc.kuaizilive.controller.KUserControllerTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.sc.springboottest" />
+      <option name="MAIN_CLASS_NAME" value="com.sc.springboottest.TestRedis" />
+      <option name="METHOD_NAME" value="testCluster" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KUserServerImplTest.codeLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kuaiziLive" />
+    <configuration name="TestRedis.testRedisStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbootTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sc.kuaizilive.server.impl.*" />
+          <option name="PATTERN" value="com.sc.springboottest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sc.kuaizilive.server.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.sc.kuaizilive.server.impl.KUserServerImplTest" />
-      <option name="METHOD_NAME" value="codeLogin" />
+      <option name="PACKAGE_NAME" value="com.sc.springboottest" />
+      <option name="MAIN_CLASS_NAME" value="com.sc.springboottest.TestRedis" />
+      <option name="METHOD_NAME" value="testRedisStart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1247,9 +1261,7 @@
       <item itemvalue="Application.TestTransaction" />
       <item itemvalue="Application.Email" />
       <item itemvalue="Application.MD5" />
-      <item itemvalue="JUnit.KUserServerImplTest.codeLogin" />
       <item itemvalue="JUnit.KUserControllerTest.codeLogin" />
-      <item itemvalue="JUnit.KUserControllerTest.test" />
       <item itemvalue="Spring Boot.SpringbootVueApplication" />
       <item itemvalue="Spring Boot.KuaiziLiveApplication" />
       <item itemvalue="Tomcat Server.Tomcat_spring" />
@@ -1261,14 +1273,16 @@
       <item itemvalue="Tomcat Server.Tomcat_ratepaySystem" />
       <item itemvalue="Tomcat Server.Tomcat_mybatisJoinSpringMVC" />
       <item itemvalue="Tomcat Server.Tomcat_SpringMVC" />
+      <item itemvalue="JUnit.TestRedis.testRedisStart" />
+      <item itemvalue="JUnit.TestRedis.testCluster" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRedis.testCluster" />
+        <item itemvalue="JUnit.TestRedis.testRedisStart" />
         <item itemvalue="Spring Boot.KuaiziLiveApplication" />
         <item itemvalue="Application.MD5" />
         <item itemvalue="JUnit.KUserControllerTest.codeLogin" />
-        <item itemvalue="JUnit.KUserControllerTest.test" />
-        <item itemvalue="JUnit.KUserServerImplTest.codeLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -1372,6 +1386,7 @@
       <workItem from="1725587382875" duration="23406000" />
       <workItem from="1725885479473" duration="232000" />
       <workItem from="1725885793942" duration="78000" />
+      <workItem from="1726021243452" duration="12971000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>

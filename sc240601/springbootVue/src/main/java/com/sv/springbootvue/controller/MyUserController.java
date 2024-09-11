@@ -73,6 +73,7 @@ public class MyUserController {
 
     @RequestMapping("/selectById")
     public Result selectById(Integer id){
+        System.out.println("进来");
         Myuser myuser = us.selectById(id);
         if (myuser!=null){
             return new Result(1,"查询成功",myuser);

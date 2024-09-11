@@ -6,6 +6,7 @@ import com.sv.springbootvue.mapper.MyuserMapper;
 import com.sv.springbootvue.pojo.Myuser;
 import com.sv.springbootvue.service.MyUserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -23,6 +24,12 @@ import java.util.List;
 public class MyUserServiceImpl implements MyUserService {
     @Autowired
     MyuserMapper mapper;
+
+    @Autowired
+    RedisTemplate<String,Object> redis;//连接redis
+    //假设通过redis实现缓存的功能
+    //1.查询：第一次查 Mysql 保存redis 第二次查redis
+    //2.增 删 改：清空redis之前存储的相关数据 防止脏读
 
     @Override
     public int dels(List<Myuser> myusers) {
@@ -46,7 +53,12 @@ public class MyUserServiceImpl implements MyUserService {
 
     @Override
     public Myuser selectById(Integer id) {
-        return mapper.selectByPrimaryKey(id);
+        Myuser user = (Myuser) redis.opsForValue().get("user-"+id);
+        if (user==null){
+            user = mapper.selectByPrimaryKey(id);
+            redis.opsForValue().set("user-"+id,user);
+        }
+        return user;
     }
 
     @Override
