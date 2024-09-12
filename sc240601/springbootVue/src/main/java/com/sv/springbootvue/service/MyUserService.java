@@ -17,7 +17,7 @@ public interface MyUserService {
 
     public int del(Integer id);
 
-    public int update(Myuser user);
+    public Myuser update(Myuser user);
 
     public Myuser selectById(Integer id);
 

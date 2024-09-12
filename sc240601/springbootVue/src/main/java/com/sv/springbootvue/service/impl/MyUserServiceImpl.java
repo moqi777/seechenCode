@@ -19,7 +19,7 @@ import java.util.List;
  * @desc:
  * @DateTime:2024/8/27 14:52
  **/
-@Service
+@Service("us1")
 @Transactional
 public class MyUserServiceImpl implements MyUserService {
     @Autowired
@@ -38,17 +38,24 @@ public class MyUserServiceImpl implements MyUserService {
 
     @Override
     public int add(Myuser user) {
+        //批量删除redis多个key值 通过keys命令 写正则来匹配多个key
+        redis.delete(redis.keys("user-*"));
         return mapper.insertSelective(user);
     }
 
     @Override
     public int del(Integer id) {
+        // redis.delete("user-"+id);
+        redis.delete(redis.keys("user-*"));
         return mapper.deleteByPrimaryKey(id);
     }
 
     @Override
-    public int update(Myuser user) {
-        return mapper.updateByPrimaryKeySelective(user);
+    public Myuser update(Myuser user) {
+        // redis.delete("user-"+user.getId());
+        redis.delete(redis.keys("user-*"));
+        mapper.updateByPrimaryKeySelective(user);
+        return mapper.selectByPrimaryKey(user.getId());
     }
 
     @Override
@@ -63,7 +70,12 @@ public class MyUserServiceImpl implements MyUserService {
 
     @Override
     public PageInfo<Myuser> selectAll(Integer pageNum, Integer pageSize, Myuser myuser) {
-        PageHelper.startPage(pageNum,pageSize);
-        return new PageInfo<>(mapper.selectLimit(myuser));
+        PageInfo<Myuser> p = (PageInfo<Myuser>) redis.opsForValue().get("user-"+pageNum+"-"+pageSize);
+        if (p==null){
+            PageHelper.startPage(pageNum,pageSize);
+            p = new PageInfo<>(mapper.selectLimit(myuser));
+            redis.opsForValue().set("user-"+pageNum+"-"+pageSize,p);
+        }
+        return p;
     }
 }

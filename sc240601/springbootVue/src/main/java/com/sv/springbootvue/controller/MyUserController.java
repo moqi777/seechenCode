@@ -5,6 +5,7 @@ import com.sv.springbootvue.pojo.Myuser;
 import com.sv.springbootvue.pojo.Result;
 import com.sv.springbootvue.service.MyUserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -23,6 +24,7 @@ import java.util.List;
 @RequestMapping("/myUser")
 public class MyUserController {
     @Autowired
+    @Qualifier("us2")
     MyUserService us;
     //增 删 改 查(查分页搜索 查指定数据)
 
@@ -55,11 +57,8 @@ public class MyUserController {
 
     @RequestMapping("/update")
     public Result update(@RequestBody Myuser u){
-        int i = us.update(u);
-        if (i>0){
-            return new Result(1,"更新成功");
-        }
-        return new Result(0,"更新失败");
+        us.update(u);
+        return new Result(1,"更新成功");
     }
 
     @RequestMapping("/selectAll")
@@ -73,7 +72,6 @@ public class MyUserController {
 
     @RequestMapping("/selectById")
     public Result selectById(Integer id){
-        System.out.println("进来");
         Myuser myuser = us.selectById(id);
         if (myuser!=null){
             return new Result(1,"查询成功",myuser);
