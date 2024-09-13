@@ -10,11 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7326fe67-1d48-4127-ad7e-4b72e9f32350" name="Default Changelist" comment="Ok">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootVue.log" beforeDir="false" afterPath="$PROJECT_DIR$/springbootVue.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/controller/MyUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/controller/MyUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/service/MyUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/service/MyUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/service/impl/MyUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootVue/src/main/java/com/sv/springbootvue/service/impl/MyUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootVue.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootVue.log.2024-09-11.0.gz" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,6 +272,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -324,33 +328,27 @@
       <recent name="com.sc.kuaizilive.server.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sc.view.pojo" />
+      <recent name="com.sc.login.pojo" />
+      <recent name="com.sc.stock.pojo" />
+      <recent name="com.sc.order.pojo" />
       <recent name="com.sc.kuaizilive.Interceptor" />
-      <recent name="com.sc.util" />
-      <recent name="com.sc.mapper" />
-      <recent name="com.sc.pojo" />
-      <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootVueApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ViewApplication-9000">
     <configuration name="Email" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pojo.Email" />
       <module name="emailSystem" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sc.kuaizilive.util.MD5" />
-      <module name="kuaiziLive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sc.kuaizilive.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,22 +369,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KUserControllerTest.codeLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kuaiziLive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sc.kuaizilive.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sc.kuaizilive.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.sc.kuaizilive.controller.KUserControllerTest" />
-      <option name="METHOD_NAME" value="codeLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRedis.testCluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springbootTest" />
       <extension name="coverage">
@@ -403,31 +385,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRedis.testRedisStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbootTest" />
+    <configuration name="LoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="login" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sc.springboottest.*" />
+          <option name="PATTERN" value="com.sc.login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sc.springboottest" />
-      <option name="MAIN_CLASS_NAME" value="com.sc.springboottest.TestRedis" />
-      <option name="METHOD_NAME" value="testRedisStart" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.login.LoginApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KuaiziLiveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="kuaiziLive" />
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sc.kuaizilive.*" />
+          <option name="PATTERN" value="com.sc.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.kuaizilive.KuaiziLiveApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.order.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -435,6 +418,100 @@
     <configuration name="SpringbootVueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springbootVue" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sv.springbootvue.SpringbootVueApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockApplication-9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="stock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.stock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.stock.StockApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockApplication-9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.stock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.stock.StockApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockApplication-9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.stock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.stock.StockApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewApplication-9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="view" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.view.ViewApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewApplication-9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="view" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.view.ViewApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewApplication-9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="view" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.view.ViewApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1255,10 +1332,16 @@
     <list>
       <item itemvalue="Application.TestTransaction" />
       <item itemvalue="Application.Email" />
-      <item itemvalue="Application.MD5" />
-      <item itemvalue="JUnit.KUserControllerTest.codeLogin" />
+      <item itemvalue="JUnit.TestRedis.testCluster" />
+      <item itemvalue="Spring Boot.StockApplication-9001" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.StockApplication-9000" />
+      <item itemvalue="Spring Boot.StockApplication-9002" />
       <item itemvalue="Spring Boot.SpringbootVueApplication" />
-      <item itemvalue="Spring Boot.KuaiziLiveApplication" />
+      <item itemvalue="Spring Boot.LoginApplication" />
+      <item itemvalue="Spring Boot.ViewApplication-9000" />
+      <item itemvalue="Spring Boot.ViewApplication-9001" />
+      <item itemvalue="Spring Boot.ViewApplication-9002" />
       <item itemvalue="Tomcat Server.Tomcat_spring" />
       <item itemvalue="Tomcat Server.Tomcat_SSM" />
       <item itemvalue="Tomcat Server.Tomcat_mybatis" />
@@ -1268,16 +1351,14 @@
       <item itemvalue="Tomcat Server.Tomcat_ratepaySystem" />
       <item itemvalue="Tomcat Server.Tomcat_mybatisJoinSpringMVC" />
       <item itemvalue="Tomcat Server.Tomcat_SpringMVC" />
-      <item itemvalue="JUnit.TestRedis.testRedisStart" />
-      <item itemvalue="JUnit.TestRedis.testCluster" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ViewApplication-9000" />
+        <item itemvalue="Spring Boot.LoginApplication" />
+        <item itemvalue="Spring Boot.StockApplication-9000" />
+        <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="JUnit.TestRedis.testCluster" />
-        <item itemvalue="JUnit.TestRedis.testRedisStart" />
-        <item itemvalue="Spring Boot.KuaiziLiveApplication" />
-        <item itemvalue="Application.MD5" />
-        <item itemvalue="JUnit.KUserControllerTest.codeLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -1381,7 +1462,8 @@
       <workItem from="1725587382875" duration="23406000" />
       <workItem from="1725885479473" duration="232000" />
       <workItem from="1725885793942" duration="78000" />
-      <workItem from="1726021243452" duration="19922000" />
+      <workItem from="1726021243452" duration="20570000" />
+      <workItem from="1726198466337" duration="14187000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>

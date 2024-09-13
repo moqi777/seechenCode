@@ -13,29 +13,39 @@
         <module name="SpringBoot" />
         <module name="Spring" />
         <module name="SSM" />
+        <module name="login" />
         <module name="springbootVue" />
+        <module name="SpringCloudAlibaba" />
         <module name="ratepaySystem" />
+        <module name="view" />
         <module name="kuaiziLive" />
         <module name="emailSystemSpringMVC" />
         <module name="MybatisJoinSpringMVC" />
+        <module name="stock" />
         <module name="Mybatis" />
         <module name="springbootTest" />
+        <module name="order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="emailSystem" target="8" />
       <module name="emailSystemSpringMVC" target="1.8" />
       <module name="kuaiziLive" target="1.8" />
+      <module name="login" target="1.8" />
       <module name="Mybatis" target="1.8" />
       <module name="MybatisJoinSpringMVC" target="1.8" />
+      <module name="order" target="1.8" />
       <module name="ratepaySystem" target="1.8" />
       <module name="servlet" target="8" />
       <module name="Spring" target="1.8" />
       <module name="SpringBoot" target="1.8" />
       <module name="springbootTest" target="1.8" />
       <module name="springbootVue" target="1.8" />
+      <module name="SpringCloudAlibaba" target="1.8" />
       <module name="SpringMVC" target="1.8" />
       <module name="SSM" target="1.8" />
+      <module name="stock" target="1.8" />
+      <module name="view" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

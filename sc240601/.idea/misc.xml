@@ -35,6 +35,11 @@
         <option value="$PROJECT_DIR$/SSMTest/pom.xml" />
         <option value="$PROJECT_DIR$/springbootVue/pom.xml" />
         <option value="$PROJECT_DIR$/kuaiziLive/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibaba/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibaba/order/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibaba/stock/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibabaJob/login/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibabaJob/view/pom.xml" />
       </list>
     </option>
   </component>

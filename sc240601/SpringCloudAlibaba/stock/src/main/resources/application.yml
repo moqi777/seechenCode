@@ -1,0 +1,19 @@
+# yml配置相比properties配置区别
+# yml配置可以减少一份份代码冗余
+# yml配置可以让配置更有层次感
+# 注意：1.上下级 必须强制加缩进
+#      2.最终写数据时 : 后面一定要加空格 否则不识别
+server:
+  port: 9000 #配置端口号
+
+spring:
+  application:
+    name: stock-service #应用名
+  cloud:
+    nacos:
+      server-add: 127.0.0.1:8848 #nacos服务端地址
+      discovery:
+        username: nacos #nacos账号
+        password: nacos #nacos密码
+        namespace: public #默认的命名空间
+        ephemeral: true #是否是临时实例
