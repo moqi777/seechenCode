@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    # 应用名/服务名 nacos自动读取服务名-命名空间.后缀名
+    name: com.sc.order
+    # 最终在配置中心读取的文件 是服务名-pro 对应是DataId
+  cloud:
+    nacos:
+      server-add: 127.0.0.1:8848 #nacos服务端地址
+      username: nacos
+      password: nacos
+      config:
+        namespace: test #配置中心的命名空间
+        file-extension: yaml  #设置配置中心 配置文件 后缀名 默认properties
+        # 设置组 不同的组 配置文件是可以重名的
+        group: demo2_GROUP

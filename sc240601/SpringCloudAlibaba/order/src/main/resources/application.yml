@@ -17,3 +17,24 @@ spring:
         password: nacos #nacos密码
         namespace: public #默认的命名空间
         ephemeral: true #是否是临时实例
+    sentinel:
+      transport:
+        #sentinel dashboard连接网址
+        dashboard: localhost:30000
+
+logging:
+#  file:
+#    path: D:\NewStudy\log #本地保存
+  level:
+    # springboot默认记录info级别日志 OpenFeign是打印debug级别日志
+    com.sc.order.feign: debug
+# 配置类设置全局日志FULL 指定其中某一个服务(商品)是BADIC级别
+feign:
+  client:
+    config:
+      goods-service:  #商品服务名
+        loggerLevel: BASIC
+        connectTimeout: 5000
+        readTimeout: 10000
+  sentinel:
+    enabled: true # 开启 sentinel熔断 collback才会生效

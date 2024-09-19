@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="emailSystem" />
+        <module name="sentinel" />
         <module name="servlet" />
         <module name="SpringMVC" />
+        <module name="goods" />
         <module name="SpringBoot" />
         <module name="Spring" />
         <module name="SSM" />
@@ -22,20 +24,26 @@
         <module name="emailSystemSpringMVC" />
         <module name="MybatisJoinSpringMVC" />
         <module name="stock" />
+        <module name="config" />
         <module name="Mybatis" />
         <module name="springbootTest" />
+        <module name="gateway" />
         <module name="order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config" target="1.8" />
       <module name="emailSystem" target="8" />
       <module name="emailSystemSpringMVC" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="goods" target="1.8" />
       <module name="kuaiziLive" target="1.8" />
       <module name="login" target="1.8" />
       <module name="Mybatis" target="1.8" />
       <module name="MybatisJoinSpringMVC" target="1.8" />
       <module name="order" target="1.8" />
       <module name="ratepaySystem" target="1.8" />
+      <module name="sentinel" target="1.8" />
       <module name="servlet" target="8" />
       <module name="Spring" target="1.8" />
       <module name="SpringBoot" target="1.8" />

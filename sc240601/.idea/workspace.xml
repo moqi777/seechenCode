@@ -15,9 +15,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootVue.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootVue.log.2024-09-11.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAlibaba/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAlibaba/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAlibaba/order/src/main/java/com/sc/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAlibaba/order/src/main/java/com/sc/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAlibaba/order/src/main/java/com/sc/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAlibaba/order/src/main/java/com/sc/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAlibaba/order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAlibaba/order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAlibaba/stock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAlibaba/stock/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAlibaba/stock/src/main/java/com/sc/stock/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAlibaba/stock/src/main/java/com/sc/stock/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAlibaba/stock/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAlibaba/stock/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +291,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../NewStudy/seechen/包/mysql-connector-java-8.0.17.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloudAlibaba/goods/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -307,11 +311,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\SpringCloudAlibaba\goods\src\main\resources" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\kuaiziLive\src\main\java\com\sc\kuaizilive\util" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\kuaiziLive\src\main\java\com\sc\kuaizilive\config" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\kuaiziLive\src\main\resources" />
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\src\main\java\com\sv\springbootvue\config" />
-      <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVA\IDEA代码\seechenCode\sc240601\kuaiziLive\src\main\java\com\sc\kuaizilive\server\impl" />
@@ -328,11 +332,11 @@
       <recent name="com.sc.kuaizilive.server.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sc.sentinel.pojo" />
+      <recent name="com.sc.goods.pojo" />
       <recent name="com.sc.view.pojo" />
       <recent name="com.sc.login.pojo" />
       <recent name="com.sc.stock.pojo" />
-      <recent name="com.sc.order.pojo" />
-      <recent name="com.sc.kuaizilive.Interceptor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,7 +346,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ViewApplication-9000">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="Email" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pojo.Email" />
       <module name="emailSystem" />
@@ -369,48 +373,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRedis.testCluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbootTest" />
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sc.springboottest.*" />
+          <option name="PATTERN" value="com.sc.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sc.springboottest" />
-      <option name="MAIN_CLASS_NAME" value="com.sc.springboottest.TestRedis" />
-      <option name="METHOD_NAME" value="testCluster" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.config.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="login" />
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sc.login.*" />
+          <option name="PATTERN" value="com.sc.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.login.LoginApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApplication-10000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.goods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.goods.GoodsApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="order" />
+    <configuration name="GoodsApplication-10001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="goods" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sc.order.*" />
+          <option name="PATTERN" value="com.sc.goods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.order.OrderApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.goods.GoodsApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=10001" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApplication-10002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.goods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.goods.GoodsApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=10002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sc.sentinel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.sentinel.SentinelApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -462,53 +506,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.stock.StockApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=9002" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewApplication-9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="view" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sc.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.view.ViewApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewApplication-9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="view" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sc.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.view.ViewApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=9001" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewApplication-9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="view" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sc.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sc.view.ViewApplication" />
       <option name="VM_PARAMETERS" value="-Dserver.port=9002" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SHORTEN_COMMAND_LINE" value="NONE" />
@@ -1332,16 +1329,14 @@
     <list>
       <item itemvalue="Application.TestTransaction" />
       <item itemvalue="Application.Email" />
-      <item itemvalue="JUnit.TestRedis.testCluster" />
       <item itemvalue="Spring Boot.StockApplication-9001" />
-      <item itemvalue="Spring Boot.OrderApplication" />
-      <item itemvalue="Spring Boot.StockApplication-9000" />
       <item itemvalue="Spring Boot.StockApplication-9002" />
+      <item itemvalue="Spring Boot.GoodsApplication-10001" />
+      <item itemvalue="Spring Boot.GoodsApplication-10002" />
       <item itemvalue="Spring Boot.SpringbootVueApplication" />
-      <item itemvalue="Spring Boot.LoginApplication" />
-      <item itemvalue="Spring Boot.ViewApplication-9000" />
-      <item itemvalue="Spring Boot.ViewApplication-9001" />
-      <item itemvalue="Spring Boot.ViewApplication-9002" />
+      <item itemvalue="Spring Boot.StockApplication-9000" />
+      <item itemvalue="Spring Boot.GoodsApplication-10000" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Tomcat Server.Tomcat_spring" />
       <item itemvalue="Tomcat Server.Tomcat_SSM" />
       <item itemvalue="Tomcat Server.Tomcat_mybatis" />
@@ -1351,14 +1346,16 @@
       <item itemvalue="Tomcat Server.Tomcat_ratepaySystem" />
       <item itemvalue="Tomcat Server.Tomcat_mybatisJoinSpringMVC" />
       <item itemvalue="Tomcat Server.Tomcat_SpringMVC" />
+      <item itemvalue="Spring Boot.SentinelApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ViewApplication-9000" />
-        <item itemvalue="Spring Boot.LoginApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.StockApplication-9000" />
-        <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="JUnit.TestRedis.testCluster" />
+        <item itemvalue="Spring Boot.SentinelApplication" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
+        <item itemvalue="Spring Boot.GoodsApplication-10000" />
       </list>
     </recent_temporary>
   </component>
@@ -1463,7 +1460,9 @@
       <workItem from="1725885479473" duration="232000" />
       <workItem from="1725885793942" duration="78000" />
       <workItem from="1726021243452" duration="20570000" />
-      <workItem from="1726198466337" duration="14187000" />
+      <workItem from="1726198466337" duration="14372000" />
+      <workItem from="1726280777306" duration="14969000" />
+      <workItem from="1726640985610" duration="20592000" />
     </task>
     <task id="LOCAL-00001" summary="线程各种锁">
       <created>1719392398680</created>

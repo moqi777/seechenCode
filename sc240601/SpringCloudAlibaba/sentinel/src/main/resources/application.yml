@@ -1,0 +1,10 @@
+server:
+  port: 31000
+spring:
+  application:
+    name: sentinel
+  cloud:
+    sentinel:
+      transport:
+        #sentinel dashboard连接网址
+        dashboard: localhost:30000

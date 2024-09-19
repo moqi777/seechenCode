@@ -40,6 +40,10 @@
         <option value="$PROJECT_DIR$/SpringCloudAlibaba/stock/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudAlibabaJob/login/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudAlibabaJob/view/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibaba/goods/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibaba/config/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibaba/sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibaba/gateway/pom.xml" />
       </list>
     </option>
   </component>
