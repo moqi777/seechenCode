@@ -1,4 +1,4 @@
-package com.springboot.springboot.pojo;
+package com.esgin.signdemo.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

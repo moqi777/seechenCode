@@ -1,45 +1,15 @@
-2024-09-19 14:42:19.056  INFO 23908 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 23908 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
-2024-09-19 14:42:19.058  INFO 23908 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
-2024-09-19 14:42:19.137  INFO 23908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-19 14:42:19.138  INFO 23908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-19 14:42:20.018  INFO 23908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-09-19 14:42:20.022  INFO 23908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-09-19 14:42:20.068  INFO 23908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-2024-09-19 14:42:20.700  INFO 23908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
-2024-09-19 14:42:20.709  INFO 23908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-19 14:42:20.709  INFO 23908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
-2024-09-19 14:42:20.788  INFO 23908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-19 14:42:20.789  INFO 23908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1651 ms
-2024-09-19 14:42:21.842  INFO 23908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-19 14:42:21.867  INFO 23908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
-2024-09-19 14:42:21.875  INFO 23908 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 3.215 seconds (JVM running for 4.611)
-2024-09-19 14:44:20.388  INFO 23620 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 23620 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
-2024-09-19 14:44:20.391  INFO 23620 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
-2024-09-19 14:44:20.478  INFO 23620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-19 14:44:20.479  INFO 23620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-19 14:44:21.400  INFO 23620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-09-19 14:44:21.405  INFO 23620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-09-19 14:44:21.446  INFO 23620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-2024-09-19 14:44:22.408  INFO 23620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
-2024-09-19 14:44:22.418  INFO 23620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-19 14:44:22.418  INFO 23620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
-2024-09-19 14:44:22.508  INFO 23620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-19 14:44:22.509  INFO 23620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2028 ms
-2024-09-19 14:44:25.201  INFO 23620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-19 14:44:25.272  INFO 23620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
-2024-09-19 14:44:25.291  INFO 23620 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 5.546 seconds (JVM running for 7.784)
-2024-09-19 14:49:12.231  INFO 49124 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 49124 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
-2024-09-19 14:49:12.237  INFO 49124 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
-2024-09-19 14:49:12.394  INFO 49124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-09-19 14:49:12.395  INFO 49124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-09-19 14:49:13.397  INFO 49124 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2024-09-19 14:49:13.403  INFO 49124 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-09-19 14:49:13.447  INFO 49124 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-2024-09-19 14:49:14.518  INFO 49124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
-2024-09-19 14:49:14.533  INFO 49124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-19 14:49:14.535  INFO 49124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
-2024-09-19 14:49:14.690  INFO 49124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-19 14:49:14.690  INFO 49124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2294 ms
-2024-09-19 14:49:17.964  INFO 49124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2024-09-19 14:49:18.560  INFO 49124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
-2024-09-19 14:49:18.612  INFO 49124 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 7.198 seconds (JVM running for 9.788)
+2024-09-20 10:46:10.225  INFO 33624 --- [restartedMain] c.s.s.SpringbootVueApplication           : Starting SpringbootVueApplication using Java 1.8.0_131 on 莫七的计算机 with PID 33624 (D:\JAVA\IDEA代码\seechenCode\sc240601\springbootVue\target\classes started by 86134 in D:\JAVA\IDEA代码\seechenCode\sc240601)
+2024-09-20 10:46:10.238  INFO 33624 --- [restartedMain] c.s.s.SpringbootVueApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:46:10.335  INFO 33624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-20 10:46:10.336  INFO 33624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-20 10:46:12.048  INFO 33624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-20 10:46:12.058  INFO 33624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-20 10:46:12.553  INFO 33624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 0 Redis repository interfaces.
+2024-09-20 10:46:15.564  INFO 33624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-09-20 10:46:15.592  INFO 33624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-20 10:46:15.592  INFO 33624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2024-09-20 10:46:15.909  INFO 33624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-20 10:46:15.909  INFO 33624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5571 ms
+2024-09-20 10:46:18.850  INFO 33624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-20 10:46:18.923  INFO 33624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-09-20 10:46:18.952  INFO 33624 --- [restartedMain] c.s.s.SpringbootVueApplication           : Started SpringbootVueApplication in 9.392 seconds (JVM running for 13.401)

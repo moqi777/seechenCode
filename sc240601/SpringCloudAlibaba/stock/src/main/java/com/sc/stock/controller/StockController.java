@@ -22,7 +22,7 @@ public class StockController {
     @SentinelResource(value = "reduce",blockHandler = "QPSHandler")
     public Result reduce() throws InterruptedException {
         System.out.println("减少库存");
-        int i = 10/0;//模拟异常 对方会进行回调
+        // int i = 10/0;//模拟异常 对方会进行回调
         //订单服务设置最大时间 5S  会超时 会出现异常
         // Thread.sleep(6000);
         return new Result(1,"减少库存成功："+port);

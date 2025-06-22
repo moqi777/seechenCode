@@ -4,9 +4,30 @@ spring:
   application:
     name: gateway-service
   cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:30000
     #网关配置
     gateway:
-      #一组路由规则(数组)
+      # 全局跨域设置
+#      globalcors:
+#        cors-configurations:
+#          '[/**]': #允许跨域的资源
+#            allowedOrigins: "*" #允许跨域的来源
+#            allowedMethods:     #允许请求方式
+#              - GET
+#              - POST
+#              - PUT
+#              - DELETE
+#      discovery:
+#        locator:
+#          # 表示是否自动识别nacos服务 如果开启了 下面的routes配置就不用再写了
+#          # 因为它可以自动通过服务名来访问目标服务 而且也会自动去除一级前缀
+#          # loaclhost:40000/order-service/add?id-10
+#          # loaclhost:40000/goods-service/getGoods?100
+#          # loaclhost:40000/stock-service/reduce
+#          enabled: true
+#      一组路由规则(数组)
       routes:
         # - 表示yml中的数组格式
         - id: test_route #路由唯一标识
@@ -16,10 +37,34 @@ spring:
                             #最终路由的地址： http://www.baidu.com/test
           filters: #过滤器
             - StripPrefix=1 #如果匹配上了 去掉一级前缀
-#        - id:
-#          uri:
-#          predicates:
-#          filters:
+        - id: order_route
+          uri: http://localhost:8000
+          predicates:
+            - Path=/order/**
+          filters:
+            - StripPrefix=1 #如果匹配上了 去掉一级前缀
+        # 虽然上面都可以访问 但是既然是微服务架构 通过网关访问其他服务 写网址的话 是非常不好的
+        # 因为ip和端口都可以会修改 但是通过服务名访问 一般是不会修改的
+        # 前提：gateway组件需要被Nacos注册 否则找不到其他服务名
+        - id: order2_route
+          # lb就表示通过loadbalance负载均衡方式转发到指定服务 需要loadbalance依赖
+          uri: lb://order-service
+          predicates:
+            - Path=/order2/**
+          filters:
+            - StripPrefix=1
+        - id: goods_route
+          uri: lb://goods-service
+          predicates:
+            - Path=/goods/**
+          filters:
+            - StripPrefix=1
+        - id: stock_route
+          uri: lb://stock-service
+          predicates:
+            - Path=/stock/**
+          filters:
+            - StripPrefix=1
     nacos:
       server-add: 127.0.0.1:8848 #nacos服务端地址
       discovery:
